@@ -1,0 +1,92 @@
+https://catalog.ngc.nvidia.com/orgs/nvidia/containers/l4t-pytorch
+
+PyTorch Container for Jetson and JetPack
+
+Running the Container
+
+First pull one of the l4t-pytorch container tags from above, corresponding to the version of JetPack-L4T that you have installed on your Jetson. For example, if you are running the latest JetPack 5.1 (L4T R35.2.1) release:
+
+sudo docker pull nvcr.io/nvidia/l4t-pytorch:r35.2.1-pth2.0-py3
+
+Then to start an interactive session in the container, run the following command:
+
+sudo docker run -it --rm --runtime nvidia --network host nvcr.io/nvidia/l4t-pytorch:r35.2.1-pth2.0-py3
+
+You should then be able to start a Python3 interpreter and import torch and import torchvision.
+Mounting Directories from the Host Device
+
+To mount scripts, data, ect. from your Jetson's filesystem to run inside the container, use Docker's -v flag when starting your Docker instance:
+
+sudo docker run -it --rm --runtime nvidia --network host -v /home/user/project:/location/in/container nvcr.io/nvidia/l4t-pytorch:r35.2.1-pth2.0-py3
+
+=========================
+
+第一次（只做一次）
+sudo docker run -it --runtime nvidia --network host -v /dev:/dev -v /home:/home nvcr.io/nvidia/l4t-pytorch:r35.2.1-pth2.0-py3
+
+
+docker ps       -- live container
+
+docker ps -a    -- 存在的container
+
+docker stop a7e4623bf7c9                   -- stop container
+
+docker start a7e4623bf7c9                  -- start container
+
+docker exec -it a7e4623bf7c9 /bin/bash     -- active container
+
+docker rm b8b2d13d5571                     -- remove container
+
+708baeccfe1b
+
+cd /home/orin                              -- 跟 File/Home Folder 位置一樣
+
+cd /home/orin/Yolo_Test
+
+cd /home/orin/test_ws/src
+
+
+=========================
+check PyTorch
+
+https://stackoverflow.com/questions/48152674/how-do-i-check-if-pytorch-is-using-the-gpu
+
+These functions should help:
+
+>>> import torch
+
+>>> torch.cuda.is_available()
+True
+
+>>> torch.cuda.device_count()
+1
+
+>>> torch.cuda.current_device()
+0
+
+>>> torch.cuda.device(0)
+<torch.cuda.device at 0x7efce0b03be0>
+
+>>> torch.cuda.get_device_name(0)
+'GeForce GTX 950M'
+
+>>> Preparing to unpack .../114-wpasupplicant_2%3a2.9-1ubuntu4.4_arm64.deb ...
+Unpacking wpasupplicant (2:2.9-1ubuntu4.4) over (2:2.9-1ubuntu4.3) ...
+Errors were encountered while processing:
+ /tmp/apt-dpkg-install-wAn1OM/098-libopencv_4.5.4-8-g3e4c170df4_arm64.deb
+E: Sub-process /usr/bin/dpkg returned an error code (1)
+
+sudo mv /var/lib/dpkg/info /var/lib/dpkg/info_bak
+sudo mkdir /var/lib/dpkg/info
+sudo apt update
+sudo apt upgrade
+
+>>>You might want to run 'apt --fix-broken install' to correct these.
+The following packages have unmet dependencies:
+ opencv-licenses : Depends: libopencv (= 4.5.4-8-g3e4c170df4) but it is not installed
+E: Unmet dependencies. Try 'apt --fix-broken install' with no packages (or specify a solution).
+
+sudo apt remove --purge opencv-licenses
+sudo apt autoremove
+sudo apt install opencv-licenses
+

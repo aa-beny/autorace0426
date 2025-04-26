@@ -1,0 +1,238 @@
+[1.148s] Invoking command in '/home/orin/test_ws/src/build/turtlebot3_node': AMENT_PREFIX_PATH=/home/orin/test_ws/src/install/turtlebot3_msgs:/home/orin/test_ws/src/install/dynamixel_sdk CMAKE_PREFIX_PATH=/home/orin/test_ws/src/install/turtlebot3_msgs:/home/orin/test_ws/src/install/dynamixel_sdk LD_LIBRARY_PATH=/home/orin/test_ws/src/install/turtlebot3_msgs/lib:/home/orin/test_ws/src/install/dynamixel_sdk/lib:/usr/local/cuda/lib64:/usr/local/cuda/lib64 PYTHONPATH=/home/orin/test_ws/src/install/turtlebot3_msgs/lib/python3.8/site-packages /usr/local/bin/cmake --build /home/orin/test_ws/src/build/turtlebot3_node -- -j12 -l12
+[1.754s] [  7%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/odometry.cpp.o[0m
+[1.754s] [ 14%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/turtlebot3.cpp.o[0m
+[5.517s] [01m[K/home/orin/test_ws/src/turtlebot3/turtlebot3_node/src/odometry.cpp:[m[K In constructor ‘[01m[Krobotis::turtlebot3::Odometry::Odometry(std::shared_ptr<rclcpp::Node>&, double, double)[m[K’:
+[5.518s] [01m[K/home/orin/test_ws/src/turtlebot3/turtlebot3_node/src/odometry.cpp:39:58:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Node::declare_parameter<std::string>(const char [18])[m[K’
+[5.518s]    39 |   nh_->declare_parameter<std::string>("odometry.frame_id"[01;31m[K)[m[K;
+[5.518s]       |                                                          [01;31m[K^[m[K
+[5.518s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:1224[m[K,
+[5.519s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[5.519s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+[5.519s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[5.519s]                  from [01m[K/opt/ros/foxy/include/message_filters/subscriber.h:38[m[K,
+[5.519s]                  from [01m[K/home/orin/test_ws/src/turtlebot3/turtlebot3_node/include/turtlebot3_node/odometry.hpp:25[m[K,
+[5.520s]                  from [01m[K/home/orin/test_ws/src/turtlebot3/turtlebot3_node/src/odometry.cpp:17[m[K:
+[5.520s] [01m[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:157:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kauto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool) [with ParameterT = std::__cxx11::basic_string<char>; std::string = std::__cxx11::basic_string<char>; rcl_interfaces::msg::ParameterDescriptor = rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >][m[K’
+[5.520s]   157 | [01;36m[KNode[m[K::declare_parameter(
+[5.520s]       | [01;36m[K^~~~[m[K
+[5.521s] [01m[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:157:1:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[5.521s] [01m[K/home/orin/test_ws/src/turtlebot3/turtlebot3_node/src/odometry.cpp:40:64:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Node::declare_parameter<std::string>(const char [24])[m[K’
+[5.521s]    40 |   nh_->declare_parameter<std::string>("odometry.child_frame_id"[01;31m[K)[m[K;
+[5.521s]       |                                                                [01;31m[K^[m[K
+[5.521s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:1224[m[K,
+[5.522s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[5.522s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+[5.522s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[5.522s]                  from [01m[K/opt/ros/foxy/include/message_filters/subscriber.h:38[m[K,
+[5.522s]                  from [01m[K/home/orin/test_ws/src/turtlebot3/turtlebot3_node/include/turtlebot3_node/odometry.hpp:25[m[K,
+[5.522s]                  from [01m[K/home/orin/test_ws/src/turtlebot3/turtlebot3_node/src/odometry.cpp:17[m[K:
+[5.523s] [01m[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:157:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kauto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool) [with ParameterT = std::__cxx11::basic_string<char>; std::string = std::__cxx11::basic_string<char>; rcl_interfaces::msg::ParameterDescriptor = rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >][m[K’
+[5.523s]   157 | [01;36m[KNode[m[K::declare_parameter(
+[5.523s]       | [01;36m[K^~~~[m[K
+[5.524s] [01m[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:157:1:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[5.524s] [01m[K/home/orin/test_ws/src/turtlebot3/turtlebot3_node/src/odometry.cpp:42:50:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Node::declare_parameter<bool>(const char [17])[m[K’
+[5.524s]    42 |   nh_->declare_parameter<bool>("odometry.use_imu"[01;31m[K)[m[K;
+[5.524s]       |                                                  [01;31m[K^[m[K
+[5.526s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:1224[m[K,
+[5.526s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[5.526s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+[5.527s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[5.527s]                  from [01m[K/opt/ros/foxy/include/message_filters/subscriber.h:38[m[K,
+[5.527s]                  from [01m[K/home/orin/test_ws/src/turtlebot3/turtlebot3_node/include/turtlebot3_node/odometry.hpp:25[m[K,
+[5.527s]                  from [01m[K/home/orin/test_ws/src/turtlebot3/turtlebot3_node/src/odometry.cpp:17[m[K:
+[5.527s] [01m[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:157:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kauto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool) [with ParameterT = bool; std::string = std::__cxx11::basic_string<char>; rcl_interfaces::msg::ParameterDescriptor = rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >][m[K’
+[5.528s]   157 | [01;36m[KNode[m[K::declare_parameter(
+[5.528s]       | [01;36m[K^~~~[m[K
+[5.528s] [01m[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:157:1:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[5.528s] [01m[K/home/orin/test_ws/src/turtlebot3/turtlebot3_node/src/odometry.cpp:43:53:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Node::declare_parameter<bool>(const char [20])[m[K’
+[5.529s]    43 |   nh_->declare_parameter<bool>("odometry.publish_tf"[01;31m[K)[m[K;
+[5.529s]       |                                                     [01;31m[K^[m[K
+[5.529s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:1224[m[K,
+[5.529s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[5.529s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+[5.530s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[5.530s]                  from [01m[K/opt/ros/foxy/include/message_filters/subscriber.h:38[m[K,
+[5.530s]                  from [01m[K/home/orin/test_ws/src/turtlebot3/turtlebot3_node/include/turtlebot3_node/odometry.hpp:25[m[K,
+[5.530s]                  from [01m[K/home/orin/test_ws/src/turtlebot3/turtlebot3_node/src/odometry.cpp:17[m[K:
+[5.530s] [01m[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:157:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kauto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool) [with ParameterT = bool; std::string = std::__cxx11::basic_string<char>; rcl_interfaces::msg::ParameterDescriptor = rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >][m[K’
+[5.531s]   157 | [01;36m[KNode[m[K::declare_parameter(
+[5.531s]       | [01;36m[K^~~~[m[K
+[5.531s] [01m[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:157:1:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[6.241s] [01m[K/home/orin/test_ws/src/turtlebot3/turtlebot3_node/src/turtlebot3.cpp:[m[K In member function ‘[01m[Kvoid robotis::turtlebot3::TurtleBot3::init_dynamixel_sdk_wrapper(const string&)[m[K’:
+[6.242s] [01m[K/home/orin/test_ws/src/turtlebot3/turtlebot3_node/src/turtlebot3.cpp:56:47:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krobotis::turtlebot3::TurtleBot3::declare_parameter<uint8_t>(const char [10])[m[K’
+[6.242s]    56 |   this->declare_parameter<uint8_t>("opencr.id"[01;31m[K)[m[K;
+[6.242s]       |                                               [01;31m[K^[m[K
+[6.243s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:1224[m[K,
+[6.243s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[6.243s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+[6.243s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[6.244s]                  from [01m[K/opt/ros/foxy/include/tf2_ros/transform_broadcaster.h:36[m[K,
+[6.244s]                  from [01m[K/home/orin/test_ws/src/turtlebot3/turtlebot3_node/include/turtlebot3_node/turtlebot3.hpp:29[m[K,
+[6.244s]                  from [01m[K/home/orin/test_ws/src/turtlebot3/turtlebot3_node/src/turtlebot3.cpp:17[m[K:
+[6.244s] [01m[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:157:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kauto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool) [with ParameterT = unsigned char; std::string = std::__cxx11::basic_string<char>; rcl_interfaces::msg::ParameterDescriptor = rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >][m[K’
+[6.245s]   157 | [01;36m[KNode[m[K::declare_parameter(
+[6.245s]       | [01;36m[K^~~~[m[K
+[6.245s] [01m[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:157:1:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[6.245s] [01m[K/home/orin/test_ws/src/turtlebot3/turtlebot3_node/src/turtlebot3.cpp:57:50:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krobotis::turtlebot3::TurtleBot3::declare_parameter<int>(const char [17])[m[K’
+[6.245s]    57 |   this->declare_parameter<int>("opencr.baud_rate"[01;31m[K)[m[K;
+[6.246s]       |                                                  [01;31m[K^[m[K
+[6.246s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:1224[m[K,
+[6.246s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[6.246s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+[6.246s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[6.247s]                  from [01m[K/opt/ros/foxy/include/tf2_ros/transform_broadcaster.h:36[m[K,
+[6.247s]                  from [01m[K/home/orin/test_ws/src/turtlebot3/turtlebot3_node/include/turtlebot3_node/turtlebot3.hpp:29[m[K,
+[6.247s]                  from [01m[K/home/orin/test_ws/src/turtlebot3/turtlebot3_node/src/turtlebot3.cpp:17[m[K:
+[6.248s] [01m[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:157:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kauto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool) [with ParameterT = int; std::string = std::__cxx11::basic_string<char>; rcl_interfaces::msg::ParameterDescriptor = rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >][m[K’
+[6.248s]   157 | [01;36m[KNode[m[K::declare_parameter(
+[6.248s]       | [01;36m[K^~~~[m[K
+[6.248s] [01m[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:157:1:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[6.248s] [01m[K/home/orin/test_ws/src/turtlebot3/turtlebot3_node/src/turtlebot3.cpp:58:59:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krobotis::turtlebot3::TurtleBot3::declare_parameter<float>(const char [24])[m[K’
+[6.249s]    58 |   this->declare_parameter<float>("opencr.protocol_version"[01;31m[K)[m[K;
+[6.249s]       |                                                           [01;31m[K^[m[K
+[6.249s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:1224[m[K,
+[6.249s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[6.250s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+[6.250s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[6.250s]                  from [01m[K/opt/ros/foxy/include/tf2_ros/transform_broadcaster.h:36[m[K,
+[6.250s]                  from [01m[K/home/orin/test_ws/src/turtlebot3/turtlebot3_node/include/turtlebot3_node/turtlebot3.hpp:29[m[K,
+[6.250s]                  from [01m[K/home/orin/test_ws/src/turtlebot3/turtlebot3_node/src/turtlebot3.cpp:17[m[K:
+[6.251s] [01m[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:157:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kauto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool) [with ParameterT = float; std::string = std::__cxx11::basic_string<char>; rcl_interfaces::msg::ParameterDescriptor = rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >][m[K’
+[6.251s]   157 | [01;36m[KNode[m[K::declare_parameter(
+[6.251s]       | [01;36m[K^~~~[m[K
+[6.251s] [01m[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:157:1:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[6.254s] [01m[K/home/orin/test_ws/src/turtlebot3/turtlebot3_node/src/turtlebot3.cpp:[m[K In member function ‘[01m[Kvoid robotis::turtlebot3::TurtleBot3::add_motors()[m[K’:
+[6.254s] [01m[K/home/orin/test_ws/src/turtlebot3/turtlebot3_node/src/turtlebot3.cpp:116:72:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krobotis::turtlebot3::TurtleBot3::declare_parameter<float>(const char [37])[m[K’
+[6.255s]   116 |   this->declare_parameter<float>("motors.profile_acceleration_constant"[01;31m[K)[m[K;
+[6.255s]       |                                                                        [01;31m[K^[m[K
+[6.255s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:1224[m[K,
+[6.255s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[6.256s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+[6.256s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[6.256s]                  from [01m[K/opt/ros/foxy/include/tf2_ros/transform_broadcaster.h:36[m[K,
+[6.257s]                  from [01m[K/home/orin/test_ws/src/turtlebot3/turtlebot3_node/include/turtlebot3_node/turtlebot3.hpp:29[m[K,
+[6.257s]                  from [01m[K/home/orin/test_ws/src/turtlebot3/turtlebot3_node/src/turtlebot3.cpp:17[m[K:
+[6.257s] [01m[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:157:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kauto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool) [with ParameterT = float; std::string = std::__cxx11::basic_string<char>; rcl_interfaces::msg::ParameterDescriptor = rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >][m[K’
+[6.258s]   157 | [01;36m[KNode[m[K::declare_parameter(
+[6.259s]       | [01;36m[K^~~~[m[K
+[6.259s] [01m[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:157:1:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[6.259s] [01m[K/home/orin/test_ws/src/turtlebot3/turtlebot3_node/src/turtlebot3.cpp:117:63:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krobotis::turtlebot3::TurtleBot3::declare_parameter<float>(const char [28])[m[K’
+[6.260s]   117 |   this->declare_parameter<float>("motors.profile_acceleration"[01;31m[K)[m[K;
+[6.260s]       |                                                               [01;31m[K^[m[K
+[6.260s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:1224[m[K,
+[6.260s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[6.261s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+[6.261s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[6.261s]                  from [01m[K/opt/ros/foxy/include/tf2_ros/transform_broadcaster.h:36[m[K,
+[6.261s]                  from [01m[K/home/orin/test_ws/src/turtlebot3/turtlebot3_node/include/turtlebot3_node/turtlebot3.hpp:29[m[K,
+[6.261s]                  from [01m[K/home/orin/test_ws/src/turtlebot3/turtlebot3_node/src/turtlebot3.cpp:17[m[K:
+[6.262s] [01m[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:157:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kauto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool) [with ParameterT = float; std::string = std::__cxx11::basic_string<char>; rcl_interfaces::msg::ParameterDescriptor = rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >][m[K’
+[6.262s]   157 | [01;36m[KNode[m[K::declare_parameter(
+[6.262s]       | [01;36m[K^~~~[m[K
+[6.262s] [01m[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:157:1:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[6.262s] [01m[K/home/orin/test_ws/src/turtlebot3/turtlebot3_node/src/turtlebot3.cpp:[m[K In member function ‘[01m[Kvoid robotis::turtlebot3::TurtleBot3::add_wheels()[m[K’:
+[6.263s] [01m[K/home/orin/test_ws/src/turtlebot3/turtlebot3_node/src/turtlebot3.cpp:134:53:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krobotis::turtlebot3::TurtleBot3::declare_parameter<float>(const char [18])[m[K’
+[6.263s]   134 |   this->declare_parameter<float>("wheels.separation"[01;31m[K)[m[K;
+[6.263s]       |                                                     [01;31m[K^[m[K
+[6.263s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:1224[m[K,
+[6.264s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[6.264s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+[6.264s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[6.264s]                  from [01m[K/opt/ros/foxy/include/tf2_ros/transform_broadcaster.h:36[m[K,
+[6.264s]                  from [01m[K/home/orin/test_ws/src/turtlebot3/turtlebot3_node/include/turtlebot3_node/turtlebot3.hpp:29[m[K,
+[6.265s]                  from [01m[K/home/orin/test_ws/src/turtlebot3/turtlebot3_node/src/turtlebot3.cpp:17[m[K:
+[6.265s] [01m[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:157:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kauto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool) [with ParameterT = float; std::string = std::__cxx11::basic_string<char>; rcl_interfaces::msg::ParameterDescriptor = rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >][m[K’
+[6.265s]   157 | [01;36m[KNode[m[K::declare_parameter(
+[6.265s]       | [01;36m[K^~~~[m[K
+[6.266s] [01m[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:157:1:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[6.266s] [01m[K/home/orin/test_ws/src/turtlebot3/turtlebot3_node/src/turtlebot3.cpp:135:49:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krobotis::turtlebot3::TurtleBot3::declare_parameter<float>(const char [14])[m[K’
+[6.266s]   135 |   this->declare_parameter<float>("wheels.radius"[01;31m[K)[m[K;
+[6.266s]       |                                                 [01;31m[K^[m[K
+[6.266s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:1224[m[K,
+[6.267s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[6.267s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+[6.267s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[6.267s]                  from [01m[K/opt/ros/foxy/include/tf2_ros/transform_broadcaster.h:36[m[K,
+[6.267s]                  from [01m[K/home/orin/test_ws/src/turtlebot3/turtlebot3_node/include/turtlebot3_node/turtlebot3.hpp:29[m[K,
+[6.268s]                  from [01m[K/home/orin/test_ws/src/turtlebot3/turtlebot3_node/src/turtlebot3.cpp:17[m[K:
+[6.268s] [01m[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:157:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kauto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool) [with ParameterT = float; std::string = std::__cxx11::basic_string<char>; rcl_interfaces::msg::ParameterDescriptor = rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >][m[K’
+[6.268s]   157 | [01;36m[KNode[m[K::declare_parameter(
+[6.268s]       | [01;36m[K^~~~[m[K
+[6.268s] [01m[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:157:1:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[6.269s] [01m[K/home/orin/test_ws/src/turtlebot3/turtlebot3_node/src/turtlebot3.cpp:[m[K In member function ‘[01m[Kvoid robotis::turtlebot3::TurtleBot3::add_sensors()[m[K’:
+[6.269s] [01m[K/home/orin/test_ws/src/turtlebot3/turtlebot3_node/src/turtlebot3.cpp:151:54:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krobotis::turtlebot3::TurtleBot3::declare_parameter<uint8_t>(const char [17])[m[K’
+[6.269s]   151 |   this->declare_parameter<uint8_t>("sensors.bumper_1"[01;31m[K)[m[K;
+[6.269s]       |                                                      [01;31m[K^[m[K
+[6.269s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:1224[m[K,
+[6.269s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[6.270s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+[6.270s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[6.270s]                  from [01m[K/opt/ros/foxy/include/tf2_ros/transform_broadcaster.h:36[m[K,
+[6.270s]                  from [01m[K/home/orin/test_ws/src/turtlebot3/turtlebot3_node/include/turtlebot3_node/turtlebot3.hpp:29[m[K,
+[6.270s]                  from [01m[K/home/orin/test_ws/src/turtlebot3/turtlebot3_node/src/turtlebot3.cpp:17[m[K:
+[6.271s] [01m[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:157:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kauto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool) [with ParameterT = unsigned char; std::string = std::__cxx11::basic_string<char>; rcl_interfaces::msg::ParameterDescriptor = rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >][m[K’
+[6.271s]   157 | [01;36m[KNode[m[K::declare_parameter(
+[6.271s]       | [01;36m[K^~~~[m[K
+[6.271s] [01m[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:157:1:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[6.271s] [01m[K/home/orin/test_ws/src/turtlebot3/turtlebot3_node/src/turtlebot3.cpp:152:54:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krobotis::turtlebot3::TurtleBot3::declare_parameter<uint8_t>(const char [17])[m[K’
+[6.272s]   152 |   this->declare_parameter<uint8_t>("sensors.bumper_2"[01;31m[K)[m[K;
+[6.272s]       |                                                      [01;31m[K^[m[K
+[6.272s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:1224[m[K,
+[6.272s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[6.272s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+[6.272s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[6.273s]                  from [01m[K/opt/ros/foxy/include/tf2_ros/transform_broadcaster.h:36[m[K,
+[6.273s]                  from [01m[K/home/orin/test_ws/src/turtlebot3/turtlebot3_node/include/turtlebot3_node/turtlebot3.hpp:29[m[K,
+[6.273s]                  from [01m[K/home/orin/test_ws/src/turtlebot3/turtlebot3_node/src/turtlebot3.cpp:17[m[K:
+[6.273s] [01m[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:157:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kauto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool) [with ParameterT = unsigned char; std::string = std::__cxx11::basic_string<char>; rcl_interfaces::msg::ParameterDescriptor = rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >][m[K’
+[6.273s]   157 | [01;36m[KNode[m[K::declare_parameter(
+[6.273s]       | [01;36m[K^~~~[m[K
+[6.273s] [01m[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:157:1:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[6.274s] [01m[K/home/orin/test_ws/src/turtlebot3/turtlebot3_node/src/turtlebot3.cpp:153:58:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krobotis::turtlebot3::TurtleBot3::declare_parameter<uint8_t>(const char [21])[m[K’
+[6.274s]   153 |   this->declare_parameter<uint8_t>("sensors.illumination"[01;31m[K)[m[K;
+[6.274s]       |                                                          [01;31m[K^[m[K
+[6.274s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:1224[m[K,
+[6.274s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[6.274s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+[6.274s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[6.274s]                  from [01m[K/opt/ros/foxy/include/tf2_ros/transform_broadcaster.h:36[m[K,
+[6.275s]                  from [01m[K/home/orin/test_ws/src/turtlebot3/turtlebot3_node/include/turtlebot3_node/turtlebot3.hpp:29[m[K,
+[6.275s]                  from [01m[K/home/orin/test_ws/src/turtlebot3/turtlebot3_node/src/turtlebot3.cpp:17[m[K:
+[6.275s] [01m[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:157:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kauto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool) [with ParameterT = unsigned char; std::string = std::__cxx11::basic_string<char>; rcl_interfaces::msg::ParameterDescriptor = rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >][m[K’
+[6.275s]   157 | [01;36m[KNode[m[K::declare_parameter(
+[6.275s]       | [01;36m[K^~~~[m[K
+[6.275s] [01m[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:157:1:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[6.276s] [01m[K/home/orin/test_ws/src/turtlebot3/turtlebot3_node/src/turtlebot3.cpp:154:48:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krobotis::turtlebot3::TurtleBot3::declare_parameter<uint8_t>(const char [11])[m[K’
+[6.276s]   154 |   this->declare_parameter<uint8_t>("sensors.ir"[01;31m[K)[m[K;
+[6.276s]       |                                                [01;31m[K^[m[K
+[6.276s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:1224[m[K,
+[6.276s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[6.276s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+[6.276s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[6.276s]                  from [01m[K/opt/ros/foxy/include/tf2_ros/transform_broadcaster.h:36[m[K,
+[6.276s]                  from [01m[K/home/orin/test_ws/src/turtlebot3/turtlebot3_node/include/turtlebot3_node/turtlebot3.hpp:29[m[K,
+[6.277s]                  from [01m[K/home/orin/test_ws/src/turtlebot3/turtlebot3_node/src/turtlebot3.cpp:17[m[K:
+[6.277s] [01m[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:157:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kauto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool) [with ParameterT = unsigned char; std::string = std::__cxx11::basic_string<char>; rcl_interfaces::msg::ParameterDescriptor = rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >][m[K’
+[6.277s]   157 | [01;36m[KNode[m[K::declare_parameter(
+[6.277s]       | [01;36m[K^~~~[m[K
+[6.277s] [01m[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:157:1:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[6.277s] [01m[K/home/orin/test_ws/src/turtlebot3/turtlebot3_node/src/turtlebot3.cpp:155:51:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krobotis::turtlebot3::TurtleBot3::declare_parameter<uint8_t>(const char [14])[m[K’
+[6.277s]   155 |   this->declare_parameter<uint8_t>("sensors.sonar"[01;31m[K)[m[K;
+[6.277s]       |                                                   [01;31m[K^[m[K
+[6.278s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:1224[m[K,
+[6.278s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[6.278s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+[6.278s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[6.278s]                  from [01m[K/opt/ros/foxy/include/tf2_ros/transform_broadcaster.h:36[m[K,
+[6.278s]                  from [01m[K/home/orin/test_ws/src/turtlebot3/turtlebot3_node/include/turtlebot3_node/turtlebot3.hpp:29[m[K,
+[6.278s]                  from [01m[K/home/orin/test_ws/src/turtlebot3/turtlebot3_node/src/turtlebot3.cpp:17[m[K:
+[6.278s] [01m[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:157:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kauto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool) [with ParameterT = unsigned char; std::string = std::__cxx11::basic_string<char>; rcl_interfaces::msg::ParameterDescriptor = rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >][m[K’
+[6.279s]   157 | [01;36m[KNode[m[K::declare_parameter(
+[6.279s]       | [01;36m[K^~~~[m[K
+[6.279s] [01m[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:157:1:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[12.229s] make[2]: *** [CMakeFiles/turtlebot3_node_lib.dir/build.make:160: CMakeFiles/turtlebot3_node_lib.dir/src/turtlebot3.cpp.o] Error 1
+[12.229s] make[2]: *** Waiting for unfinished jobs....
+[14.166s] make[2]: *** [CMakeFiles/turtlebot3_node_lib.dir/build.make:146: CMakeFiles/turtlebot3_node_lib.dir/src/odometry.cpp.o] Error 1
+[14.166s] make[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/turtlebot3_node_lib.dir/all] Error 2
+[14.166s] make: *** [Makefile:146: all] Error 2
+[14.179s] Invoked command in '/home/orin/test_ws/src/build/turtlebot3_node' returned '2': AMENT_PREFIX_PATH=/home/orin/test_ws/src/install/turtlebot3_msgs:/home/orin/test_ws/src/install/dynamixel_sdk CMAKE_PREFIX_PATH=/home/orin/test_ws/src/install/turtlebot3_msgs:/home/orin/test_ws/src/install/dynamixel_sdk LD_LIBRARY_PATH=/home/orin/test_ws/src/install/turtlebot3_msgs/lib:/home/orin/test_ws/src/install/dynamixel_sdk/lib:/usr/local/cuda/lib64:/usr/local/cuda/lib64 PYTHONPATH=/home/orin/test_ws/src/install/turtlebot3_msgs/lib/python3.8/site-packages /usr/local/bin/cmake --build /home/orin/test_ws/src/build/turtlebot3_node -- -j12 -l12

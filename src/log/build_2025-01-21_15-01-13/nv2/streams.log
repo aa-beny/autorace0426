@@ -1,0 +1,41 @@
+[3.229s] Invoking command in '/home/orin/test_ws/src/nv2': PYTHONPATH=/home/orin/test_ws/src/build/nv2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orin/test_ws/src/install/nv2/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/nv2 build --build-base /home/orin/test_ws/src/build/nv2/build install --record /home/orin/test_ws/src/build/nv2/install.log --single-version-externally-managed install_data
+[3.755s] running egg_info
+[3.755s] creating ../build/nv2/nv2.egg-info
+[3.756s] writing ../build/nv2/nv2.egg-info/PKG-INFO
+[3.756s] writing dependency_links to ../build/nv2/nv2.egg-info/dependency_links.txt
+[3.756s] writing entry points to ../build/nv2/nv2.egg-info/entry_points.txt
+[3.757s] writing requirements to ../build/nv2/nv2.egg-info/requires.txt
+[3.757s] writing top-level names to ../build/nv2/nv2.egg-info/top_level.txt
+[3.760s] writing manifest file '../build/nv2/nv2.egg-info/SOURCES.txt'
+[3.826s] reading manifest file '../build/nv2/nv2.egg-info/SOURCES.txt'
+[3.828s] writing manifest file '../build/nv2/nv2.egg-info/SOURCES.txt'
+[3.828s] running build
+[3.828s] running build_py
+[3.828s] creating /home/orin/test_ws/src/build/nv2/build
+[3.829s] creating /home/orin/test_ws/src/build/nv2/build/lib
+[3.830s] creating /home/orin/test_ws/src/build/nv2/build/lib/nv2
+[3.830s] copying nv2/__init__.py -> /home/orin/test_ws/src/build/nv2/build/lib/nv2
+[3.831s] copying nv2/navigation.py -> /home/orin/test_ws/src/build/nv2/build/lib/nv2
+[3.831s] copying nv2/example_follow_path.py -> /home/orin/test_ws/src/build/nv2/build/lib/nv2
+[3.831s] running install
+[3.832s] running install_lib
+[3.835s] creating /home/orin/test_ws/src/install/nv2/lib/python3.8/site-packages/nv2
+[3.835s] copying /home/orin/test_ws/src/build/nv2/build/lib/nv2/__init__.py -> /home/orin/test_ws/src/install/nv2/lib/python3.8/site-packages/nv2
+[3.835s] copying /home/orin/test_ws/src/build/nv2/build/lib/nv2/navigation.py -> /home/orin/test_ws/src/install/nv2/lib/python3.8/site-packages/nv2
+[3.835s] copying /home/orin/test_ws/src/build/nv2/build/lib/nv2/example_follow_path.py -> /home/orin/test_ws/src/install/nv2/lib/python3.8/site-packages/nv2
+[3.837s] byte-compiling /home/orin/test_ws/src/install/nv2/lib/python3.8/site-packages/nv2/__init__.py to __init__.cpython-38.pyc
+[3.839s] byte-compiling /home/orin/test_ws/src/install/nv2/lib/python3.8/site-packages/nv2/navigation.py to navigation.cpython-38.pyc
+[3.840s] byte-compiling /home/orin/test_ws/src/install/nv2/lib/python3.8/site-packages/nv2/example_follow_path.py to example_follow_path.cpython-38.pyc
+[3.841s] running install_data
+[3.842s] creating /home/orin/test_ws/src/install/nv2/share/ament_index
+[3.842s] creating /home/orin/test_ws/src/install/nv2/share/ament_index/resource_index
+[3.842s] creating /home/orin/test_ws/src/install/nv2/share/ament_index/resource_index/packages
+[3.842s] copying resource/nv2 -> /home/orin/test_ws/src/install/nv2/share/ament_index/resource_index/packages
+[3.843s] copying package.xml -> /home/orin/test_ws/src/install/nv2/share/nv2
+[3.843s] running install_egg_info
+[3.847s] Copying ../build/nv2/nv2.egg-info to /home/orin/test_ws/src/install/nv2/lib/python3.8/site-packages/nv2-0.0.0-py3.8.egg-info
+[3.849s] running install_scripts
+[3.893s] Installing example_follow_path script to /home/orin/test_ws/src/install/nv2/lib/nv2
+[3.893s] Installing navigation script to /home/orin/test_ws/src/install/nv2/lib/nv2
+[3.894s] writing list of installed files to '/home/orin/test_ws/src/build/nv2/install.log'
+[3.979s] Invoked command in '/home/orin/test_ws/src/nv2' returned '0': PYTHONPATH=/home/orin/test_ws/src/build/nv2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orin/test_ws/src/install/nv2/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/nv2 build --build-base /home/orin/test_ws/src/build/nv2/build install --record /home/orin/test_ws/src/build/nv2/install.log --single-version-externally-managed install_data

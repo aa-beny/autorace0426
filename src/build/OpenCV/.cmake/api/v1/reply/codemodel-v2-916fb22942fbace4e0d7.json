@@ -1,0 +1,2008 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						18,
+						20,
+						21,
+						23,
+						24,
+						25,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43,
+						44,
+						45,
+						46,
+						47,
+						48,
+						49,
+						50,
+						51,
+						52,
+						53,
+						54,
+						55,
+						56,
+						57,
+						58,
+						59
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-c0ad1de7e7081780bff9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						1,
+						18,
+						23,
+						29,
+						41,
+						62,
+						70
+					]
+				},
+				{
+					"build" : "3rdparty/openexr",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-3rdparty.openexr-Release-39453ff1aaa242e410ed.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "3rdparty/openexr",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "3rdparty/protobuf",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-3rdparty.protobuf-Release-151225b72f1f67a7d339.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "3rdparty/protobuf",
+					"targetIndexes" : 
+					[
+						13
+					]
+				},
+				{
+					"build" : "3rdparty/carotene/hal",
+					"childIndexes" : 
+					[
+						4
+					],
+					"jsonFile" : "directory-3rdparty.carotene.hal-Release-762da9c3e79a0c795990.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "3rdparty/carotene/hal",
+					"targetIndexes" : 
+					[
+						69
+					]
+				},
+				{
+					"build" : "3rdparty/carotene/hal/carotene",
+					"jsonFile" : "directory-3rdparty.carotene.hal.carotene-Release-e000de28012ee116d2ee.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 3,
+					"source" : "3rdparty/carotene",
+					"targetIndexes" : 
+					[
+						2,
+						3
+					]
+				},
+				{
+					"build" : "3rdparty/ittnotify",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-3rdparty.ittnotify-Release-554dba0b3418a95ac0ab.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 4,
+					"source" : "3rdparty/ittnotify",
+					"targetIndexes" : 
+					[
+						12
+					]
+				},
+				{
+					"build" : "include",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-include-Release-a11e5431f87aff6b82b8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "include"
+				},
+				{
+					"build" : "modules/.firstpass/calib3d",
+					"jsonFile" : "directory-modules..firstpass.calib3d-Release-4f4c3c08179d959bde80.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "modules/calib3d"
+				},
+				{
+					"build" : "modules/.firstpass/core",
+					"jsonFile" : "directory-modules..firstpass.core-Release-859e75cf0fb56218161d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "modules/core"
+				},
+				{
+					"build" : "modules/.firstpass/dnn",
+					"jsonFile" : "directory-modules..firstpass.dnn-Release-37b359db8aec1f5d541e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "modules/dnn"
+				},
+				{
+					"build" : "modules/.firstpass/features2d",
+					"jsonFile" : "directory-modules..firstpass.features2d-Release-ffa88144af019ab448fc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "modules/features2d"
+				},
+				{
+					"build" : "modules/.firstpass/flann",
+					"jsonFile" : "directory-modules..firstpass.flann-Release-9a94f4522284b2028534.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "modules/flann"
+				},
+				{
+					"build" : "modules/.firstpass/gapi",
+					"jsonFile" : "directory-modules..firstpass.gapi-Release-06ffdae437e10142028f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "modules/gapi"
+				},
+				{
+					"build" : "modules/.firstpass/highgui",
+					"jsonFile" : "directory-modules..firstpass.highgui-Release-cc70e49d2c72d61a0223.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "modules/highgui"
+				},
+				{
+					"build" : "modules/.firstpass/imgcodecs",
+					"jsonFile" : "directory-modules..firstpass.imgcodecs-Release-93a24784cf137a78bed2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "modules/imgcodecs"
+				},
+				{
+					"build" : "modules/.firstpass/imgproc",
+					"jsonFile" : "directory-modules..firstpass.imgproc-Release-a42b43cade6cbf891a84.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "modules/imgproc"
+				},
+				{
+					"build" : "modules/.firstpass/java",
+					"childIndexes" : 
+					[
+						17
+					],
+					"jsonFile" : "directory-modules..firstpass.java-Release-037e831379e6a47d9d84.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "modules/java"
+				},
+				{
+					"build" : "modules/.firstpass/java/generator",
+					"jsonFile" : "directory-modules..firstpass.java.generator-Release-1138a6a9c098379f606d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7"
+					},
+					"parentIndex" : 16,
+					"projectIndex" : 0,
+					"source" : "modules/java/generator"
+				},
+				{
+					"build" : "modules/.firstpass/js",
+					"childIndexes" : 
+					[
+						19
+					],
+					"jsonFile" : "directory-modules..firstpass.js-Release-2cfbba08a6c47c776c2c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "modules/js"
+				},
+				{
+					"build" : "modules/.firstpass/js/generator",
+					"jsonFile" : "directory-modules..firstpass.js.generator-Release-ae5c9c67a48776b20fa9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7"
+					},
+					"parentIndex" : 18,
+					"projectIndex" : 0,
+					"source" : "modules/js/generator"
+				},
+				{
+					"build" : "modules/.firstpass/ml",
+					"jsonFile" : "directory-modules..firstpass.ml-Release-c280f8a3ad9dd1665892.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "modules/ml"
+				},
+				{
+					"build" : "modules/.firstpass/objc",
+					"childIndexes" : 
+					[
+						22
+					],
+					"jsonFile" : "directory-modules..firstpass.objc-Release-257718293a79b328f686.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "modules/objc"
+				},
+				{
+					"build" : "modules/.firstpass/objc/generator",
+					"jsonFile" : "directory-modules..firstpass.objc.generator-Release-e44909def7eeaaf637b5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7"
+					},
+					"parentIndex" : 21,
+					"projectIndex" : 0,
+					"source" : "modules/objc/generator"
+				},
+				{
+					"build" : "modules/.firstpass/objdetect",
+					"jsonFile" : "directory-modules..firstpass.objdetect-Release-85823fd244699e8a2585.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "modules/objdetect"
+				},
+				{
+					"build" : "modules/.firstpass/photo",
+					"jsonFile" : "directory-modules..firstpass.photo-Release-011013e963694cec7855.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "modules/photo"
+				},
+				{
+					"build" : "modules/.firstpass/python",
+					"childIndexes" : 
+					[
+						26,
+						27,
+						28,
+						29
+					],
+					"jsonFile" : "directory-modules..firstpass.python-Release-050b9c954554d3d3c8ba.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "modules/python"
+				},
+				{
+					"build" : "modules/.firstpass/python/bindings",
+					"jsonFile" : "directory-modules..firstpass.python.bindings-Release-db6d3cd768d47945ac8d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7"
+					},
+					"parentIndex" : 25,
+					"projectIndex" : 0,
+					"source" : "modules/python/bindings"
+				},
+				{
+					"build" : "modules/.firstpass/python/test",
+					"jsonFile" : "directory-modules..firstpass.python.test-Release-90d6c1ddeeedfa7bfe05.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7"
+					},
+					"parentIndex" : 25,
+					"projectIndex" : 0,
+					"source" : "modules/python/test"
+				},
+				{
+					"build" : "modules/.firstpass/python/python2",
+					"jsonFile" : "directory-modules..firstpass.python.python2-Release-a72ba477913137c2a0bb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7"
+					},
+					"parentIndex" : 25,
+					"projectIndex" : 0,
+					"source" : "modules/python/python2"
+				},
+				{
+					"build" : "modules/.firstpass/python/python3",
+					"jsonFile" : "directory-modules..firstpass.python.python3-Release-1dbb70214575e269d959.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7"
+					},
+					"parentIndex" : 25,
+					"projectIndex" : 0,
+					"source" : "modules/python/python3"
+				},
+				{
+					"build" : "modules/.firstpass/stitching",
+					"jsonFile" : "directory-modules..firstpass.stitching-Release-d495c5bc24c13e96a99b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "modules/stitching"
+				},
+				{
+					"build" : "modules/.firstpass/ts",
+					"jsonFile" : "directory-modules..firstpass.ts-Release-936ee8d4d321a609ac28.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "modules/ts"
+				},
+				{
+					"build" : "modules/.firstpass/video",
+					"jsonFile" : "directory-modules..firstpass.video-Release-449c635eac4fb9354a5b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "modules/video"
+				},
+				{
+					"build" : "modules/.firstpass/videoio",
+					"jsonFile" : "directory-modules..firstpass.videoio-Release-7b2afca8a9b149ea7da6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "modules/videoio",
+					"targetIndexes" : 
+					[
+						67
+					]
+				},
+				{
+					"build" : "modules/.firstpass/world",
+					"jsonFile" : "directory-modules..firstpass.world-Release-98c7a9d9a1dddafd4bb8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "modules/world"
+				},
+				{
+					"build" : "modules/core",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-modules.core-Release-a58d634840855ea4d565.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 5,
+					"source" : "modules/core",
+					"targetIndexes" : 
+					[
+						16,
+						32,
+						48
+					]
+				},
+				{
+					"build" : "modules/flann",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-modules.flann-Release-546ef4426314be4669ea.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 6,
+					"source" : "modules/flann",
+					"targetIndexes" : 
+					[
+						20,
+						51
+					]
+				},
+				{
+					"build" : "modules/imgproc",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-modules.imgproc-Release-6f2b966071e5133e0fec.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 7,
+					"source" : "modules/imgproc",
+					"targetIndexes" : 
+					[
+						25,
+						37,
+						55
+					]
+				},
+				{
+					"build" : "modules/ml",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-modules.ml-Release-f1c185d5772487149184.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 8,
+					"source" : "modules/ml",
+					"targetIndexes" : 
+					[
+						27,
+						56
+					]
+				},
+				{
+					"build" : "modules/photo",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-modules.photo-Release-14f75c6326fa7f58a5d7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 9,
+					"source" : "modules/photo",
+					"targetIndexes" : 
+					[
+						39,
+						44,
+						58
+					]
+				},
+				{
+					"build" : "modules/python_tests",
+					"jsonFile" : "directory-modules.python_tests-Release-46b0d9b026a509ccb427.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 10,
+					"source" : "modules/python/test"
+				},
+				{
+					"build" : "modules/dnn",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-modules.dnn-Release-ef12ecd3f786d0274072.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 11,
+					"source" : "modules/dnn",
+					"targetIndexes" : 
+					[
+						17,
+						33,
+						49
+					]
+				},
+				{
+					"build" : "modules/features2d",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-modules.features2d-Release-8bc693c9361d461ac293.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 12,
+					"source" : "modules/features2d",
+					"targetIndexes" : 
+					[
+						19,
+						34,
+						50
+					]
+				},
+				{
+					"build" : "modules/imgcodecs",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-modules.imgcodecs-Release-bc184f790a39e7cb1486.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 13,
+					"source" : "modules/imgcodecs",
+					"targetIndexes" : 
+					[
+						24,
+						36,
+						54
+					]
+				},
+				{
+					"build" : "modules/videoio",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-modules.videoio-Release-a260465c7dc7682a3f92.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 14,
+					"source" : "modules/videoio",
+					"targetIndexes" : 
+					[
+						43,
+						61,
+						66
+					]
+				},
+				{
+					"build" : "modules/calib3d",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-modules.calib3d-Release-114ce805df21b7dad473.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 15,
+					"source" : "modules/calib3d",
+					"targetIndexes" : 
+					[
+						15,
+						31,
+						47
+					]
+				},
+				{
+					"build" : "modules/highgui",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-modules.highgui-Release-f8dd72ed2d512c228230.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 16,
+					"source" : "modules/highgui",
+					"targetIndexes" : 
+					[
+						22,
+						53
+					]
+				},
+				{
+					"build" : "modules/objdetect",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-modules.objdetect-Release-f713b4dc0602838061a1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 17,
+					"source" : "modules/objdetect",
+					"targetIndexes" : 
+					[
+						30,
+						38,
+						57
+					]
+				},
+				{
+					"build" : "modules/stitching",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-modules.stitching-Release-3f9946b217785ab567d0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 18,
+					"source" : "modules/stitching",
+					"targetIndexes" : 
+					[
+						40,
+						46,
+						59
+					]
+				},
+				{
+					"build" : "modules/ts",
+					"jsonFile" : "directory-modules.ts-Release-25911cf625800ff4b080.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 19,
+					"source" : "modules/ts",
+					"targetIndexes" : 
+					[
+						63
+					]
+				},
+				{
+					"build" : "modules/video",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-modules.video-Release-8b0d9937ad2b37c9068a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 20,
+					"source" : "modules/video",
+					"targetIndexes" : 
+					[
+						42,
+						60,
+						65
+					]
+				},
+				{
+					"build" : "modules/gapi",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-modules.gapi-Release-f39f26d19b23dd64b2fc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 21,
+					"source" : "modules/gapi",
+					"targetIndexes" : 
+					[
+						21,
+						35,
+						52
+					]
+				},
+				{
+					"build" : "modules/java_bindings_generator",
+					"jsonFile" : "directory-modules.java_bindings_generator-Release-b35d4f03af1618728c6b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 22,
+					"source" : "modules/java/generator",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "modules/js_bindings_generator",
+					"jsonFile" : "directory-modules.js_bindings_generator-Release-27dccb7cc78f0b821b37.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 23,
+					"source" : "modules/js/generator",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "modules/objc_bindings_generator",
+					"jsonFile" : "directory-modules.objc_bindings_generator-Release-44680e4f370845e80f1e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 24,
+					"source" : "modules/objc/generator",
+					"targetIndexes" : 
+					[
+						7,
+						8,
+						9,
+						10
+					]
+				},
+				{
+					"build" : "modules/python_bindings_generator",
+					"jsonFile" : "directory-modules.python_bindings_generator-Release-b54381b64dd16bccab9e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 25,
+					"source" : "modules/python/bindings",
+					"targetIndexes" : 
+					[
+						11
+					]
+				},
+				{
+					"build" : "modules/python3",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-modules.python3-Release-ff09d7e65ac6e4bfff7b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 26,
+					"source" : "modules/python/python3",
+					"targetIndexes" : 
+					[
+						4,
+						45
+					]
+				},
+				{
+					"build" : "doc",
+					"jsonFile" : "directory-doc-Release-00ee67dbe228fd23eb89.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "doc"
+				},
+				{
+					"build" : "data",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-data-Release-3c4d04a953ff336f97d4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "data"
+				},
+				{
+					"build" : "apps",
+					"childIndexes" : 
+					[
+						60,
+						61,
+						62,
+						63,
+						64
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-apps-Release-76fddd1453400e648719.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "apps"
+				},
+				{
+					"build" : "apps/annotation",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-apps.annotation-Release-0ad6634ba2052bfc1c3e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7"
+					},
+					"parentIndex" : 59,
+					"projectIndex" : 27,
+					"source" : "apps/annotation",
+					"targetIndexes" : 
+					[
+						14
+					]
+				},
+				{
+					"build" : "apps/visualisation",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-apps.visualisation-Release-dc5e2d4c9559025e74de.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7"
+					},
+					"parentIndex" : 59,
+					"projectIndex" : 28,
+					"source" : "apps/visualisation",
+					"targetIndexes" : 
+					[
+						68
+					]
+				},
+				{
+					"build" : "apps/interactive-calibration",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-apps.interactive-calibration-Release-c2a72795ee230f763354.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7"
+					},
+					"parentIndex" : 59,
+					"projectIndex" : 29,
+					"source" : "apps/interactive-calibration",
+					"targetIndexes" : 
+					[
+						26
+					]
+				},
+				{
+					"build" : "apps/version",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-apps.version-Release-6a0e17ab482ae8241957.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7"
+					},
+					"parentIndex" : 59,
+					"projectIndex" : 30,
+					"source" : "apps/version",
+					"targetIndexes" : 
+					[
+						64
+					]
+				},
+				{
+					"build" : "apps/model-diagnostics",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-apps.model-diagnostics-Release-9d43e6a8a766e5daa70e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7"
+					},
+					"parentIndex" : 59,
+					"projectIndex" : 31,
+					"source" : "apps/model-diagnostics",
+					"targetIndexes" : 
+					[
+						28
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						3,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						57,
+						58,
+						59
+					],
+					"name" : "OpenCV",
+					"targetIndexes" : 
+					[
+						1,
+						18,
+						23,
+						29,
+						41,
+						62,
+						67,
+						69,
+						70
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "openexr",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "libprotobuf",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						13
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "Carotene",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2,
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "ittnotify",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						12
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						35
+					],
+					"name" : "opencv_core",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						16,
+						32,
+						48
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						36
+					],
+					"name" : "opencv_flann",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						20,
+						51
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						37
+					],
+					"name" : "opencv_imgproc",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						25,
+						37,
+						55
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						38
+					],
+					"name" : "opencv_ml",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						27,
+						56
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						39
+					],
+					"name" : "opencv_photo",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						39,
+						44,
+						58
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						40
+					],
+					"name" : "opencv_python_tests",
+					"parentIndex" : 0
+				},
+				{
+					"directoryIndexes" : 
+					[
+						41
+					],
+					"name" : "opencv_dnn",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						17,
+						33,
+						49
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						42
+					],
+					"name" : "opencv_features2d",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						19,
+						34,
+						50
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						43
+					],
+					"name" : "opencv_imgcodecs",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						24,
+						36,
+						54
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						44
+					],
+					"name" : "opencv_videoio",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						43,
+						61,
+						66
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						45
+					],
+					"name" : "opencv_calib3d",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						15,
+						31,
+						47
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						46
+					],
+					"name" : "opencv_highgui",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						22,
+						53
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						47
+					],
+					"name" : "opencv_objdetect",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						30,
+						38,
+						57
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						48
+					],
+					"name" : "opencv_stitching",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						40,
+						46,
+						59
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						49
+					],
+					"name" : "opencv_ts",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						63
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						50
+					],
+					"name" : "opencv_video",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						42,
+						60,
+						65
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						51
+					],
+					"name" : "opencv_gapi",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						21,
+						35,
+						52
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						52
+					],
+					"name" : "opencv_java_bindings_generator",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						53
+					],
+					"name" : "opencv_js_bindings_generator",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						54
+					],
+					"name" : "opencv_objc_bindings_generator",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						7,
+						8,
+						9,
+						10
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						55
+					],
+					"name" : "opencv_python_bindings_generator",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						11
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						56
+					],
+					"name" : "opencv_python3",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						4,
+						45
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						60
+					],
+					"name" : "opencv_annotation",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						14
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						61
+					],
+					"name" : "opencv_visualisation",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						68
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						62
+					],
+					"name" : "opencv_interactive-calibration",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						26
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						63
+					],
+					"name" : "opencv_version",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						64
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						64
+					],
+					"name" : "opencv_model_diagnostics",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						28
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "IlmImf::@fa2a35275de7cb292d2e",
+					"jsonFile" : "target-IlmImf-Release-222b7a8cbff58624e456.json",
+					"name" : "IlmImf",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ade::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ade-Release-c9b442842104769105a7.json",
+					"name" : "ade",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "carotene::@ad36c99be8918d533876",
+					"jsonFile" : "target-carotene-Release-ae7eb720c91bcf475967.json",
+					"name" : "carotene",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "carotene_objs::@ad36c99be8918d533876",
+					"jsonFile" : "target-carotene_objs-Release-dad5c4fc34d56ea63eaf.json",
+					"name" : "carotene_objs",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 56,
+					"id" : "copy_opencv_typing_stubs::@0bf1395c812e247102d0",
+					"jsonFile" : "target-copy_opencv_typing_stubs-Release-bb0e6445e858265e72ba.json",
+					"name" : "copy_opencv_typing_stubs",
+					"projectIndex" : 26
+				},
+				{
+					"directoryIndex" : 52,
+					"id" : "gen_opencv_java_source::@deb7f4639ccaf84f30ce",
+					"jsonFile" : "target-gen_opencv_java_source-Release-c8cf1f58b7af2920263f.json",
+					"name" : "gen_opencv_java_source",
+					"projectIndex" : 22
+				},
+				{
+					"directoryIndex" : 53,
+					"id" : "gen_opencv_js_source::@52f37899aa23b3a50269",
+					"jsonFile" : "target-gen_opencv_js_source-Release-8a501d74fbbba652de51.json",
+					"name" : "gen_opencv_js_source",
+					"projectIndex" : 23
+				},
+				{
+					"directoryIndex" : 54,
+					"id" : "gen_opencv_objc_source::@a30c39960e039b7550ce",
+					"jsonFile" : "target-gen_opencv_objc_source-Release-70b00441afaed2a793c6.json",
+					"name" : "gen_opencv_objc_source",
+					"projectIndex" : 24
+				},
+				{
+					"directoryIndex" : 54,
+					"id" : "gen_opencv_objc_source_ios::@a30c39960e039b7550ce",
+					"jsonFile" : "target-gen_opencv_objc_source_ios-Release-9f6822d4c252618846fa.json",
+					"name" : "gen_opencv_objc_source_ios",
+					"projectIndex" : 24
+				},
+				{
+					"directoryIndex" : 54,
+					"id" : "gen_opencv_objc_source_osx::@a30c39960e039b7550ce",
+					"jsonFile" : "target-gen_opencv_objc_source_osx-Release-e86d165e6ff89dd23fc2.json",
+					"name" : "gen_opencv_objc_source_osx",
+					"projectIndex" : 24
+				},
+				{
+					"directoryIndex" : 54,
+					"id" : "gen_opencv_objc_source_visionos::@a30c39960e039b7550ce",
+					"jsonFile" : "target-gen_opencv_objc_source_visionos-Release-f41f134b1971e242054a.json",
+					"name" : "gen_opencv_objc_source_visionos",
+					"projectIndex" : 24
+				},
+				{
+					"directoryIndex" : 55,
+					"id" : "gen_opencv_python_source::@f2e20f6f8be0942d20b2",
+					"jsonFile" : "target-gen_opencv_python_source-Release-df5bcd0908a9178b316e.json",
+					"name" : "gen_opencv_python_source",
+					"projectIndex" : 25
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "ittnotify::@abb975e843186cefb1e8",
+					"jsonFile" : "target-ittnotify-Release-f1cb2968ef74133d5285.json",
+					"name" : "ittnotify",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "libprotobuf::@8bb0a9a9eda9db088686",
+					"jsonFile" : "target-libprotobuf-Release-b3d35796e7e7d7d154e1.json",
+					"name" : "libprotobuf",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 60,
+					"id" : "opencv_annotation::@c146904c23bd52800abd",
+					"jsonFile" : "target-opencv_annotation-Release-d0f8f7f109b1c3ca8fc2.json",
+					"name" : "opencv_annotation",
+					"projectIndex" : 27
+				},
+				{
+					"directoryIndex" : 45,
+					"id" : "opencv_calib3d::@e8558e004ddb3d41eff9",
+					"jsonFile" : "target-opencv_calib3d-Release-9c6eb6cc09e651e2f4f3.json",
+					"name" : "opencv_calib3d",
+					"projectIndex" : 15
+				},
+				{
+					"directoryIndex" : 35,
+					"id" : "opencv_core::@90e83aff1e86c0750a9d",
+					"jsonFile" : "target-opencv_core-Release-76d9b8029f878648438c.json",
+					"name" : "opencv_core",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 41,
+					"id" : "opencv_dnn::@9bfb28f21a1ab2b0c462",
+					"jsonFile" : "target-opencv_dnn-Release-ff06b13cebe57a114bec.json",
+					"name" : "opencv_dnn",
+					"projectIndex" : 11
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "opencv_dnn_plugins::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-opencv_dnn_plugins-Release-061e550733f512c6c2f4.json",
+					"name" : "opencv_dnn_plugins",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 42,
+					"id" : "opencv_features2d::@4f2b1ecb2cf869bde395",
+					"jsonFile" : "target-opencv_features2d-Release-f240fdd8c73e2cbbcde2.json",
+					"name" : "opencv_features2d",
+					"projectIndex" : 12
+				},
+				{
+					"directoryIndex" : 36,
+					"id" : "opencv_flann::@b7c07563ccf30005c216",
+					"jsonFile" : "target-opencv_flann-Release-fd9d1d1c4a52fe831547.json",
+					"name" : "opencv_flann",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 51,
+					"id" : "opencv_gapi::@77f52973fba75ea81765",
+					"jsonFile" : "target-opencv_gapi-Release-2dd785bd2284348432e6.json",
+					"name" : "opencv_gapi",
+					"projectIndex" : 21
+				},
+				{
+					"directoryIndex" : 46,
+					"id" : "opencv_highgui::@eec24f45586c5b1a2074",
+					"jsonFile" : "target-opencv_highgui-Release-fefe6383479ae25344b4.json",
+					"name" : "opencv_highgui",
+					"projectIndex" : 16
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "opencv_highgui_plugins::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-opencv_highgui_plugins-Release-14ee9d21a974a0931fd3.json",
+					"name" : "opencv_highgui_plugins",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 43,
+					"id" : "opencv_imgcodecs::@e5f64ca75d8a3efadfa0",
+					"jsonFile" : "target-opencv_imgcodecs-Release-b16b2326bc7df10407db.json",
+					"name" : "opencv_imgcodecs",
+					"projectIndex" : 13
+				},
+				{
+					"directoryIndex" : 37,
+					"id" : "opencv_imgproc::@46089d46ac6964f10538",
+					"jsonFile" : "target-opencv_imgproc-Release-0a494e31b7fe61a3eacf.json",
+					"name" : "opencv_imgproc",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 62,
+					"id" : "opencv_interactive-calibration::@7e8a7b6f484218f0f95a",
+					"jsonFile" : "target-opencv_interactive-calibration-Release-53250546d0fb4143741a.json",
+					"name" : "opencv_interactive-calibration",
+					"projectIndex" : 29
+				},
+				{
+					"directoryIndex" : 38,
+					"id" : "opencv_ml::@b79385d0caec563eb03e",
+					"jsonFile" : "target-opencv_ml-Release-aaeba28f81acbe85234c.json",
+					"name" : "opencv_ml",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 64,
+					"id" : "opencv_model_diagnostics::@e9fa1afd5554c87064d2",
+					"jsonFile" : "target-opencv_model_diagnostics-Release-3405363ac333b173d8cf.json",
+					"name" : "opencv_model_diagnostics",
+					"projectIndex" : 31
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "opencv_modules::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-opencv_modules-Release-acff9342d5912701abfe.json",
+					"name" : "opencv_modules",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 47,
+					"id" : "opencv_objdetect::@7f5df5b9e7e68549eda2",
+					"jsonFile" : "target-opencv_objdetect-Release-26e517ccfee31a7f99b1.json",
+					"name" : "opencv_objdetect",
+					"projectIndex" : 17
+				},
+				{
+					"directoryIndex" : 45,
+					"id" : "opencv_perf_calib3d::@e8558e004ddb3d41eff9",
+					"jsonFile" : "target-opencv_perf_calib3d-Release-2f5fd26fdc0f561266b7.json",
+					"name" : "opencv_perf_calib3d",
+					"projectIndex" : 15
+				},
+				{
+					"directoryIndex" : 35,
+					"id" : "opencv_perf_core::@90e83aff1e86c0750a9d",
+					"jsonFile" : "target-opencv_perf_core-Release-e52ac436fcecee989ac1.json",
+					"name" : "opencv_perf_core",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 41,
+					"id" : "opencv_perf_dnn::@9bfb28f21a1ab2b0c462",
+					"jsonFile" : "target-opencv_perf_dnn-Release-cd94105a4140cd1e19ea.json",
+					"name" : "opencv_perf_dnn",
+					"projectIndex" : 11
+				},
+				{
+					"directoryIndex" : 42,
+					"id" : "opencv_perf_features2d::@4f2b1ecb2cf869bde395",
+					"jsonFile" : "target-opencv_perf_features2d-Release-39603140c3551e9224e3.json",
+					"name" : "opencv_perf_features2d",
+					"projectIndex" : 12
+				},
+				{
+					"directoryIndex" : 51,
+					"id" : "opencv_perf_gapi::@77f52973fba75ea81765",
+					"jsonFile" : "target-opencv_perf_gapi-Release-13e1105892297226b58d.json",
+					"name" : "opencv_perf_gapi",
+					"projectIndex" : 21
+				},
+				{
+					"directoryIndex" : 43,
+					"id" : "opencv_perf_imgcodecs::@e5f64ca75d8a3efadfa0",
+					"jsonFile" : "target-opencv_perf_imgcodecs-Release-5ae351792c3b4ebfe031.json",
+					"name" : "opencv_perf_imgcodecs",
+					"projectIndex" : 13
+				},
+				{
+					"directoryIndex" : 37,
+					"id" : "opencv_perf_imgproc::@46089d46ac6964f10538",
+					"jsonFile" : "target-opencv_perf_imgproc-Release-072f54bd0615c64be6ea.json",
+					"name" : "opencv_perf_imgproc",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 47,
+					"id" : "opencv_perf_objdetect::@7f5df5b9e7e68549eda2",
+					"jsonFile" : "target-opencv_perf_objdetect-Release-615dfd635d51c67c6d84.json",
+					"name" : "opencv_perf_objdetect",
+					"projectIndex" : 17
+				},
+				{
+					"directoryIndex" : 39,
+					"id" : "opencv_perf_photo::@7fc8438b288b9566f339",
+					"jsonFile" : "target-opencv_perf_photo-Release-02693292846ae6ae67c5.json",
+					"name" : "opencv_perf_photo",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 48,
+					"id" : "opencv_perf_stitching::@c90dc6396798f553fb2f",
+					"jsonFile" : "target-opencv_perf_stitching-Release-c13b31346c497814201d.json",
+					"name" : "opencv_perf_stitching",
+					"projectIndex" : 18
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "opencv_perf_tests::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-opencv_perf_tests-Release-1f02f0be772d5ed3548e.json",
+					"name" : "opencv_perf_tests",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 50,
+					"id" : "opencv_perf_video::@08df6c0062966df3c8f9",
+					"jsonFile" : "target-opencv_perf_video-Release-5c0004c5a6b8550eebfc.json",
+					"name" : "opencv_perf_video",
+					"projectIndex" : 20
+				},
+				{
+					"directoryIndex" : 44,
+					"id" : "opencv_perf_videoio::@368e281a2b3422cd0411",
+					"jsonFile" : "target-opencv_perf_videoio-Release-deac458c0467217b9716.json",
+					"name" : "opencv_perf_videoio",
+					"projectIndex" : 14
+				},
+				{
+					"directoryIndex" : 39,
+					"id" : "opencv_photo::@7fc8438b288b9566f339",
+					"jsonFile" : "target-opencv_photo-Release-de22eec625cbb5b83168.json",
+					"name" : "opencv_photo",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 56,
+					"id" : "opencv_python3::@0bf1395c812e247102d0",
+					"jsonFile" : "target-opencv_python3-Release-7d586b8886064f51491e.json",
+					"name" : "opencv_python3",
+					"projectIndex" : 26
+				},
+				{
+					"directoryIndex" : 48,
+					"id" : "opencv_stitching::@c90dc6396798f553fb2f",
+					"jsonFile" : "target-opencv_stitching-Release-631bd660f435698ae048.json",
+					"name" : "opencv_stitching",
+					"projectIndex" : 18
+				},
+				{
+					"directoryIndex" : 45,
+					"id" : "opencv_test_calib3d::@e8558e004ddb3d41eff9",
+					"jsonFile" : "target-opencv_test_calib3d-Release-e3c4c23accf6824b2caa.json",
+					"name" : "opencv_test_calib3d",
+					"projectIndex" : 15
+				},
+				{
+					"directoryIndex" : 35,
+					"id" : "opencv_test_core::@90e83aff1e86c0750a9d",
+					"jsonFile" : "target-opencv_test_core-Release-9a13d5c605235ac9f15b.json",
+					"name" : "opencv_test_core",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 41,
+					"id" : "opencv_test_dnn::@9bfb28f21a1ab2b0c462",
+					"jsonFile" : "target-opencv_test_dnn-Release-71204f797851b4f7bab9.json",
+					"name" : "opencv_test_dnn",
+					"projectIndex" : 11
+				},
+				{
+					"directoryIndex" : 42,
+					"id" : "opencv_test_features2d::@4f2b1ecb2cf869bde395",
+					"jsonFile" : "target-opencv_test_features2d-Release-5b88c2b19704218fa1a0.json",
+					"name" : "opencv_test_features2d",
+					"projectIndex" : 12
+				},
+				{
+					"directoryIndex" : 36,
+					"id" : "opencv_test_flann::@b7c07563ccf30005c216",
+					"jsonFile" : "target-opencv_test_flann-Release-19a1113c8dc8ce9000e1.json",
+					"name" : "opencv_test_flann",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 51,
+					"id" : "opencv_test_gapi::@77f52973fba75ea81765",
+					"jsonFile" : "target-opencv_test_gapi-Release-b39a3b11aec875a610ed.json",
+					"name" : "opencv_test_gapi",
+					"projectIndex" : 21
+				},
+				{
+					"directoryIndex" : 46,
+					"id" : "opencv_test_highgui::@eec24f45586c5b1a2074",
+					"jsonFile" : "target-opencv_test_highgui-Release-e27a72853fec8389a4a9.json",
+					"name" : "opencv_test_highgui",
+					"projectIndex" : 16
+				},
+				{
+					"directoryIndex" : 43,
+					"id" : "opencv_test_imgcodecs::@e5f64ca75d8a3efadfa0",
+					"jsonFile" : "target-opencv_test_imgcodecs-Release-368cb35079c92edf6aed.json",
+					"name" : "opencv_test_imgcodecs",
+					"projectIndex" : 13
+				},
+				{
+					"directoryIndex" : 37,
+					"id" : "opencv_test_imgproc::@46089d46ac6964f10538",
+					"jsonFile" : "target-opencv_test_imgproc-Release-66b9cc7aa388ce929f21.json",
+					"name" : "opencv_test_imgproc",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 38,
+					"id" : "opencv_test_ml::@b79385d0caec563eb03e",
+					"jsonFile" : "target-opencv_test_ml-Release-e7994cf9fd93a47c4472.json",
+					"name" : "opencv_test_ml",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 47,
+					"id" : "opencv_test_objdetect::@7f5df5b9e7e68549eda2",
+					"jsonFile" : "target-opencv_test_objdetect-Release-de58f066a3dc32eb2092.json",
+					"name" : "opencv_test_objdetect",
+					"projectIndex" : 17
+				},
+				{
+					"directoryIndex" : 39,
+					"id" : "opencv_test_photo::@7fc8438b288b9566f339",
+					"jsonFile" : "target-opencv_test_photo-Release-d40bfd5ce8152a08639b.json",
+					"name" : "opencv_test_photo",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 48,
+					"id" : "opencv_test_stitching::@c90dc6396798f553fb2f",
+					"jsonFile" : "target-opencv_test_stitching-Release-8abfcb3a4e824de7038d.json",
+					"name" : "opencv_test_stitching",
+					"projectIndex" : 18
+				},
+				{
+					"directoryIndex" : 50,
+					"id" : "opencv_test_video::@08df6c0062966df3c8f9",
+					"jsonFile" : "target-opencv_test_video-Release-7c027d5e7783b5626d49.json",
+					"name" : "opencv_test_video",
+					"projectIndex" : 20
+				},
+				{
+					"directoryIndex" : 44,
+					"id" : "opencv_test_videoio::@368e281a2b3422cd0411",
+					"jsonFile" : "target-opencv_test_videoio-Release-35affa8b767e5a1431e1.json",
+					"name" : "opencv_test_videoio",
+					"projectIndex" : 14
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "opencv_tests::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-opencv_tests-Release-cb43e20ffed2d69261af.json",
+					"name" : "opencv_tests",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 49,
+					"id" : "opencv_ts::@c974cb34bd96d8662201",
+					"jsonFile" : "target-opencv_ts-Release-0f88c615b38e76620007.json",
+					"name" : "opencv_ts",
+					"projectIndex" : 19
+				},
+				{
+					"directoryIndex" : 63,
+					"id" : "opencv_version::@19a512f694e9280ce610",
+					"jsonFile" : "target-opencv_version-Release-ddb8eb96a5c3b03811eb.json",
+					"name" : "opencv_version",
+					"projectIndex" : 30
+				},
+				{
+					"directoryIndex" : 50,
+					"id" : "opencv_video::@08df6c0062966df3c8f9",
+					"jsonFile" : "target-opencv_video-Release-2212cf27b69bf3667154.json",
+					"name" : "opencv_video",
+					"projectIndex" : 20
+				},
+				{
+					"directoryIndex" : 44,
+					"id" : "opencv_videoio::@368e281a2b3422cd0411",
+					"jsonFile" : "target-opencv_videoio-Release-3e1f28dd9e5cfdce4822.json",
+					"name" : "opencv_videoio",
+					"projectIndex" : 14
+				},
+				{
+					"directoryIndex" : 33,
+					"id" : "opencv_videoio_plugins::@c4158f3e978b3bbcbc15",
+					"jsonFile" : "target-opencv_videoio_plugins-Release-42774d812e849cf4d5f4.json",
+					"name" : "opencv_videoio_plugins",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 61,
+					"id" : "opencv_visualisation::@560278ee8a0e8a978e46",
+					"jsonFile" : "target-opencv_visualisation-Release-41f824973ebcc6a2c22a.json",
+					"name" : "opencv_visualisation",
+					"projectIndex" : 28
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "tegra_hal::@4ed414d66a325dfaa412",
+					"jsonFile" : "target-tegra_hal-Release-472042974a2afbb315db.json",
+					"name" : "tegra_hal",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-7b177a990c2308ba2760.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/orin/test_ws/src/build/OpenCV",
+		"source" : "/home/orin/test_ws/src/opencv"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

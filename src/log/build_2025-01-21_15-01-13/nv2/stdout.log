@@ -1,0 +1,39 @@
+running egg_info
+creating ../build/nv2/nv2.egg-info
+writing ../build/nv2/nv2.egg-info/PKG-INFO
+writing dependency_links to ../build/nv2/nv2.egg-info/dependency_links.txt
+writing entry points to ../build/nv2/nv2.egg-info/entry_points.txt
+writing requirements to ../build/nv2/nv2.egg-info/requires.txt
+writing top-level names to ../build/nv2/nv2.egg-info/top_level.txt
+writing manifest file '../build/nv2/nv2.egg-info/SOURCES.txt'
+reading manifest file '../build/nv2/nv2.egg-info/SOURCES.txt'
+writing manifest file '../build/nv2/nv2.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/orin/test_ws/src/build/nv2/build
+creating /home/orin/test_ws/src/build/nv2/build/lib
+creating /home/orin/test_ws/src/build/nv2/build/lib/nv2
+copying nv2/__init__.py -> /home/orin/test_ws/src/build/nv2/build/lib/nv2
+copying nv2/navigation.py -> /home/orin/test_ws/src/build/nv2/build/lib/nv2
+copying nv2/example_follow_path.py -> /home/orin/test_ws/src/build/nv2/build/lib/nv2
+running install
+running install_lib
+creating /home/orin/test_ws/src/install/nv2/lib/python3.8/site-packages/nv2
+copying /home/orin/test_ws/src/build/nv2/build/lib/nv2/__init__.py -> /home/orin/test_ws/src/install/nv2/lib/python3.8/site-packages/nv2
+copying /home/orin/test_ws/src/build/nv2/build/lib/nv2/navigation.py -> /home/orin/test_ws/src/install/nv2/lib/python3.8/site-packages/nv2
+copying /home/orin/test_ws/src/build/nv2/build/lib/nv2/example_follow_path.py -> /home/orin/test_ws/src/install/nv2/lib/python3.8/site-packages/nv2
+byte-compiling /home/orin/test_ws/src/install/nv2/lib/python3.8/site-packages/nv2/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/orin/test_ws/src/install/nv2/lib/python3.8/site-packages/nv2/navigation.py to navigation.cpython-38.pyc
+byte-compiling /home/orin/test_ws/src/install/nv2/lib/python3.8/site-packages/nv2/example_follow_path.py to example_follow_path.cpython-38.pyc
+running install_data
+creating /home/orin/test_ws/src/install/nv2/share/ament_index
+creating /home/orin/test_ws/src/install/nv2/share/ament_index/resource_index
+creating /home/orin/test_ws/src/install/nv2/share/ament_index/resource_index/packages
+copying resource/nv2 -> /home/orin/test_ws/src/install/nv2/share/ament_index/resource_index/packages
+copying package.xml -> /home/orin/test_ws/src/install/nv2/share/nv2
+running install_egg_info
+Copying ../build/nv2/nv2.egg-info to /home/orin/test_ws/src/install/nv2/lib/python3.8/site-packages/nv2-0.0.0-py3.8.egg-info
+running install_scripts
+Installing example_follow_path script to /home/orin/test_ws/src/install/nv2/lib/nv2
+Installing navigation script to /home/orin/test_ws/src/install/nv2/lib/nv2
+writing list of installed files to '/home/orin/test_ws/src/build/nv2/install.log'

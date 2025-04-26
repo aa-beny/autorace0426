@@ -1,0 +1,21 @@
+[3.044s] Invoking command in '/home/orin/test_ws/src/detect/object_detection': PYTHONPATH=/home/orin/test_ws/src/build/object_detection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orin/test_ws/src/install/object_detection/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/object_detection build --build-base /home/orin/test_ws/src/build/object_detection/build install --record /home/orin/test_ws/src/build/object_detection/install.log --single-version-externally-managed install_data
+[3.530s] running egg_info
+[3.532s] writing ../../build/object_detection/object_detection.egg-info/PKG-INFO
+[3.532s] writing dependency_links to ../../build/object_detection/object_detection.egg-info/dependency_links.txt
+[3.532s] writing entry points to ../../build/object_detection/object_detection.egg-info/entry_points.txt
+[3.533s] writing requirements to ../../build/object_detection/object_detection.egg-info/requires.txt
+[3.533s] writing top-level names to ../../build/object_detection/object_detection.egg-info/top_level.txt
+[3.600s] reading manifest file '../../build/object_detection/object_detection.egg-info/SOURCES.txt'
+[3.602s] writing manifest file '../../build/object_detection/object_detection.egg-info/SOURCES.txt'
+[3.602s] running build
+[3.603s] running build_py
+[3.603s] running install
+[3.605s] running install_lib
+[3.609s] running install_data
+[3.609s] running install_egg_info
+[3.613s] removing '/home/orin/test_ws/src/install/object_detection/lib/python3.8/site-packages/object_detection-0.0.0-py3.8.egg-info' (and everything under it)
+[3.614s] Copying ../../build/object_detection/object_detection.egg-info to /home/orin/test_ws/src/install/object_detection/lib/python3.8/site-packages/object_detection-0.0.0-py3.8.egg-info
+[3.616s] running install_scripts
+[3.657s] Installing object_detection script to /home/orin/test_ws/src/install/object_detection/lib/object_detection
+[3.658s] writing list of installed files to '/home/orin/test_ws/src/build/object_detection/install.log'
+[3.725s] Invoked command in '/home/orin/test_ws/src/detect/object_detection' returned '0': PYTHONPATH=/home/orin/test_ws/src/build/object_detection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orin/test_ws/src/install/object_detection/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/object_detection build --build-base /home/orin/test_ws/src/build/object_detection/build install --record /home/orin/test_ws/src/build/object_detection/install.log --single-version-externally-managed install_data

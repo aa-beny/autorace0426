@@ -1,0 +1,241 @@
+[0.191s] Invoking command in '/home/orin/test_ws/src/build/dynamixel_sdk_custom_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/local/bin/cmake /home/orin/test_ws/src/utils/DynamixelSDK/dynamixel_sdk_custom_interfaces -DCMAKE_INSTALL_PREFIX=/home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces
+[3.164s] -- The C compiler identification is GNU 9.4.0
+[3.168s] -- The CXX compiler identification is GNU 9.4.0
+[3.168s] -- Detecting C compiler ABI info
+[3.168s] -- Detecting C compiler ABI info - done
+[3.168s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.168s] -- Detecting C compile features
+[3.169s] -- Detecting C compile features - done
+[3.169s] -- Detecting CXX compiler ABI info
+[3.169s] -- Detecting CXX compiler ABI info - done
+[3.169s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.169s] -- Detecting CXX compile features
+[3.169s] -- Detecting CXX compile features - done
+[3.169s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[3.169s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[3.170s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.173s] -- Found builtin_interfaces: 1.0.0 (/opt/ros/foxy/share/builtin_interfaces/cmake)
+[3.175s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.177s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[3.177s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[3.178s] -- Found FastRTPS: /opt/ros/foxy/include  
+[3.178s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.178s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[3.178s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[3.178s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[3.178s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.178s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.218s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[3.218s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[3.233s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[3.234s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.234s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[3.237s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.8.so
+[3.320s] -- Found PythonExtra: .so  
+[3.524s] -- Configuring done
+[3.782s] -- Generating done
+[3.825s] -- Build files have been written to: /home/orin/test_ws/src/build/dynamixel_sdk_custom_interfaces
+[4.034s] Invoked command in '/home/orin/test_ws/src/build/dynamixel_sdk_custom_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/local/bin/cmake /home/orin/test_ws/src/utils/DynamixelSDK/dynamixel_sdk_custom_interfaces -DCMAKE_INSTALL_PREFIX=/home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces
+[4.037s] Invoking command in '/home/orin/test_ws/src/build/dynamixel_sdk_custom_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/local/bin/cmake --build /home/orin/test_ws/src/build/dynamixel_sdk_custom_interfaces -- -j12 -l12
+[4.323s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[4.354s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[5.138s] [  5%] Built target dynamixel_sdk_custom_interfaces__cpp
+[5.151s] [ 10%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[5.151s] [ 10%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[5.153s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[5.224s] [ 17%] [32mBuilding C object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dynamixel_sdk_custom_interfaces/msg/detail/set_position__functions.c.o[0m
+[5.224s] [ 17%] [32mBuilding C object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dynamixel_sdk_custom_interfaces/srv/detail/get_position__functions.c.o[0m
+[5.352s] [ 20%] [32m[1mLinking C shared library libdynamixel_sdk_custom_interfaces__rosidl_generator_c.so[0m
+[5.405s] [ 20%] Built target dynamixel_sdk_custom_interfaces__rosidl_generator_c
+[5.415s] [ 23%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[5.416s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[5.709s] [ 28%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dynamixel_sdk_custom_interfaces/msg/set_position__type_support.cpp.o[0m
+[5.719s] [ 30%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dynamixel_sdk_custom_interfaces/srv/get_position__type_support.cpp.o[0m
+[5.780s] [ 33%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dynamixel_sdk_custom_interfaces/msg/detail/set_position__type_support.cpp.o[0m
+[5.798s] [ 35%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dynamixel_sdk_custom_interfaces/srv/detail/get_position__type_support.cpp.o[0m
+[5.878s] [ 38%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dynamixel_sdk_custom_interfaces/msg/detail/dds_fastrtps/set_position__type_support.cpp.o[0m
+[5.918s] [ 41%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dynamixel_sdk_custom_interfaces/srv/detail/dds_fastrtps/get_position__type_support.cpp.o[0m
+[6.161s] [ 43%] [32mBuilding C object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dynamixel_sdk_custom_interfaces/msg/detail/set_position__type_support.c.o[0m
+[6.177s] [ 46%] [32mBuilding C object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dynamixel_sdk_custom_interfaces/srv/detail/get_position__type_support.c.o[0m
+[6.309s] [ 48%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/dynamixel_sdk_custom_interfaces/msg/set_position__type_support.cpp.o[0m
+[6.352s] [ 51%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/dynamixel_sdk_custom_interfaces/srv/get_position__type_support.cpp.o[0m
+[6.385s] [ 53%] [32m[1mLinking C shared library libdynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c.so[0m
+[6.525s] [ 56%] [32m[1mLinking CXX shared library libdynamixel_sdk_custom_interfaces__rosidl_typesupport_c.so[0m
+[6.541s] [ 56%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c
+[6.699s] [ 56%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_c
+[6.927s] [ 58%] [32m[1mLinking CXX shared library libdynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[7.009s] [ 58%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cpp
+[7.092s] [ 61%] [32m[1mLinking CXX shared library libdynamixel_sdk_custom_interfaces__rosidl_typesupport_cpp.so[0m
+[7.160s] [ 61%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_cpp
+[7.541s] [ 64%] [32m[1mLinking CXX shared library libdynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[7.719s] [ 64%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cpp
+[7.730s] [ 66%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[8.375s] [ 69%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dynamixel_sdk_custom_interfaces/msg/detail/set_position__type_support_c.cpp.o[0m
+[8.393s] [ 71%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dynamixel_sdk_custom_interfaces/srv/detail/get_position__type_support_c.cpp.o[0m
+[9.410s] [ 74%] [32m[1mLinking CXX shared library libdynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[9.664s] [ 74%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c
+[9.797s] [ 74%] Built target dynamixel_sdk_custom_interfaces
+[9.909s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[14.973s] [ 76%] Built target dynamixel_sdk_custom_interfaces__py
+[15.081s] [ 79%] [32mBuilding C object CMakeFiles/dynamixel_sdk_custom_interfaces__python.dir/rosidl_generator_py/dynamixel_sdk_custom_interfaces/srv/_get_position_s.c.o[0m
+[15.085s] [ 82%] [32mBuilding C object CMakeFiles/dynamixel_sdk_custom_interfaces__python.dir/rosidl_generator_py/dynamixel_sdk_custom_interfaces/msg/_set_position_s.c.o[0m
+[15.721s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/dynamixel_sdk_custom_interfaces/libdynamixel_sdk_custom_interfaces__python.so[0m
+[15.900s] [ 84%] Built target dynamixel_sdk_custom_interfaces__python
+[15.962s] [ 87%] [32mBuilding C object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/dynamixel_sdk_custom_interfaces/_dynamixel_sdk_custom_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[16.012s] [ 89%] [32mBuilding C object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/dynamixel_sdk_custom_interfaces/_dynamixel_sdk_custom_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[16.016s] [ 92%] [32mBuilding C object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/dynamixel_sdk_custom_interfaces/_dynamixel_sdk_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[16.239s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so[0m
+[16.260s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so[0m
+[16.270s] [100%] [32m[1mLinking CXX shared library rosidl_generator_py/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so[0m
+[16.298s] [100%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c__pyext
+[16.313s] [100%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_c__pyext
+[16.382s] [100%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[16.411s] Invoked command in '/home/orin/test_ws/src/build/dynamixel_sdk_custom_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/local/bin/cmake --build /home/orin/test_ws/src/build/dynamixel_sdk_custom_interfaces -- -j12 -l12
+[16.414s] Invoking command in '/home/orin/test_ws/src/build/dynamixel_sdk_custom_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/local/bin/cmake --install /home/orin/test_ws/src/build/dynamixel_sdk_custom_interfaces
+[16.482s] -- Install configuration: ""
+[16.483s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/share/ament_index/resource_index/rosidl_interfaces/dynamixel_sdk_custom_interfaces
+[16.484s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces
+[16.485s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/msg
+[16.486s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/msg/rosidl_generator_c__visibility_control.h
+[16.488s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/msg/detail
+[16.488s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/msg/detail/set_position__type_support.h
+[16.488s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/msg/detail/set_position__functions.h
+[16.490s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/msg/detail/set_position__struct.h
+[16.491s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/msg/detail/set_position__functions.c
+[16.492s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/msg/set_position.h
+[16.493s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/srv
+[16.495s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/srv/detail
+[16.495s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/srv/detail/get_position__functions.c
+[16.496s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/srv/detail/get_position__functions.h
+[16.499s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/srv/detail/get_position__type_support.h
+[16.500s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/srv/detail/get_position__struct.h
+[16.500s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/srv/get_position.h
+[16.500s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/environment/library_path.sh
+[16.500s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/environment/library_path.dsv
+[16.500s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_generator_c.so
+[16.500s] -- Set runtime path of "/home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_generator_c.so" to ""
+[16.501s] -- Up-to-date: /home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces
+[16.501s] -- Up-to-date: /home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/msg
+[16.501s] -- Up-to-date: /home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/msg/detail
+[16.501s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/msg/detail/set_position__rosidl_typesupport_fastrtps_c.h
+[16.501s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[16.501s] -- Up-to-date: /home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/srv
+[16.501s] -- Up-to-date: /home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/srv/detail
+[16.502s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/srv/detail/get_position__rosidl_typesupport_fastrtps_c.h
+[16.502s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c.so
+[16.505s] -- Set runtime path of "/home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[16.507s] -- Up-to-date: /home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces
+[16.508s] -- Up-to-date: /home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/msg
+[16.509s] -- Up-to-date: /home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/msg/detail
+[16.509s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/msg/detail/dds_fastrtps
+[16.509s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/msg/detail/set_position__rosidl_typesupport_fastrtps_cpp.hpp
+[16.509s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[16.509s] -- Up-to-date: /home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/srv
+[16.510s] -- Up-to-date: /home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/srv/detail
+[16.510s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/srv/detail/get_position__rosidl_typesupport_fastrtps_cpp.hpp
+[16.510s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/srv/detail/dds_fastrtps
+[16.511s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[16.511s] -- Set runtime path of "/home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[16.514s] -- Up-to-date: /home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces
+[16.517s] -- Up-to-date: /home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/msg
+[16.517s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[16.517s] -- Up-to-date: /home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/msg/detail
+[16.518s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/msg/detail/set_position__type_support.c
+[16.518s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/msg/detail/set_position__rosidl_typesupport_introspection_c.h
+[16.518s] -- Up-to-date: /home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/srv
+[16.518s] -- Up-to-date: /home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/srv/detail
+[16.518s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/srv/detail/get_position__rosidl_typesupport_introspection_c.h
+[16.519s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/srv/detail/get_position__type_support.c
+[16.519s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c.so
+[16.519s] -- Set runtime path of "/home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[16.519s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_c.so
+[16.519s] -- Set runtime path of "/home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_c.so" to ""
+[16.519s] -- Up-to-date: /home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces
+[16.520s] -- Up-to-date: /home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/msg
+[16.520s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/msg/set_position.hpp
+[16.520s] -- Up-to-date: /home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/msg/detail
+[16.520s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/msg/detail/set_position__type_support.hpp
+[16.521s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/msg/detail/set_position__traits.hpp
+[16.521s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/msg/detail/set_position__builder.hpp
+[16.521s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/msg/detail/set_position__struct.hpp
+[16.521s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[16.521s] -- Up-to-date: /home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/srv
+[16.521s] -- Up-to-date: /home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/srv/detail
+[16.522s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/srv/detail/get_position__builder.hpp
+[16.522s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/srv/detail/get_position__type_support.hpp
+[16.522s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/srv/detail/get_position__traits.hpp
+[16.522s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/srv/detail/get_position__struct.hpp
+[16.522s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/srv/get_position.hpp
+[16.523s] -- Up-to-date: /home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces
+[16.523s] -- Up-to-date: /home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/msg
+[16.523s] -- Up-to-date: /home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/msg/detail
+[16.523s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/msg/detail/set_position__type_support.cpp
+[16.524s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/msg/detail/set_position__rosidl_typesupport_introspection_cpp.hpp
+[16.524s] -- Up-to-date: /home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/srv
+[16.524s] -- Up-to-date: /home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/srv/detail
+[16.524s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/srv/detail/get_position__type_support.cpp
+[16.524s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/srv/detail/get_position__rosidl_typesupport_introspection_cpp.hpp
+[16.524s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cpp.so
+[16.524s] -- Set runtime path of "/home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[16.525s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_cpp.so
+[16.525s] -- Set runtime path of "/home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_cpp.so" to ""
+[16.525s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/environment/pythonpath.sh
+[16.525s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/environment/pythonpath.dsv
+[16.525s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages/dynamixel_sdk_custom_interfaces/__init__.py
+[16.605s] Compiling '/home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages/dynamixel_sdk_custom_interfaces/__init__.py'...
+[16.618s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages/dynamixel_sdk_custom_interfaces/msg
+[16.619s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages/dynamixel_sdk_custom_interfaces/msg/_set_position.py
+[16.620s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages/dynamixel_sdk_custom_interfaces/msg/_set_position_s.c
+[16.620s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages/dynamixel_sdk_custom_interfaces/msg/__init__.py
+[16.620s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages/dynamixel_sdk_custom_interfaces/srv
+[16.620s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages/dynamixel_sdk_custom_interfaces/srv/_get_position_s.c
+[16.621s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages/dynamixel_sdk_custom_interfaces/srv/__init__.py
+[16.621s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages/dynamixel_sdk_custom_interfaces/srv/_get_position.py
+[16.621s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so
+[16.621s] -- Set runtime path of "/home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so" to ""
+[16.623s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so
+[16.623s] -- Set runtime path of "/home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so" to ""
+[16.624s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so
+[16.624s] -- Set runtime path of "/home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so" to ""
+[16.624s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__python.so
+[16.624s] -- Set runtime path of "/home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__python.so" to ""
+[16.624s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/msg/SetPosition.idl
+[16.625s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/srv/GetPosition.idl
+[16.625s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/msg/SetPosition.msg
+[16.626s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/srv/GetPosition.srv
+[16.636s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/srv/GetPosition_Request.msg
+[16.645s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/srv/GetPosition_Response.msg
+[16.645s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/share/ament_index/resource_index/package_run_dependencies/dynamixel_sdk_custom_interfaces
+[16.645s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/share/ament_index/resource_index/parent_prefix_path/dynamixel_sdk_custom_interfaces
+[16.646s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/environment/ament_prefix_path.sh
+[16.646s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/environment/ament_prefix_path.dsv
+[16.646s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/environment/path.sh
+[16.647s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/environment/path.dsv
+[16.647s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/local_setup.bash
+[16.647s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/local_setup.sh
+[16.647s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/local_setup.zsh
+[16.647s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/local_setup.dsv
+[16.648s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.dsv
+[16.648s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/share/ament_index/resource_index/packages/dynamixel_sdk_custom_interfaces
+[16.648s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfaces__rosidl_generator_cExport.cmake
+[16.648s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfaces__rosidl_generator_cExport-noconfig.cmake
+[16.648s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[16.648s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[16.648s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfaces__rosidl_typesupport_cExport.cmake
+[16.649s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[16.649s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfaces__rosidl_generator_cppExport.cmake
+[16.649s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[16.649s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[16.649s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfaces__rosidl_typesupport_cppExport.cmake
+[16.649s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[16.649s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/rosidl_cmake-extras.cmake
+[16.650s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[16.650s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[16.650s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[16.650s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[16.650s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[16.650s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[16.650s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfacesConfig.cmake
+[16.650s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfacesConfig-version.cmake
+[16.651s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.xml
+[16.664s] Invoked command in '/home/orin/test_ws/src/build/dynamixel_sdk_custom_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/local/bin/cmake --install /home/orin/test_ws/src/build/dynamixel_sdk_custom_interfaces

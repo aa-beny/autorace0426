@@ -1,0 +1,6 @@
+{
+  "package_name": "detect_interfaces",
+  "non_idl_tuples": [
+    "/home/orin/test_ws/src/detect/detect_interfaces:msg/BoundingBox.msg"
+  ]
+}

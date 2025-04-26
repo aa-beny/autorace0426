@@ -1,0 +1,28 @@
+[5.420s] Invoking command in '/home/orin/test_ws/src/control': PYTHONPATH=/home/orin/test_ws/src/build/control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orin/test_ws/src/install/control/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/control build --build-base /home/orin/test_ws/src/build/control/build install --record /home/orin/test_ws/src/build/control/install.log --single-version-externally-managed install_data
+[5.982s] running egg_info
+[5.985s] writing ../build/control/control.egg-info/PKG-INFO
+[5.985s] writing dependency_links to ../build/control/control.egg-info/dependency_links.txt
+[5.986s] writing entry points to ../build/control/control.egg-info/entry_points.txt
+[5.987s] writing requirements to ../build/control/control.egg-info/requires.txt
+[5.987s] writing top-level names to ../build/control/control.egg-info/top_level.txt
+[6.061s] reading manifest file '../build/control/control.egg-info/SOURCES.txt'
+[6.063s] writing manifest file '../build/control/control.egg-info/SOURCES.txt'
+[6.064s] running build
+[6.064s] running build_py
+[6.066s] running install
+[6.069s] running install_lib
+[6.075s] running install_data
+[6.076s] running install_egg_info
+[6.083s] removing '/home/orin/test_ws/src/install/control/lib/python3.8/site-packages/control-0.0.0-py3.8.egg-info' (and everything under it)
+[6.084s] Copying ../build/control/control.egg-info to /home/orin/test_ws/src/install/control/lib/python3.8/site-packages/control-0.0.0-py3.8.egg-info
+[6.088s] running install_scripts
+[6.134s] Installing control_auto_avoidance script to /home/orin/test_ws/src/install/control/lib/control
+[6.134s] Installing control_avoidance script to /home/orin/test_ws/src/install/control/lib/control
+[6.135s] Installing control_avoidance_2 script to /home/orin/test_ws/src/install/control/lib/control
+[6.136s] Installing control_avoidance_v2_test script to /home/orin/test_ws/src/install/control/lib/control
+[6.137s] Installing control_lane script to /home/orin/test_ws/src/install/control/lib/control
+[6.137s] Installing control_pack script to /home/orin/test_ws/src/install/control/lib/control
+[6.137s] Installing control_pack_2 script to /home/orin/test_ws/src/install/control/lib/control
+[6.137s] Installing navigation_controller script to /home/orin/test_ws/src/install/control/lib/control
+[6.138s] writing list of installed files to '/home/orin/test_ws/src/build/control/install.log'
+[6.270s] Invoked command in '/home/orin/test_ws/src/control' returned '0': PYTHONPATH=/home/orin/test_ws/src/build/control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orin/test_ws/src/install/control/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/control build --build-base /home/orin/test_ws/src/build/control/build install --record /home/orin/test_ws/src/build/control/install.log --single-version-externally-managed install_data

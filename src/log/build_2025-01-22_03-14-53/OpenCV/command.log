@@ -1,0 +1,1 @@
+Invoking command in '/home/orin/test_ws/src/build/OpenCV': /usr/local/bin/cmake /home/orin/test_ws/src/opencv -DCMAKE_INSTALL_PREFIX=/home/orin/test_ws/src/install/OpenCV

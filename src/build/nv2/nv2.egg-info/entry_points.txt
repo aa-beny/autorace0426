@@ -1,0 +1,4 @@
+[console_scripts]
+example_follow_path = nv2.example_follow_path:main
+navigation = nv2.navigation:main
+

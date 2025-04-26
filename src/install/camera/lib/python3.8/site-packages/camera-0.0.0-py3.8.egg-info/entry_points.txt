@@ -1,0 +1,8 @@
+[console_scripts]
+H65_camera = camera.H65_camera:main
+camera = camera.camera:main
+camera_compress = camera.camera_compress:main
+image_pub = camera.image_pub:main
+take_image = camera.take_image:main
+video_pub = camera.video_pub:main
+

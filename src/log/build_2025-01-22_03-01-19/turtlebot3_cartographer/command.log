@@ -1,0 +1,4 @@
+Invoking command in '/home/orin/test_ws/src/build/turtlebot3_cartographer': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/local/bin/cmake --build /home/orin/test_ws/src/build/turtlebot3_cartographer -- -j12 -l12
+Invoked command in '/home/orin/test_ws/src/build/turtlebot3_cartographer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/local/bin/cmake --build /home/orin/test_ws/src/build/turtlebot3_cartographer -- -j12 -l12
+Invoking command in '/home/orin/test_ws/src/build/turtlebot3_cartographer': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/local/bin/cmake --install /home/orin/test_ws/src/build/turtlebot3_cartographer
+Invoked command in '/home/orin/test_ws/src/build/turtlebot3_cartographer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/local/bin/cmake --install /home/orin/test_ws/src/build/turtlebot3_cartographer

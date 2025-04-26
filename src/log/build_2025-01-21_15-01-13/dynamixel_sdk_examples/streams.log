@@ -1,0 +1,73 @@
+[0.039s] Invoking command in '/home/orin/test_ws/src/build/dynamixel_sdk_examples': AMENT_PREFIX_PATH=/home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces:/home/orin/test_ws/src/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces:/home/orin/test_ws/src/install/dynamixel_sdk:/opt/ros/foxy LD_LIBRARY_PATH=/home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/lib:/home/orin/test_ws/src/install/dynamixel_sdk/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda/lib64:/usr/local/cuda/lib64 PYTHONPATH=/home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/local/bin/cmake /home/orin/test_ws/src/utils/DynamixelSDK/dynamixel_sdk_examples -DCMAKE_INSTALL_PREFIX=/home/orin/test_ws/src/install/dynamixel_sdk_examples
+[0.219s] -- The C compiler identification is GNU 9.4.0
+[0.338s] -- The CXX compiler identification is GNU 9.4.0
+[0.360s] -- Detecting C compiler ABI info
+[0.470s] -- Detecting C compiler ABI info - done
+[0.496s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.496s] -- Detecting C compile features
+[0.497s] -- Detecting C compile features - done
+[0.505s] -- Detecting CXX compiler ABI info
+[0.633s] -- Detecting CXX compiler ABI info - done
+[0.651s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.651s] -- Detecting CXX compile features
+[0.652s] -- Detecting CXX compile features - done
+[0.658s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.717s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.718s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.199s] -- Found dynamixel_sdk: 3.7.60 (/home/orin/test_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/cmake)
+[1.208s] -- Found dynamixel_sdk_custom_interfaces: 3.7.60 (/home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake)
+[1.298s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.321s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.617s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.737s] -- Found FastRTPS: /opt/ros/foxy/include  
+[2.001s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.096s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[2.189s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.192s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.194s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.321s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.321s] -- Looking for pthread_create in pthreads
+[2.420s] -- Looking for pthread_create in pthreads - not found
+[2.421s] -- Looking for pthread_create in pthread
+[2.536s] -- Looking for pthread_create in pthread - found
+[2.540s] -- Found Threads: TRUE  
+[2.984s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[3.397s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.408s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.408s] -- Configured cppcheck include dirs: /home/orin/test_ws/src/utils/DynamixelSDK/dynamixel_sdk_examples/include
+[3.408s] -- Configured cppcheck exclude dirs and/or files: 
+[3.416s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.419s] -- Configured cpplint exclude dirs and/or files: 
+[3.423s] -- Added test 'lint_cmake' to check CMake code style
+[3.426s] -- Added test 'uncrustify' to check C / C++ code style
+[3.426s] -- Configured uncrustify additional arguments: 
+[3.427s] -- Added test 'xmllint' to check XML markup files
+[3.443s] -- Configuring done
+[3.539s] -- Generating done
+[3.559s] -- Build files have been written to: /home/orin/test_ws/src/build/dynamixel_sdk_examples
+[3.607s] Invoked command in '/home/orin/test_ws/src/build/dynamixel_sdk_examples' returned '0': AMENT_PREFIX_PATH=/home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces:/home/orin/test_ws/src/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces:/home/orin/test_ws/src/install/dynamixel_sdk:/opt/ros/foxy LD_LIBRARY_PATH=/home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/lib:/home/orin/test_ws/src/install/dynamixel_sdk/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda/lib64:/usr/local/cuda/lib64 PYTHONPATH=/home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/local/bin/cmake /home/orin/test_ws/src/utils/DynamixelSDK/dynamixel_sdk_examples -DCMAKE_INSTALL_PREFIX=/home/orin/test_ws/src/install/dynamixel_sdk_examples
+[3.609s] Invoking command in '/home/orin/test_ws/src/build/dynamixel_sdk_examples': AMENT_PREFIX_PATH=/home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces:/home/orin/test_ws/src/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces:/home/orin/test_ws/src/install/dynamixel_sdk:/opt/ros/foxy LD_LIBRARY_PATH=/home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/lib:/home/orin/test_ws/src/install/dynamixel_sdk/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda/lib64:/usr/local/cuda/lib64 PYTHONPATH=/home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/local/bin/cmake --build /home/orin/test_ws/src/build/dynamixel_sdk_examples -- -j12 -l12
+[3.989s] [ 50%] [32mBuilding CXX object CMakeFiles/read_write_node.dir/src/read_write_node.cpp.o[0m
+[19.876s] [100%] [32m[1mLinking CXX executable read_write_node[0m
+[20.482s] [100%] Built target read_write_node
+[20.514s] Invoked command in '/home/orin/test_ws/src/build/dynamixel_sdk_examples' returned '0': AMENT_PREFIX_PATH=/home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces:/home/orin/test_ws/src/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces:/home/orin/test_ws/src/install/dynamixel_sdk:/opt/ros/foxy LD_LIBRARY_PATH=/home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/lib:/home/orin/test_ws/src/install/dynamixel_sdk/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda/lib64:/usr/local/cuda/lib64 PYTHONPATH=/home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/local/bin/cmake --build /home/orin/test_ws/src/build/dynamixel_sdk_examples -- -j12 -l12
+[20.516s] Invoking command in '/home/orin/test_ws/src/build/dynamixel_sdk_examples': AMENT_PREFIX_PATH=/home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces:/home/orin/test_ws/src/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces:/home/orin/test_ws/src/install/dynamixel_sdk:/opt/ros/foxy LD_LIBRARY_PATH=/home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/lib:/home/orin/test_ws/src/install/dynamixel_sdk/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda/lib64:/usr/local/cuda/lib64 PYTHONPATH=/home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/local/bin/cmake --install /home/orin/test_ws/src/build/dynamixel_sdk_examples
+[20.601s] -- Install configuration: ""
+[20.602s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk_examples/lib/dynamixel_sdk_examples/read_write_node
+[20.610s] -- Set runtime path of "/home/orin/test_ws/src/install/dynamixel_sdk_examples/lib/dynamixel_sdk_examples/read_write_node" to ""
+[20.611s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk_examples/share/ament_index/resource_index/package_run_dependencies/dynamixel_sdk_examples
+[20.611s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk_examples/share/ament_index/resource_index/parent_prefix_path/dynamixel_sdk_examples
+[20.611s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/environment/ament_prefix_path.sh
+[20.611s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/environment/ament_prefix_path.dsv
+[20.612s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/environment/path.sh
+[20.612s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/environment/path.dsv
+[20.612s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/local_setup.bash
+[20.617s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/local_setup.sh
+[20.618s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/local_setup.zsh
+[20.618s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/local_setup.dsv
+[20.618s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.dsv
+[20.618s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk_examples/share/ament_index/resource_index/packages/dynamixel_sdk_examples
+[20.619s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/cmake/dynamixel_sdk_examplesConfig.cmake
+[20.619s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/cmake/dynamixel_sdk_examplesConfig-version.cmake
+[20.619s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.xml
+[20.638s] Invoked command in '/home/orin/test_ws/src/build/dynamixel_sdk_examples' returned '0': AMENT_PREFIX_PATH=/home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces:/home/orin/test_ws/src/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces:/home/orin/test_ws/src/install/dynamixel_sdk:/opt/ros/foxy LD_LIBRARY_PATH=/home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/lib:/home/orin/test_ws/src/install/dynamixel_sdk/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda/lib64:/usr/local/cuda/lib64 PYTHONPATH=/home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/local/bin/cmake --install /home/orin/test_ws/src/build/dynamixel_sdk_examples

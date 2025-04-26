@@ -1,0 +1,68 @@
+running egg_info
+creating ../../build/detect_lane/detect_lane.egg-info
+writing ../../build/detect_lane/detect_lane.egg-info/PKG-INFO
+writing dependency_links to ../../build/detect_lane/detect_lane.egg-info/dependency_links.txt
+writing entry points to ../../build/detect_lane/detect_lane.egg-info/entry_points.txt
+writing requirements to ../../build/detect_lane/detect_lane.egg-info/requires.txt
+writing top-level names to ../../build/detect_lane/detect_lane.egg-info/top_level.txt
+writing manifest file '../../build/detect_lane/detect_lane.egg-info/SOURCES.txt'
+reading manifest file '../../build/detect_lane/detect_lane.egg-info/SOURCES.txt'
+writing manifest file '../../build/detect_lane/detect_lane.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/orin/test_ws/src/build/detect_lane/build
+creating /home/orin/test_ws/src/build/detect_lane/build/lib
+creating /home/orin/test_ws/src/build/detect_lane/build/lib/detect_lane
+copying detect_lane/camera_red_green_light.py -> /home/orin/test_ws/src/build/detect_lane/build/lib/detect_lane
+copying detect_lane/key_pub_signs.py -> /home/orin/test_ws/src/build/detect_lane/build/lib/detect_lane
+copying detect_lane/__init__.py -> /home/orin/test_ws/src/build/detect_lane/build/lib/detect_lane
+copying detect_lane/detect_lane.py -> /home/orin/test_ws/src/build/detect_lane/build/lib/detect_lane
+copying detect_lane/hsv_traffic_light.py -> /home/orin/test_ws/src/build/detect_lane/build/lib/detect_lane
+copying detect_lane/hsv_param_adjustment.py -> /home/orin/test_ws/src/build/detect_lane/build/lib/detect_lane
+copying detect_lane/detect_traffic.py -> /home/orin/test_ws/src/build/detect_lane/build/lib/detect_lane
+copying detect_lane/detect_parking_grid.py -> /home/orin/test_ws/src/build/detect_lane/build/lib/detect_lane
+running install
+running install_lib
+creating /home/orin/test_ws/src/install/detect_lane/lib/python3.8/site-packages/detect_lane
+copying /home/orin/test_ws/src/build/detect_lane/build/lib/detect_lane/camera_red_green_light.py -> /home/orin/test_ws/src/install/detect_lane/lib/python3.8/site-packages/detect_lane
+copying /home/orin/test_ws/src/build/detect_lane/build/lib/detect_lane/key_pub_signs.py -> /home/orin/test_ws/src/install/detect_lane/lib/python3.8/site-packages/detect_lane
+copying /home/orin/test_ws/src/build/detect_lane/build/lib/detect_lane/__init__.py -> /home/orin/test_ws/src/install/detect_lane/lib/python3.8/site-packages/detect_lane
+copying /home/orin/test_ws/src/build/detect_lane/build/lib/detect_lane/detect_lane.py -> /home/orin/test_ws/src/install/detect_lane/lib/python3.8/site-packages/detect_lane
+copying /home/orin/test_ws/src/build/detect_lane/build/lib/detect_lane/hsv_traffic_light.py -> /home/orin/test_ws/src/install/detect_lane/lib/python3.8/site-packages/detect_lane
+copying /home/orin/test_ws/src/build/detect_lane/build/lib/detect_lane/hsv_param_adjustment.py -> /home/orin/test_ws/src/install/detect_lane/lib/python3.8/site-packages/detect_lane
+copying /home/orin/test_ws/src/build/detect_lane/build/lib/detect_lane/detect_traffic.py -> /home/orin/test_ws/src/install/detect_lane/lib/python3.8/site-packages/detect_lane
+copying /home/orin/test_ws/src/build/detect_lane/build/lib/detect_lane/detect_parking_grid.py -> /home/orin/test_ws/src/install/detect_lane/lib/python3.8/site-packages/detect_lane
+byte-compiling /home/orin/test_ws/src/install/detect_lane/lib/python3.8/site-packages/detect_lane/camera_red_green_light.py to camera_red_green_light.cpython-38.pyc
+byte-compiling /home/orin/test_ws/src/install/detect_lane/lib/python3.8/site-packages/detect_lane/key_pub_signs.py to key_pub_signs.cpython-38.pyc
+byte-compiling /home/orin/test_ws/src/install/detect_lane/lib/python3.8/site-packages/detect_lane/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/orin/test_ws/src/install/detect_lane/lib/python3.8/site-packages/detect_lane/detect_lane.py to detect_lane.cpython-38.pyc
+byte-compiling /home/orin/test_ws/src/install/detect_lane/lib/python3.8/site-packages/detect_lane/hsv_traffic_light.py to hsv_traffic_light.cpython-38.pyc
+byte-compiling /home/orin/test_ws/src/install/detect_lane/lib/python3.8/site-packages/detect_lane/hsv_param_adjustment.py to hsv_param_adjustment.cpython-38.pyc
+byte-compiling /home/orin/test_ws/src/install/detect_lane/lib/python3.8/site-packages/detect_lane/detect_traffic.py to detect_traffic.cpython-38.pyc
+byte-compiling /home/orin/test_ws/src/install/detect_lane/lib/python3.8/site-packages/detect_lane/detect_parking_grid.py to detect_parking_grid.cpython-38.pyc
+running install_data
+creating /home/orin/test_ws/src/install/detect_lane/share/ament_index
+creating /home/orin/test_ws/src/install/detect_lane/share/ament_index/resource_index
+creating /home/orin/test_ws/src/install/detect_lane/share/ament_index/resource_index/packages
+copying resource/detect_lane -> /home/orin/test_ws/src/install/detect_lane/share/ament_index/resource_index/packages
+copying package.xml -> /home/orin/test_ws/src/install/detect_lane/share/detect_lane
+creating /home/orin/test_ws/src/install/detect_lane/share/detect_lane/launch
+copying launch/detect_traffic_launch.py -> /home/orin/test_ws/src/install/detect_lane/share/detect_lane/launch
+copying launch/detect_lane_launch.py -> /home/orin/test_ws/src/install/detect_lane/share/detect_lane/launch
+creating /home/orin/test_ws/src/install/detect_lane/share/detect_lane/config
+copying config/hsv_parameters_default.yaml -> /home/orin/test_ws/src/install/detect_lane/share/detect_lane/config
+copying config/hsv_parameters_tr_own.yaml -> /home/orin/test_ws/src/install/detect_lane/share/detect_lane/config
+copying config/hsv_parameters_own.yaml -> /home/orin/test_ws/src/install/detect_lane/share/detect_lane/config
+copying config/hsv_parameters_own (copy).yaml -> /home/orin/test_ws/src/install/detect_lane/share/detect_lane/config
+copying config/calibration_mode.rviz -> /home/orin/test_ws/src/install/detect_lane/share/detect_lane/config
+copying config/lane_mode.rviz -> /home/orin/test_ws/src/install/detect_lane/share/detect_lane/config
+running install_egg_info
+Copying ../../build/detect_lane/detect_lane.egg-info to /home/orin/test_ws/src/install/detect_lane/lib/python3.8/site-packages/detect_lane-0.0.0-py3.8.egg-info
+running install_scripts
+Installing detect_lane script to /home/orin/test_ws/src/install/detect_lane/lib/detect_lane
+Installing detect_parking_grid script to /home/orin/test_ws/src/install/detect_lane/lib/detect_lane
+Installing detect_traffic script to /home/orin/test_ws/src/install/detect_lane/lib/detect_lane
+Installing hsv_param_adjustment script to /home/orin/test_ws/src/install/detect_lane/lib/detect_lane
+Installing hsv_traffic_light script to /home/orin/test_ws/src/install/detect_lane/lib/detect_lane
+Installing key_pub_signs script to /home/orin/test_ws/src/install/detect_lane/lib/detect_lane
+writing list of installed files to '/home/orin/test_ws/src/build/detect_lane/install.log'

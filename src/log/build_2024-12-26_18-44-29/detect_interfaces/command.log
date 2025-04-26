@@ -1,0 +1,2 @@
+Invoking command in '/home/orin/test_ws/src/build/detect_interfaces': /usr/bin/cmake /home/orin/test_ws/src/detect/detect_interfaces -DCMAKE_INSTALL_PREFIX=/home/orin/test_ws/src/install/detect_interfaces
+Invoked command in '/home/orin/test_ws/src/build/detect_interfaces' returned '1': /usr/bin/cmake /home/orin/test_ws/src/detect/detect_interfaces -DCMAKE_INSTALL_PREFIX=/home/orin/test_ws/src/install/detect_interfaces

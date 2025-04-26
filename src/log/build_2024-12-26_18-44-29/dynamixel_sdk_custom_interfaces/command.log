@@ -1,0 +1,2 @@
+Invoking command in '/home/orin/test_ws/src/build/dynamixel_sdk_custom_interfaces': /usr/bin/cmake /home/orin/test_ws/src/utils/DynamixelSDK/dynamixel_sdk_custom_interfaces -DCMAKE_INSTALL_PREFIX=/home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces
+Invoked command in '/home/orin/test_ws/src/build/dynamixel_sdk_custom_interfaces' returned '1': /usr/bin/cmake /home/orin/test_ws/src/utils/DynamixelSDK/dynamixel_sdk_custom_interfaces -DCMAKE_INSTALL_PREFIX=/home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces

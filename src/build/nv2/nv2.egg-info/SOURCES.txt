@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+../build/nv2/nv2.egg-info/PKG-INFO
+../build/nv2/nv2.egg-info/SOURCES.txt
+../build/nv2/nv2.egg-info/dependency_links.txt
+../build/nv2/nv2.egg-info/entry_points.txt
+../build/nv2/nv2.egg-info/requires.txt
+../build/nv2/nv2.egg-info/top_level.txt
+../build/nv2/nv2.egg-info/zip-safe
+nv2/__init__.py
+nv2/example_follow_path.py
+nv2/navigation.py
+resource/nv2
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

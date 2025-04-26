@@ -1,0 +1,69 @@
+[5.633s] Invoking command in '/home/orin/test_ws/src/control': PYTHONPATH=/home/orin/test_ws/src/build/control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orin/test_ws/src/install/control/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/control build --build-base /home/orin/test_ws/src/build/control/build install --record /home/orin/test_ws/src/build/control/install.log --single-version-externally-managed install_data
+[6.430s] running egg_info
+[6.431s] creating ../build/control/control.egg-info
+[6.431s] writing ../build/control/control.egg-info/PKG-INFO
+[6.432s] writing dependency_links to ../build/control/control.egg-info/dependency_links.txt
+[6.433s] writing entry points to ../build/control/control.egg-info/entry_points.txt
+[6.434s] writing requirements to ../build/control/control.egg-info/requires.txt
+[6.434s] writing top-level names to ../build/control/control.egg-info/top_level.txt
+[6.438s] writing manifest file '../build/control/control.egg-info/SOURCES.txt'
+[6.513s] reading manifest file '../build/control/control.egg-info/SOURCES.txt'
+[6.515s] writing manifest file '../build/control/control.egg-info/SOURCES.txt'
+[6.515s] running build
+[6.515s] running build_py
+[6.516s] creating /home/orin/test_ws/src/build/control/build
+[6.516s] creating /home/orin/test_ws/src/build/control/build/lib
+[6.516s] creating /home/orin/test_ws/src/build/control/build/lib/control
+[6.517s] copying control/control_avoidance_v2_test.py -> /home/orin/test_ws/src/build/control/build/lib/control
+[6.517s] copying control/control_pack.py -> /home/orin/test_ws/src/build/control/build/lib/control
+[6.522s] copying control/control_avoidance_v2.py -> /home/orin/test_ws/src/build/control/build/lib/control
+[6.523s] copying control/__init__.py -> /home/orin/test_ws/src/build/control/build/lib/control
+[6.524s] copying control/control_auto_avoidance.py -> /home/orin/test_ws/src/build/control/build/lib/control
+[6.524s] copying control/control_lane.py -> /home/orin/test_ws/src/build/control/build/lib/control
+[6.525s] copying control/navigation_controller.py -> /home/orin/test_ws/src/build/control/build/lib/control
+[6.528s] copying control/control_avoidance.py -> /home/orin/test_ws/src/build/control/build/lib/control
+[6.529s] copying control/control_pack_v2.py -> /home/orin/test_ws/src/build/control/build/lib/control
+[6.532s] running install
+[6.535s] running install_lib
+[6.541s] creating /home/orin/test_ws/src/install/control/lib/python3.8/site-packages/control
+[6.542s] copying /home/orin/test_ws/src/build/control/build/lib/control/control_avoidance_v2_test.py -> /home/orin/test_ws/src/install/control/lib/python3.8/site-packages/control
+[6.542s] copying /home/orin/test_ws/src/build/control/build/lib/control/control_pack.py -> /home/orin/test_ws/src/install/control/lib/python3.8/site-packages/control
+[6.542s] copying /home/orin/test_ws/src/build/control/build/lib/control/control_avoidance_v2.py -> /home/orin/test_ws/src/install/control/lib/python3.8/site-packages/control
+[6.543s] copying /home/orin/test_ws/src/build/control/build/lib/control/__init__.py -> /home/orin/test_ws/src/install/control/lib/python3.8/site-packages/control
+[6.543s] copying /home/orin/test_ws/src/build/control/build/lib/control/control_auto_avoidance.py -> /home/orin/test_ws/src/install/control/lib/python3.8/site-packages/control
+[6.543s] copying /home/orin/test_ws/src/build/control/build/lib/control/control_lane.py -> /home/orin/test_ws/src/install/control/lib/python3.8/site-packages/control
+[6.543s] copying /home/orin/test_ws/src/build/control/build/lib/control/navigation_controller.py -> /home/orin/test_ws/src/install/control/lib/python3.8/site-packages/control
+[6.549s] copying /home/orin/test_ws/src/build/control/build/lib/control/control_avoidance.py -> /home/orin/test_ws/src/install/control/lib/python3.8/site-packages/control
+[6.549s] copying /home/orin/test_ws/src/build/control/build/lib/control/control_pack_v2.py -> /home/orin/test_ws/src/install/control/lib/python3.8/site-packages/control
+[6.549s] byte-compiling /home/orin/test_ws/src/install/control/lib/python3.8/site-packages/control/control_avoidance_v2_test.py to control_avoidance_v2_test.cpython-38.pyc
+[6.550s] byte-compiling /home/orin/test_ws/src/install/control/lib/python3.8/site-packages/control/control_pack.py to control_pack.cpython-38.pyc
+[6.550s] byte-compiling /home/orin/test_ws/src/install/control/lib/python3.8/site-packages/control/control_avoidance_v2.py to control_avoidance_v2.cpython-38.pyc
+[6.550s] byte-compiling /home/orin/test_ws/src/install/control/lib/python3.8/site-packages/control/__init__.py to __init__.cpython-38.pyc
+[6.551s] byte-compiling /home/orin/test_ws/src/install/control/lib/python3.8/site-packages/control/control_auto_avoidance.py to control_auto_avoidance.cpython-38.pyc
+[6.551s] byte-compiling /home/orin/test_ws/src/install/control/lib/python3.8/site-packages/control/control_lane.py to control_lane.cpython-38.pyc
+[6.552s] byte-compiling /home/orin/test_ws/src/install/control/lib/python3.8/site-packages/control/navigation_controller.py to navigation_controller.cpython-38.pyc
+[6.553s] byte-compiling /home/orin/test_ws/src/install/control/lib/python3.8/site-packages/control/control_avoidance.py to control_avoidance.cpython-38.pyc
+[6.555s] byte-compiling /home/orin/test_ws/src/install/control/lib/python3.8/site-packages/control/control_pack_v2.py to control_pack_v2.cpython-38.pyc
+[6.556s] running install_data
+[6.557s] creating /home/orin/test_ws/src/install/control/share/ament_index
+[6.557s] creating /home/orin/test_ws/src/install/control/share/ament_index/resource_index
+[6.557s] creating /home/orin/test_ws/src/install/control/share/ament_index/resource_index/packages
+[6.558s] copying resource/control -> /home/orin/test_ws/src/install/control/share/ament_index/resource_index/packages
+[6.558s] copying package.xml -> /home/orin/test_ws/src/install/control/share/control
+[6.558s] creating /home/orin/test_ws/src/install/control/share/control/launch
+[6.558s] copying launch/avoidance_launch.py -> /home/orin/test_ws/src/install/control/share/control/launch
+[6.564s] copying launch/parking_launch.py -> /home/orin/test_ws/src/install/control/share/control/launch
+[6.570s] creating /home/orin/test_ws/src/install/control/share/control/config
+[6.570s] running install_egg_info
+[6.577s] Copying ../build/control/control.egg-info to /home/orin/test_ws/src/install/control/lib/python3.8/site-packages/control-0.0.0-py3.8.egg-info
+[6.581s] running install_scripts
+[6.636s] Installing control_auto_avoidance script to /home/orin/test_ws/src/install/control/lib/control
+[6.636s] Installing control_avoidance script to /home/orin/test_ws/src/install/control/lib/control
+[6.637s] Installing control_avoidance_2 script to /home/orin/test_ws/src/install/control/lib/control
+[6.637s] Installing control_avoidance_v2_test script to /home/orin/test_ws/src/install/control/lib/control
+[6.638s] Installing control_lane script to /home/orin/test_ws/src/install/control/lib/control
+[6.638s] Installing control_pack script to /home/orin/test_ws/src/install/control/lib/control
+[6.638s] Installing control_pack_2 script to /home/orin/test_ws/src/install/control/lib/control
+[6.638s] Installing navigation_controller script to /home/orin/test_ws/src/install/control/lib/control
+[6.638s] writing list of installed files to '/home/orin/test_ws/src/build/control/install.log'
+[6.773s] Invoked command in '/home/orin/test_ws/src/control' returned '0': PYTHONPATH=/home/orin/test_ws/src/build/control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orin/test_ws/src/install/control/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/control build --build-base /home/orin/test_ws/src/build/control/build install --record /home/orin/test_ws/src/build/control/install.log --single-version-externally-managed install_data

@@ -1,0 +1,71 @@
+[0.195s] Invoking command in '/home/orin/test_ws/src/build/dynamixel_sdk': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/local/bin/cmake /home/orin/test_ws/src/utils/DynamixelSDK/dynamixel_sdk -DCMAKE_INSTALL_PREFIX=/home/orin/test_ws/src/install/dynamixel_sdk
+[3.168s] -- The C compiler identification is GNU 9.4.0
+[3.171s] -- The CXX compiler identification is GNU 9.4.0
+[3.172s] -- Detecting C compiler ABI info
+[3.173s] -- Detecting C compiler ABI info - done
+[3.173s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.174s] -- Detecting C compile features
+[3.174s] -- Detecting C compile features - done
+[3.175s] -- Detecting CXX compiler ABI info
+[3.175s] -- Detecting CXX compiler ABI info - done
+[3.176s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.177s] -- Detecting CXX compile features
+[3.177s] -- Detecting CXX compile features - done
+[3.177s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[3.177s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[3.177s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.177s] -- Configuring done
+[3.177s] -- Generating done
+[3.178s] -- Build files have been written to: /home/orin/test_ws/src/build/dynamixel_sdk
+[3.245s] Invoked command in '/home/orin/test_ws/src/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/local/bin/cmake /home/orin/test_ws/src/utils/DynamixelSDK/dynamixel_sdk -DCMAKE_INSTALL_PREFIX=/home/orin/test_ws/src/install/dynamixel_sdk
+[3.249s] Invoking command in '/home/orin/test_ws/src/build/dynamixel_sdk': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/local/bin/cmake --build /home/orin/test_ws/src/build/dynamixel_sdk -- -j12 -l12
+[3.303s] [ 10%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/packet_handler.cpp.o[0m
+[3.309s] [ 20%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/protocol1_packet_handler.cpp.o[0m
+[3.317s] [ 30%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_sync_read.cpp.o[0m
+[3.319s] [ 40%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/protocol2_packet_handler.cpp.o[0m
+[3.330s] [ 50%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_sync_write.cpp.o[0m
+[3.363s] [ 60%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_bulk_read.cpp.o[0m
+[3.388s] [ 70%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_bulk_write.cpp.o[0m
+[3.436s] [ 80%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/port_handler.cpp.o[0m
+[3.472s] [ 90%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/port_handler_linux.cpp.o[0m
+[5.306s] [100%] [32m[1mLinking CXX shared library libdynamixel_sdk.so[0m
+[5.471s] [100%] Built target dynamixel_sdk
+[5.892s] Invoked command in '/home/orin/test_ws/src/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/local/bin/cmake --build /home/orin/test_ws/src/build/dynamixel_sdk -- -j12 -l12
+[5.901s] Invoking command in '/home/orin/test_ws/src/build/dynamixel_sdk': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/local/bin/cmake --install /home/orin/test_ws/src/build/dynamixel_sdk
+[6.861s] -- Install configuration: ""
+[6.861s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk/include/
+[6.861s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk/include//dynamixel_sdk
+[6.861s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk/include//dynamixel_sdk/group_sync_write.h
+[6.861s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_windows.h
+[6.861s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk/include//dynamixel_sdk/protocol2_packet_handler.h
+[6.862s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk/include//dynamixel_sdk/dynamixel_sdk.h
+[6.866s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk/include//dynamixel_sdk/port_handler.h
+[6.867s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_linux.h
+[6.867s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_mac.h
+[6.867s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk/include//dynamixel_sdk/protocol1_packet_handler.h
+[6.867s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk/include//dynamixel_sdk/group_bulk_read.h
+[6.868s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_arduino.h
+[6.868s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk/include//dynamixel_sdk/group_bulk_write.h
+[6.868s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk/include//dynamixel_sdk/group_sync_read.h
+[6.868s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk/include//dynamixel_sdk/packet_handler.h
+[6.868s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk/lib/libdynamixel_sdk.so
+[6.868s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/environment/library_path.sh
+[6.868s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/environment/library_path.dsv
+[6.869s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk/share/ament_index/resource_index/package_run_dependencies/dynamixel_sdk
+[6.869s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk/share/ament_index/resource_index/parent_prefix_path/dynamixel_sdk
+[6.869s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/environment/ament_prefix_path.sh
+[6.869s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/environment/ament_prefix_path.dsv
+[6.869s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/environment/path.sh
+[6.869s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/environment/path.dsv
+[6.870s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.bash
+[6.870s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.sh
+[6.870s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.zsh
+[6.870s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.dsv
+[6.870s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/package.dsv
+[6.870s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk/share/ament_index/resource_index/packages/dynamixel_sdk
+[6.871s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.871s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/cmake/ament_cmake_export_libraries-extras.cmake
+[6.871s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkConfig.cmake
+[6.871s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkConfig-version.cmake
+[6.871s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/package.xml
+[6.911s] Invoked command in '/home/orin/test_ws/src/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/local/bin/cmake --install /home/orin/test_ws/src/build/dynamixel_sdk

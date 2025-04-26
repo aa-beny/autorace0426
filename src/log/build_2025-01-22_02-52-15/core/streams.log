@@ -1,0 +1,22 @@
+[5.280s] Invoking command in '/home/orin/test_ws/src/core': PYTHONPATH=/home/orin/test_ws/src/build/core/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orin/test_ws/src/install/core/lib/python3.8/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/core build --build-base /home/orin/test_ws/src/build/core/build install --record /home/orin/test_ws/src/build/core/install.log --single-version-externally-managed install_data
+[5.852s] running egg_info
+[5.854s] writing ../build/core/core.egg-info/PKG-INFO
+[5.856s] writing dependency_links to ../build/core/core.egg-info/dependency_links.txt
+[5.856s] writing entry points to ../build/core/core.egg-info/entry_points.txt
+[5.856s] writing requirements to ../build/core/core.egg-info/requires.txt
+[5.857s] writing top-level names to ../build/core/core.egg-info/top_level.txt
+[5.936s] reading manifest file '../build/core/core.egg-info/SOURCES.txt'
+[5.938s] writing manifest file '../build/core/core.egg-info/SOURCES.txt'
+[5.938s] running build
+[5.939s] running build_py
+[5.943s] running install
+[5.944s] running install_lib
+[5.955s] running install_data
+[5.955s] running install_egg_info
+[5.977s] removing '/home/orin/test_ws/src/install/core/lib/python3.8/site-packages/core-0.0.0-py3.8.egg-info' (and everything under it)
+[5.983s] Copying ../build/core/core.egg-info to /home/orin/test_ws/src/install/core/lib/python3.8/site-packages/core-0.0.0-py3.8.egg-info
+[5.985s] running install_scripts
+[6.033s] Installing core script to /home/orin/test_ws/src/install/core/lib/core
+[6.036s] Installing navigation2 script to /home/orin/test_ws/src/install/core/lib/core
+[6.037s] writing list of installed files to '/home/orin/test_ws/src/build/core/install.log'
+[6.153s] Invoked command in '/home/orin/test_ws/src/core' returned '0': PYTHONPATH=/home/orin/test_ws/src/build/core/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orin/test_ws/src/install/core/lib/python3.8/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/core build --build-base /home/orin/test_ws/src/build/core/build install --record /home/orin/test_ws/src/build/core/install.log --single-version-externally-managed install_data

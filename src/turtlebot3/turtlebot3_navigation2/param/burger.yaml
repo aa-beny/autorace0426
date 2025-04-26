@@ -1,0 +1,362 @@
+amcl:
+  ros__parameters:
+    use_sim_time: False  # 是否使用模擬時間
+    alpha1: 0.2  # 旋轉運動的噪聲參數
+    alpha2: 0.2  # 平移運動的噪聲參數
+    alpha3: 0.2  # 旋轉運動的噪聲參數
+    alpha4: 0.2  # 平移運動的噪聲參數
+    alpha5: 0.2  # 旋轉運動的噪聲參數
+    base_frame_id: "base_footprint"  # 機器人基座的框架ID
+    beam_skip_distance: 0.5  # 光束跳過距離
+    beam_skip_error_threshold: 0.9  # 光束跳過錯誤閾值
+    beam_skip_threshold: 0.3  # 光束跳過閾值
+    do_beamskip: false  # 是否啟用光束跳過
+    global_frame_id: "map"  # 全局框架ID
+    lambda_short: 0.1  # 短距離光束的衰減參數
+    laser_likelihood_max_dist: 2.0  # 激光最大似然距離
+    laser_max_range: 100.0  # 激光最大範圍
+    laser_min_range: -1.0  # 激光最小範圍
+    laser_model_type: "likelihood_field"  # 激光模型類型
+    max_beams: 60  # 最大光束數量
+    max_particles: 2000  # 最大粒子數量
+    min_particles: 500  # 最小粒子數量
+    odom_frame_id: "odom"  # 里程計框架ID
+    pf_err: 0.05  # 粒子過濾器錯誤
+    pf_z: 0.99  # 粒子過濾器Z參數
+    recovery_alpha_fast: 0.0  # 快速恢復參數
+    recovery_alpha_slow: 0.0  # 緩慢恢復參數
+    resample_interval: 1  # 重採樣間隔
+    robot_model_type: "nav2_amcl::DifferentialMotionModel"  # 機器人模型類型
+    save_pose_rate: 0.5  # 保存姿態速率
+    sigma_hit: 0.2  # 命中標準差
+    tf_broadcast: true  # 是否廣播TF
+    transform_tolerance: 1.0  # 變換容差
+    update_min_a: 0.2  # 最小更新角度
+    update_min_d: 0.25  # 最小更新距離
+    z_hit: 0.5  # 命中概率
+    z_max: 0.05  # 最大概率
+    z_rand: 0.5  # 隨機概率
+    z_short: 0.05  # 短距離概率
+    scan_topic: scan  # 激光掃描主題
+
+amcl_map_client:
+  ros__parameters:
+    use_sim_time: False  # 是否使用模擬時間
+
+amcl_rclcpp_node:
+  ros__parameters:
+    use_sim_time: False  # 是否使用模擬時間
+
+bt_navigator:
+  ros__parameters:
+    use_sim_time: False  # 是否使用模擬時間
+    global_frame: map  # 全局框架
+    robot_base_frame: base_link  # 機器人基座框架
+    odom_topic: /odom  # 里程計主題
+    default_bt_xml_filename: "navigate_w_replanning_and_recovery.xml"  # 默認行為樹XML文件名
+    bt_loop_duration: 10  # 行為樹循環持續時間
+    default_server_timeout: 20  # 默認服務器超時
+    enable_groot_monitoring: True  # 是否啟用Groot監控
+    groot_zmq_publisher_port: 1666  # Groot ZMQ發布端口
+    groot_zmq_server_port: 1667  # Groot ZMQ服務器端口
+    plugin_lib_names:  # 插件庫名稱
+    - nav2_compute_path_to_pose_action_bt_node
+    - nav2_compute_path_through_poses_action_bt_node
+    - nav2_follow_path_action_bt_node
+    - nav2_back_up_action_bt_node
+    - nav2_spin_action_bt_node
+    - nav2_wait_action_bt_node
+    - nav2_clear_costmap_service_bt_node
+    - nav2_is_stuck_condition_bt_node
+    - nav2_goal_reached_condition_bt_node
+    - nav2_goal_updated_condition_bt_node
+    - nav2_initial_pose_received_condition_bt_node
+    - nav2_reinitialize_global_localization_service_bt_node
+    - nav2_rate_controller_bt_node
+    - nav2_distance_controller_bt_node
+    - nav2_speed_controller_bt_node
+    - nav2_truncate_path_action_bt_node
+    - nav2_goal_updater_node_bt_node
+    - nav2_recovery_node_bt_node
+    - nav2_pipeline_sequence_bt_node
+    - nav2_round_robin_node_bt_node
+    - nav2_transform_available_condition_bt_node
+    - nav2_time_expired_condition_bt_node
+    - nav2_distance_traveled_condition_bt_node
+    - nav2_single_trigger_bt_node
+    - nav2_is_battery_low_condition_bt_node
+    - nav2_navigate_through_poses_action_bt_node
+    - nav2_navigate_to_pose_action_bt_node
+    - nav2_remove_passed_goals_action_bt_node
+    - nav2_planner_selector_bt_node
+    - nav2_controller_selector_bt_node
+    - nav2_goal_checker_selector_bt_node
+
+bt_navigator_rclcpp_node:
+  ros__parameters:
+    use_sim_time: False  # 是否使用模擬時間
+
+controller_server:
+  ros__parameters:
+    use_sim_time: False  # 是否使用模擬時間
+    controller_frequency: 10.0  # 控制器頻率
+    min_x_velocity_threshold: 0.001  # 最小X速度閾值
+    min_y_velocity_threshold: 0.5  # 最小Y速度閾值
+    min_theta_velocity_threshold: 0.001  # 最小角速度閾值
+    failure_tolerance: 0.3  # 失敗容差
+    progress_checker_plugin: "progress_checker"  # 進度檢查插件
+    goal_checker_plugins: ["general_goal_checker"]  # 目標檢查插件
+    controller_plugins: ["FollowPath"]  # 控制器插件
+
+    # Progress checker parameters
+    progress_checker:
+      plugin: "nav2_controller::SimpleProgressChecker"  # 進度檢查插件
+      required_movement_radius: 0.5  # 所需移動半徑
+      movement_time_allowance: 10.0  # 移動時間允許
+
+    general_goal_checker:
+      stateful: True  # 是否有狀態
+      plugin: "nav2_controller::SimpleGoalChecker"  # 目標檢查插件
+      # xy_goal_tolerance: 0.18   # XY目標容差
+      # yaw_goal_tolerance: 0.18  # 偏航目標容差
+      xy_goal_tolerance: 0.1 
+      yaw_goal_tolerance: 0.12
+  
+
+    # DWB parameters
+    FollowPath:
+      plugin: "dwb_core::DWBLocalPlanner"  # DWB本地規劃器插件
+      debug_trajectory_details: True  # 是否調試軌跡細節
+      min_vel_x: 0.0  # 最小X速度
+      min_vel_y: 0.0  # 最小Y速度
+      max_vel_x: 0.24  # 最大X速度
+      max_vel_y: 0.0  # 最大Y速度
+      max_vel_theta: 1.0  # 最大角速度
+      # max_vel_theta: 0.8  
+      # max_vel_theta: 0.4  
+      min_speed_xy: 0.0  # 最小XY速度
+      max_speed_xy: 0.18  # 最大XY速度
+      min_speed_theta: 0.0  # 最小角速度
+      # Add high threshold velocity for turtlebot 3 issue.
+      # https://github.com/ROBOTIS-GIT/turtlebot3_simulations/issues/75
+      acc_lim_x: 0.5   # X加速度限制
+      acc_lim_y: 0.0  # Y加速度限制
+      acc_lim_theta: 3.2  # 角加速度限制
+      # acc_lim_theta: 2.0 
+      decel_lim_x: -2.5  # X減速度限制
+      decel_lim_y: 0.0  # Y減速度限制
+      decel_lim_theta: -3.2  # 角減速度限制
+      vx_samples: 20  # X速度樣本數
+      vy_samples: 0  # Y速度樣本數
+      vtheta_samples: 40  # 角速度樣本數
+      sim_time: 2.0  # 模擬時間
+      # sim_time: 3.0
+      linear_granularity: 0.05  # 線性粒度
+      angular_granularity: 0.025  # 角度粒度
+      transform_tolerance: 0.2  # 變換容差
+      # xy_goal_tolerance: 0.05  # XY目標容差
+      xy_goal_tolerance: 0.1 
+      trans_stopped_velocity: 0.25  # 停止速度
+      short_circuit_trajectory_evaluation: True  # 是否短路軌跡評估
+      stateful: True  # 是否有狀態
+      critics: ["RotateToGoal", "Oscillation", "BaseObstacle", "GoalAlign", "PathAlign", "PathDist", "GoalDist"]  # 評論者
+      BaseObstacle.scale: 0.02  # 基礎障礙物比例
+      PathAlign.scale: 32.0  # 路徑對齊比例
+      PathAlign.forward_point_distance: 0.1  # 路徑對齊前點距離
+      GoalAlign.scale: 24.0  # 目標對齊比例
+      GoalAlign.forward_point_distance: 0.1  # 目標對齊前點距離
+      PathDist.scale: 32.0  # 路徑距離比例
+      GoalDist.scale: 24.0  # 目標距離比例
+      RotateToGoal.scale: 32.0  # 旋轉到目標比例
+      RotateToGoal.slowing_factor: 5.0  # 旋轉到目標減速因子
+      RotateToGoal.lookahead_time: -1.0  # 旋轉到目標前瞻時間
+
+controller_server_rclcpp_node:
+  ros__parameters:
+    use_sim_time: False  # 是否使用模擬時間
+
+local_costmap:
+  local_costmap:
+    ros__parameters:
+      update_frequency: 15.0  # 更新頻率
+      publish_frequency: 2.0  # 發布頻率
+      global_frame: odom  # 全局框架
+      robot_base_frame: base_link  # 機器人基座框架
+      use_sim_time: False  # 是否使用模擬時間
+      rolling_window: true  # 是否使用滾動窗口
+      width: 3  # 寬度
+      height: 3  # 高度
+      resolution: 0.05  # 分辨率
+      robot_radius: 0.09  # 機器人半徑
+      plugins: ["obstacle_layer", "voxel_layer", "inflation_layer"]  # 插件
+      inflation_layer:
+        plugin: "nav2_costmap_2d::InflationLayer"  # 膨脹層插件
+        # inflation_radius: 0.8  # 膨脹半徑
+        inflation_radius: 0.8
+        
+        cost_scaling_factor: 0.8  # 成本縮放因子
+      obstacle_layer:
+        plugin: "nav2_costmap_2d::ObstacleLayer"  # 障礙層插件
+        enabled: True  # 是否啟用
+        observation_sources: scan  # 觀察源
+        scan:
+          topic: /scan  # 掃描主題
+          max_obstacle_height: 2.0  # 最大障礙物高度
+          clearing: True  # 是否清除
+          marking: True  # 是否標記
+          data_type: "LaserScan"  # 數據類型
+      voxel_layer:
+        plugin: "nav2_costmap_2d::VoxelLayer"  # 體素層插件
+        enabled: True  # 是否啟用
+        publish_voxel_map: True  # 是否發布體素地圖
+        origin_z: 0.0  # 原點Z坐標
+        z_resolution: 0.05  # Z分辨率
+        z_voxels: 16  # Z體素數量
+        max_obstacle_height: 2.0  # 最大障礙物高度
+        mark_threshold: 0  # 標記閾值
+        observation_sources: scan  # 觀察源
+        scan:
+          topic: /scan  # 掃描主題
+          max_obstacle_height: 2.0  # 最大障礙物高度
+          clearing: True  # 是否清除
+          marking: True  # 是否標記
+          data_type: "LaserScan"  # 數據類型
+          raytrace_max_range: 3.0  # 光線追蹤最大範圍
+          raytrace_min_range: 0.0  # 光線追蹤最小範圍
+          obstacle_max_range: 2.5  # 障礙物最大範圍
+          obstacle_min_range: 0.0  # 障礙物最小範圍
+      static_layer:
+        map_subscribe_transient_local: True  # 地圖訂閱瞬態本地
+      always_send_full_costmap: True  # 是否總是發送完整的代價地圖
+  local_costmap_client:
+    ros__parameters:
+      use_sim_time: False  # 是否使用模擬時間
+  local_costmap_rclcpp_node:
+    ros__parameters:
+      use_sim_time: False  # 是否使用模擬時間
+
+global_costmap:
+  global_costmap:
+    ros__parameters:
+      update_frequency: 1.0  # 更新頻率
+      publish_frequency: 1.0  # 發布頻率
+      global_frame: map  # 全局框架
+      robot_base_frame: base_link  # 機器人基座框架
+      use_sim_time: True  # 是否使用模擬時間
+      robot_radius: 0.09  # 機器人半徑
+      resolution: 0.05  # 分辨率
+      track_unknown_space: true  # 是否跟蹤未知空間
+      plugins: ["static_layer", "obstacle_layer", "voxel_layer", "inflation_layer"]  # 插件
+      obstacle_layer:
+        plugin: "nav2_costmap_2d::ObstacleLayer"  # 障礙層插件
+        enabled: True  # 是否啟用
+        observation_sources: scan  # 觀察源
+        scan:
+          topic: /scan  # 掃描主題
+          max_obstacle_height: 2.0  # 最大障礙物高度
+          clearing: True  # 是否清除
+          marking: True  # 是否標記
+          data_type: "LaserScan"  # 數據類型
+          raytrace_max_range: 3.0  # 光線追蹤最大範圍
+          raytrace_min_range: 0.0  # 光線追蹤最小範圍
+          obstacle_max_range: 2.5  # 障礙物最大範圍
+          obstacle_min_range: 0.0  # 障礙物最小範圍
+      voxel_layer:
+        plugin: "nav2_costmap_2d::VoxelLayer"  # 體素層插件
+        enabled: True  # 是否啟用
+        publish_voxel_map: True  # 是否發布體素地圖
+        origin_z: 0.0  # 原點Z坐標
+        z_resolution: 0.05  # Z分辨率
+        z_voxels: 16  # Z體素數量
+        max_obstacle_height: 2.0  # 最大障礙物高度
+        mark_threshold: 0  # 標記閾值
+        observation_sources: scan  # 觀察源
+        scan:
+          topic: /scan  # 掃描主題
+          max_obstacle_height: 2.0  # 最大障礙物高度
+          clearing: True  # 是否清除
+          marking: True  # 是否標記
+          data_type: "LaserScan"  # 數據類型
+          raytrace_max_range: 3.0  # 光線追蹤最大範圍
+          raytrace_min_range: 0.0  # 光線追蹤最小範圍
+          obstacle_max_range: 2.5  # 障礙物最大範圍
+          obstacle_min_range: 0.0  # 障礙物最小範圍
+      static_layer:
+        plugin: "nav2_costmap_2d::StaticLayer"  # 靜態層插件
+        map_subscribe_transient_local: True  # 地圖訂閱瞬態本地
+      inflation_layer:
+        plugin: "nav2_costmap_2d::InflationLayer"  # 膨脹層插件
+        # cost_scaling_factor: 0.3  # 成本縮放因子
+        cost_scaling_factor: 0.6
+        inflation_radius: 0.10
+        # inflation_radius: 0.10
+      always_send_full_costmap: True  # 是否總是發送完整的代價地圖
+  global_costmap_client:
+    ros__parameters:
+      use_sim_time: False  # 是否使用模擬時間
+  global_costmap_rclcpp_node:
+    ros__parameters:
+      use_sim_time: False  # 是否使用模擬時間
+
+map_server:
+  ros__parameters:
+    use_sim_time: False  # 是否使用模擬時間
+    yaml_filename: "map.yaml"  # 地圖文件名
+
+map_saver:
+  ros__parameters:
+    use_sim_time: False  # 是否使用模擬時間
+    save_map_timeout: 5.0  # 保存地圖超時
+    free_thresh_default: 0.25  # 默認空閒閾值
+    occupied_thresh_default: 0.65  # 默認佔用閾值
+    map_subscribe_transient_local: True  # 地圖訂閱瞬態本地
+
+planner_server:
+  ros__parameters:
+    expected_planner_frequency: 20.0  # 預期規劃器頻率
+    use_sim_time: False  # 是否使用模擬時間
+    planner_plugins: ["GridBased"]  # 規劃器插件
+    GridBased:
+      plugin: "nav2_navfn_planner/NavfnPlanner"  # Navfn規劃器插件
+      tolerance: 0.5  # 容差
+      use_astar: false  # 是否使用A*
+      allow_unknown: true  # 是否允許未知
+
+planner_server_rclcpp_node:
+  ros__parameters:
+    use_sim_time: False  # 是否使用模擬時間
+
+recoveries_server:
+  ros__parameters:
+    costmap_topic: local_costmap/costmap_raw  # 代價地圖主題
+    footprint_topic: local_costmap/published_footprint  # 足跡主題
+    cycle_frequency: 10.0  # 循環頻率
+    recovery_plugins: ["spin", "backup", "wait"]  # 恢復插件
+    spin:
+      plugin: "nav2_recoveries/Spin"  # 旋轉插件
+    backup:
+      plugin: "nav2_recoveries/BackUp"  # 備份插件
+    wait:
+      plugin: "nav2_recoveries/Wait"  # 等待插件
+    global_frame: odom  # 全局框架
+    robot_base_frame: base_link  # 機器人基座框架
+    transform_timeout: 0.1  # 變換超時
+    use_sim_time: true  # 是否使用模擬時間
+    simulate_ahead_time: 2.0  # 模擬提前時間
+    max_rotational_vel: 1.0  # 最大旋轉速度
+    min_rotational_vel: 0.4  # 最小旋轉速度
+    rotational_acc_lim: 3.2  # 旋轉加速度限制
+
+robot_state_publisher:
+  ros__parameters:
+    use_sim_time: False  # 是否使用模擬時間
+
+waypoint_follower:
+  ros__parameters:
+    loop_rate: 2000  # 循環速率
+    stop_on_failure: false  # 是否在失敗時停止
+    waypoint_task_executor_plugin: "wait_at_waypoint"  # 路點任務執行插件
+    wait_at_waypoint:
+      plugin: "nav2_waypoint_follower::WaitAtWaypoint"  # 等待路點插件
+      enabled: True  # 是否啟用
+      waypoint_pause_duration: 200  # 路點暫停持續時間

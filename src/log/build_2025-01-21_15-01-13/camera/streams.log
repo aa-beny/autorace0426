@@ -1,0 +1,57 @@
+[5.604s] Invoking command in '/home/orin/test_ws/src/camera': PYTHONPATH=/home/orin/test_ws/src/build/camera/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orin/test_ws/src/install/camera/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/camera build --build-base /home/orin/test_ws/src/build/camera/build install --record /home/orin/test_ws/src/build/camera/install.log --single-version-externally-managed install_data
+[6.431s] running egg_info
+[6.433s] creating ../build/camera/camera.egg-info
+[6.436s] writing ../build/camera/camera.egg-info/PKG-INFO
+[6.436s] writing dependency_links to ../build/camera/camera.egg-info/dependency_links.txt
+[6.437s] writing entry points to ../build/camera/camera.egg-info/entry_points.txt
+[6.437s] writing requirements to ../build/camera/camera.egg-info/requires.txt
+[6.437s] writing top-level names to ../build/camera/camera.egg-info/top_level.txt
+[6.441s] writing manifest file '../build/camera/camera.egg-info/SOURCES.txt'
+[6.552s] reading manifest file '../build/camera/camera.egg-info/SOURCES.txt'
+[6.558s] writing manifest file '../build/camera/camera.egg-info/SOURCES.txt'
+[6.558s] running build
+[6.559s] running build_py
+[6.559s] creating /home/orin/test_ws/src/build/camera/build
+[6.560s] creating /home/orin/test_ws/src/build/camera/build/lib
+[6.560s] creating /home/orin/test_ws/src/build/camera/build/lib/camera
+[6.565s] copying camera/take_image.py -> /home/orin/test_ws/src/build/camera/build/lib/camera
+[6.568s] copying camera/video_pub.py -> /home/orin/test_ws/src/build/camera/build/lib/camera
+[6.580s] copying camera/image_pub.py -> /home/orin/test_ws/src/build/camera/build/lib/camera
+[6.580s] copying camera/__init__.py -> /home/orin/test_ws/src/build/camera/build/lib/camera
+[6.581s] copying camera/camera.py -> /home/orin/test_ws/src/build/camera/build/lib/camera
+[6.581s] copying camera/H65_camera.py -> /home/orin/test_ws/src/build/camera/build/lib/camera
+[6.581s] copying camera/camera_compress.py -> /home/orin/test_ws/src/build/camera/build/lib/camera
+[6.581s] running install
+[6.584s] running install_lib
+[6.587s] creating /home/orin/test_ws/src/install/camera/lib/python3.8/site-packages/camera
+[6.587s] copying /home/orin/test_ws/src/build/camera/build/lib/camera/take_image.py -> /home/orin/test_ws/src/install/camera/lib/python3.8/site-packages/camera
+[6.588s] copying /home/orin/test_ws/src/build/camera/build/lib/camera/video_pub.py -> /home/orin/test_ws/src/install/camera/lib/python3.8/site-packages/camera
+[6.589s] copying /home/orin/test_ws/src/build/camera/build/lib/camera/image_pub.py -> /home/orin/test_ws/src/install/camera/lib/python3.8/site-packages/camera
+[6.589s] copying /home/orin/test_ws/src/build/camera/build/lib/camera/__init__.py -> /home/orin/test_ws/src/install/camera/lib/python3.8/site-packages/camera
+[6.589s] copying /home/orin/test_ws/src/build/camera/build/lib/camera/camera.py -> /home/orin/test_ws/src/install/camera/lib/python3.8/site-packages/camera
+[6.590s] copying /home/orin/test_ws/src/build/camera/build/lib/camera/H65_camera.py -> /home/orin/test_ws/src/install/camera/lib/python3.8/site-packages/camera
+[6.590s] copying /home/orin/test_ws/src/build/camera/build/lib/camera/camera_compress.py -> /home/orin/test_ws/src/install/camera/lib/python3.8/site-packages/camera
+[6.590s] byte-compiling /home/orin/test_ws/src/install/camera/lib/python3.8/site-packages/camera/take_image.py to take_image.cpython-38.pyc
+[6.611s] byte-compiling /home/orin/test_ws/src/install/camera/lib/python3.8/site-packages/camera/video_pub.py to video_pub.cpython-38.pyc
+[6.612s] byte-compiling /home/orin/test_ws/src/install/camera/lib/python3.8/site-packages/camera/image_pub.py to image_pub.cpython-38.pyc
+[6.613s] byte-compiling /home/orin/test_ws/src/install/camera/lib/python3.8/site-packages/camera/__init__.py to __init__.cpython-38.pyc
+[6.613s] byte-compiling /home/orin/test_ws/src/install/camera/lib/python3.8/site-packages/camera/camera.py to camera.cpython-38.pyc
+[6.614s] byte-compiling /home/orin/test_ws/src/install/camera/lib/python3.8/site-packages/camera/H65_camera.py to H65_camera.cpython-38.pyc
+[6.615s] byte-compiling /home/orin/test_ws/src/install/camera/lib/python3.8/site-packages/camera/camera_compress.py to camera_compress.cpython-38.pyc
+[6.616s] running install_data
+[6.616s] creating /home/orin/test_ws/src/install/camera/share/ament_index
+[6.617s] creating /home/orin/test_ws/src/install/camera/share/ament_index/resource_index
+[6.617s] creating /home/orin/test_ws/src/install/camera/share/ament_index/resource_index/packages
+[6.617s] copying resource/camera -> /home/orin/test_ws/src/install/camera/share/ament_index/resource_index/packages
+[6.617s] copying package.xml -> /home/orin/test_ws/src/install/camera/share/camera
+[6.617s] running install_egg_info
+[6.622s] Copying ../build/camera/camera.egg-info to /home/orin/test_ws/src/install/camera/lib/python3.8/site-packages/camera-0.0.0-py3.8.egg-info
+[6.625s] running install_scripts
+[6.718s] Installing H65_camera script to /home/orin/test_ws/src/install/camera/lib/camera
+[6.719s] Installing camera script to /home/orin/test_ws/src/install/camera/lib/camera
+[6.719s] Installing camera_compress script to /home/orin/test_ws/src/install/camera/lib/camera
+[6.719s] Installing image_pub script to /home/orin/test_ws/src/install/camera/lib/camera
+[6.720s] Installing take_image script to /home/orin/test_ws/src/install/camera/lib/camera
+[6.720s] Installing video_pub script to /home/orin/test_ws/src/install/camera/lib/camera
+[6.721s] writing list of installed files to '/home/orin/test_ws/src/build/camera/install.log'
+[6.910s] Invoked command in '/home/orin/test_ws/src/camera' returned '0': PYTHONPATH=/home/orin/test_ws/src/build/camera/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orin/test_ws/src/install/camera/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/camera build --build-base /home/orin/test_ws/src/build/camera/build install --record /home/orin/test_ws/src/build/camera/install.log --single-version-externally-managed install_data

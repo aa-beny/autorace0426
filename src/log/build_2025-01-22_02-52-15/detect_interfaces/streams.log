@@ -1,0 +1,115 @@
+[2.267s] Invoking command in '/home/orin/test_ws/src/build/detect_interfaces': /usr/local/bin/cmake --build /home/orin/test_ws/src/build/detect_interfaces -- -j12 -l12
+[2.809s] [  3%] Built target detect_interfaces__cpp
+[2.809s] [ 12%] Built target detect_interfaces__rosidl_generator_c
+[2.811s] [ 22%] Built target detect_interfaces__rosidl_typesupport_fastrtps_cpp
+[2.812s] [ 32%] Built target detect_interfaces__rosidl_typesupport_introspection_cpp
+[2.812s] [ 41%] Built target detect_interfaces__rosidl_typesupport_cpp
+[2.812s] [ 51%] Built target detect_interfaces__rosidl_typesupport_c
+[2.812s] [ 61%] Built target detect_interfaces__rosidl_typesupport_introspection_c
+[2.812s] [ 70%] Built target detect_interfaces__rosidl_typesupport_fastrtps_c
+[2.812s] [ 70%] Built target detect_interfaces
+[2.812s] [ 74%] Built target detect_interfaces__py
+[2.813s] [ 80%] Built target detect_interfaces__python
+[2.813s] [ 87%] Built target detect_interfaces__rosidl_typesupport_introspection_c__pyext
+[2.814s] [ 93%] Built target detect_interfaces__rosidl_typesupport_c__pyext
+[2.814s] [100%] Built target detect_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[2.954s] Invoked command in '/home/orin/test_ws/src/build/detect_interfaces' returned '0': /usr/local/bin/cmake --build /home/orin/test_ws/src/build/detect_interfaces -- -j12 -l12
+[2.961s] Invoking command in '/home/orin/test_ws/src/build/detect_interfaces': /usr/local/bin/cmake --install /home/orin/test_ws/src/build/detect_interfaces
+[3.119s] -- Install configuration: ""
+[3.119s] -- Up-to-date: /home/orin/test_ws/src/install/detect_interfaces/share/ament_index/resource_index/rosidl_interfaces/detect_interfaces
+[3.120s] -- Up-to-date: /home/orin/test_ws/src/install/detect_interfaces/include/detect_interfaces
+[3.120s] -- Up-to-date: /home/orin/test_ws/src/install/detect_interfaces/include/detect_interfaces/msg
+[3.121s] -- Up-to-date: /home/orin/test_ws/src/install/detect_interfaces/include/detect_interfaces/msg/rosidl_generator_c__visibility_control.h
+[3.121s] -- Up-to-date: /home/orin/test_ws/src/install/detect_interfaces/include/detect_interfaces/msg/detail
+[3.121s] -- Up-to-date: /home/orin/test_ws/src/install/detect_interfaces/include/detect_interfaces/msg/detail/bounding_box__functions.c
+[3.122s] -- Up-to-date: /home/orin/test_ws/src/install/detect_interfaces/include/detect_interfaces/msg/detail/bounding_box__functions.h
+[3.122s] -- Up-to-date: /home/orin/test_ws/src/install/detect_interfaces/include/detect_interfaces/msg/detail/bounding_box__type_support.h
+[3.122s] -- Up-to-date: /home/orin/test_ws/src/install/detect_interfaces/include/detect_interfaces/msg/detail/bounding_box__struct.h
+[3.123s] -- Up-to-date: /home/orin/test_ws/src/install/detect_interfaces/include/detect_interfaces/msg/bounding_box.h
+[3.124s] -- Up-to-date: /home/orin/test_ws/src/install/detect_interfaces/share/detect_interfaces/environment/library_path.sh
+[3.124s] -- Up-to-date: /home/orin/test_ws/src/install/detect_interfaces/share/detect_interfaces/environment/library_path.dsv
+[3.125s] -- Up-to-date: /home/orin/test_ws/src/install/detect_interfaces/lib/libdetect_interfaces__rosidl_generator_c.so
+[3.125s] -- Up-to-date: /home/orin/test_ws/src/install/detect_interfaces/include/detect_interfaces
+[3.125s] -- Up-to-date: /home/orin/test_ws/src/install/detect_interfaces/include/detect_interfaces/msg
+[3.126s] -- Up-to-date: /home/orin/test_ws/src/install/detect_interfaces/include/detect_interfaces/msg/detail
+[3.126s] -- Up-to-date: /home/orin/test_ws/src/install/detect_interfaces/include/detect_interfaces/msg/detail/bounding_box__rosidl_typesupport_fastrtps_c.h
+[3.126s] -- Up-to-date: /home/orin/test_ws/src/install/detect_interfaces/include/detect_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.126s] -- Up-to-date: /home/orin/test_ws/src/install/detect_interfaces/lib/libdetect_interfaces__rosidl_typesupport_fastrtps_c.so
+[3.127s] -- Up-to-date: /home/orin/test_ws/src/install/detect_interfaces/include/detect_interfaces
+[3.127s] -- Up-to-date: /home/orin/test_ws/src/install/detect_interfaces/include/detect_interfaces/msg
+[3.127s] -- Up-to-date: /home/orin/test_ws/src/install/detect_interfaces/include/detect_interfaces/msg/detail
+[3.127s] -- Up-to-date: /home/orin/test_ws/src/install/detect_interfaces/include/detect_interfaces/msg/detail/bounding_box__rosidl_typesupport_fastrtps_cpp.hpp
+[3.128s] -- Up-to-date: /home/orin/test_ws/src/install/detect_interfaces/include/detect_interfaces/msg/detail/dds_fastrtps
+[3.128s] -- Up-to-date: /home/orin/test_ws/src/install/detect_interfaces/include/detect_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.128s] -- Up-to-date: /home/orin/test_ws/src/install/detect_interfaces/lib/libdetect_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[3.128s] -- Up-to-date: /home/orin/test_ws/src/install/detect_interfaces/include/detect_interfaces
+[3.128s] -- Up-to-date: /home/orin/test_ws/src/install/detect_interfaces/include/detect_interfaces/msg
+[3.129s] -- Up-to-date: /home/orin/test_ws/src/install/detect_interfaces/include/detect_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.129s] -- Up-to-date: /home/orin/test_ws/src/install/detect_interfaces/include/detect_interfaces/msg/detail
+[3.129s] -- Up-to-date: /home/orin/test_ws/src/install/detect_interfaces/include/detect_interfaces/msg/detail/bounding_box__rosidl_typesupport_introspection_c.h
+[3.130s] -- Up-to-date: /home/orin/test_ws/src/install/detect_interfaces/include/detect_interfaces/msg/detail/bounding_box__type_support.c
+[3.130s] -- Up-to-date: /home/orin/test_ws/src/install/detect_interfaces/lib/libdetect_interfaces__rosidl_typesupport_introspection_c.so
+[3.130s] -- Up-to-date: /home/orin/test_ws/src/install/detect_interfaces/lib/libdetect_interfaces__rosidl_typesupport_c.so
+[3.132s] -- Up-to-date: /home/orin/test_ws/src/install/detect_interfaces/include/detect_interfaces
+[3.132s] -- Up-to-date: /home/orin/test_ws/src/install/detect_interfaces/include/detect_interfaces/msg
+[3.133s] -- Up-to-date: /home/orin/test_ws/src/install/detect_interfaces/include/detect_interfaces/msg/detail
+[3.133s] -- Up-to-date: /home/orin/test_ws/src/install/detect_interfaces/include/detect_interfaces/msg/detail/bounding_box__traits.hpp
+[3.133s] -- Up-to-date: /home/orin/test_ws/src/install/detect_interfaces/include/detect_interfaces/msg/detail/bounding_box__struct.hpp
+[3.133s] -- Up-to-date: /home/orin/test_ws/src/install/detect_interfaces/include/detect_interfaces/msg/detail/bounding_box__builder.hpp
+[3.134s] -- Up-to-date: /home/orin/test_ws/src/install/detect_interfaces/include/detect_interfaces/msg/detail/bounding_box__type_support.hpp
+[3.134s] -- Up-to-date: /home/orin/test_ws/src/install/detect_interfaces/include/detect_interfaces/msg/bounding_box.hpp
+[3.135s] -- Up-to-date: /home/orin/test_ws/src/install/detect_interfaces/include/detect_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[3.135s] -- Up-to-date: /home/orin/test_ws/src/install/detect_interfaces/include/detect_interfaces
+[3.135s] -- Up-to-date: /home/orin/test_ws/src/install/detect_interfaces/include/detect_interfaces/msg
+[3.135s] -- Up-to-date: /home/orin/test_ws/src/install/detect_interfaces/include/detect_interfaces/msg/detail
+[3.136s] -- Up-to-date: /home/orin/test_ws/src/install/detect_interfaces/include/detect_interfaces/msg/detail/bounding_box__rosidl_typesupport_introspection_cpp.hpp
+[3.136s] -- Up-to-date: /home/orin/test_ws/src/install/detect_interfaces/include/detect_interfaces/msg/detail/bounding_box__type_support.cpp
+[3.137s] -- Up-to-date: /home/orin/test_ws/src/install/detect_interfaces/lib/libdetect_interfaces__rosidl_typesupport_introspection_cpp.so
+[3.137s] -- Up-to-date: /home/orin/test_ws/src/install/detect_interfaces/lib/libdetect_interfaces__rosidl_typesupport_cpp.so
+[3.138s] -- Up-to-date: /home/orin/test_ws/src/install/detect_interfaces/share/detect_interfaces/environment/pythonpath.sh
+[3.138s] -- Up-to-date: /home/orin/test_ws/src/install/detect_interfaces/share/detect_interfaces/environment/pythonpath.dsv
+[3.138s] -- Up-to-date: /home/orin/test_ws/src/install/detect_interfaces/lib/python3.8/site-packages/detect_interfaces/__init__.py
+[3.195s] -- Up-to-date: /home/orin/test_ws/src/install/detect_interfaces/lib/python3.8/site-packages/detect_interfaces/msg
+[3.196s] -- Up-to-date: /home/orin/test_ws/src/install/detect_interfaces/lib/python3.8/site-packages/detect_interfaces/msg/_bounding_box_s.c
+[3.197s] -- Up-to-date: /home/orin/test_ws/src/install/detect_interfaces/lib/python3.8/site-packages/detect_interfaces/msg/__init__.py
+[3.197s] -- Up-to-date: /home/orin/test_ws/src/install/detect_interfaces/lib/python3.8/site-packages/detect_interfaces/msg/_bounding_box.py
+[3.198s] -- Up-to-date: /home/orin/test_ws/src/install/detect_interfaces/lib/python3.8/site-packages/detect_interfaces/detect_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so
+[3.199s] -- Up-to-date: /home/orin/test_ws/src/install/detect_interfaces/lib/python3.8/site-packages/detect_interfaces/detect_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so
+[3.199s] -- Up-to-date: /home/orin/test_ws/src/install/detect_interfaces/lib/python3.8/site-packages/detect_interfaces/detect_interfaces_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so
+[3.200s] -- Up-to-date: /home/orin/test_ws/src/install/detect_interfaces/lib/libdetect_interfaces__python.so
+[3.200s] -- Up-to-date: /home/orin/test_ws/src/install/detect_interfaces/share/detect_interfaces/msg/BoundingBox.idl
+[3.200s] -- Up-to-date: /home/orin/test_ws/src/install/detect_interfaces/share/detect_interfaces/msg/BoundingBox.msg
+[3.201s] -- Up-to-date: /home/orin/test_ws/src/install/detect_interfaces/share/ament_index/resource_index/package_run_dependencies/detect_interfaces
+[3.201s] -- Up-to-date: /home/orin/test_ws/src/install/detect_interfaces/share/ament_index/resource_index/parent_prefix_path/detect_interfaces
+[3.201s] -- Up-to-date: /home/orin/test_ws/src/install/detect_interfaces/share/detect_interfaces/environment/ament_prefix_path.sh
+[3.201s] -- Up-to-date: /home/orin/test_ws/src/install/detect_interfaces/share/detect_interfaces/environment/ament_prefix_path.dsv
+[3.201s] -- Up-to-date: /home/orin/test_ws/src/install/detect_interfaces/share/detect_interfaces/environment/path.sh
+[3.202s] -- Up-to-date: /home/orin/test_ws/src/install/detect_interfaces/share/detect_interfaces/environment/path.dsv
+[3.202s] -- Up-to-date: /home/orin/test_ws/src/install/detect_interfaces/share/detect_interfaces/local_setup.bash
+[3.202s] -- Up-to-date: /home/orin/test_ws/src/install/detect_interfaces/share/detect_interfaces/local_setup.sh
+[3.202s] -- Up-to-date: /home/orin/test_ws/src/install/detect_interfaces/share/detect_interfaces/local_setup.zsh
+[3.203s] -- Up-to-date: /home/orin/test_ws/src/install/detect_interfaces/share/detect_interfaces/local_setup.dsv
+[3.203s] -- Installing: /home/orin/test_ws/src/install/detect_interfaces/share/detect_interfaces/package.dsv
+[3.203s] -- Up-to-date: /home/orin/test_ws/src/install/detect_interfaces/share/ament_index/resource_index/packages/detect_interfaces
+[3.203s] -- Up-to-date: /home/orin/test_ws/src/install/detect_interfaces/share/detect_interfaces/cmake/detect_interfaces__rosidl_generator_cExport.cmake
+[3.204s] -- Up-to-date: /home/orin/test_ws/src/install/detect_interfaces/share/detect_interfaces/cmake/detect_interfaces__rosidl_generator_cExport-noconfig.cmake
+[3.204s] -- Up-to-date: /home/orin/test_ws/src/install/detect_interfaces/share/detect_interfaces/cmake/detect_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[3.205s] -- Up-to-date: /home/orin/test_ws/src/install/detect_interfaces/share/detect_interfaces/cmake/detect_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.210s] -- Up-to-date: /home/orin/test_ws/src/install/detect_interfaces/share/detect_interfaces/cmake/detect_interfaces__rosidl_typesupport_cExport.cmake
+[3.211s] -- Up-to-date: /home/orin/test_ws/src/install/detect_interfaces/share/detect_interfaces/cmake/detect_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[3.211s] -- Up-to-date: /home/orin/test_ws/src/install/detect_interfaces/share/detect_interfaces/cmake/detect_interfaces__rosidl_generator_cppExport.cmake
+[3.211s] -- Up-to-date: /home/orin/test_ws/src/install/detect_interfaces/share/detect_interfaces/cmake/detect_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[3.211s] -- Up-to-date: /home/orin/test_ws/src/install/detect_interfaces/share/detect_interfaces/cmake/detect_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.211s] -- Up-to-date: /home/orin/test_ws/src/install/detect_interfaces/share/detect_interfaces/cmake/detect_interfaces__rosidl_typesupport_cppExport.cmake
+[3.211s] -- Up-to-date: /home/orin/test_ws/src/install/detect_interfaces/share/detect_interfaces/cmake/detect_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[3.212s] -- Up-to-date: /home/orin/test_ws/src/install/detect_interfaces/share/detect_interfaces/cmake/rosidl_cmake-extras.cmake
+[3.212s] -- Up-to-date: /home/orin/test_ws/src/install/detect_interfaces/share/detect_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.214s] -- Up-to-date: /home/orin/test_ws/src/install/detect_interfaces/share/detect_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[3.214s] -- Up-to-date: /home/orin/test_ws/src/install/detect_interfaces/share/detect_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[3.215s] -- Up-to-date: /home/orin/test_ws/src/install/detect_interfaces/share/detect_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.216s] -- Up-to-date: /home/orin/test_ws/src/install/detect_interfaces/share/detect_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.216s] -- Up-to-date: /home/orin/test_ws/src/install/detect_interfaces/share/detect_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.216s] -- Up-to-date: /home/orin/test_ws/src/install/detect_interfaces/share/detect_interfaces/cmake/detect_interfacesConfig.cmake
+[3.217s] -- Up-to-date: /home/orin/test_ws/src/install/detect_interfaces/share/detect_interfaces/cmake/detect_interfacesConfig-version.cmake
+[3.219s] -- Up-to-date: /home/orin/test_ws/src/install/detect_interfaces/share/detect_interfaces/package.xml
+[3.477s] Invoked command in '/home/orin/test_ws/src/build/detect_interfaces' returned '0': /usr/local/bin/cmake --install /home/orin/test_ws/src/build/detect_interfaces

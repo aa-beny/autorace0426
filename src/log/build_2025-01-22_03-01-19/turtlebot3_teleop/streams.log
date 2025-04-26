@@ -1,0 +1,21 @@
+[5.451s] Invoking command in '/home/orin/test_ws/src/turtlebot3/turtlebot3_teleop': PYTHONPATH=/home/orin/test_ws/src/build/turtlebot3_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orin/test_ws/src/install/turtlebot3_teleop/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtlebot3_teleop build --build-base /home/orin/test_ws/src/build/turtlebot3_teleop/build install --record /home/orin/test_ws/src/build/turtlebot3_teleop/install.log --single-version-externally-managed install_data
+[6.003s] running egg_info
+[6.005s] writing ../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/PKG-INFO
+[6.006s] writing dependency_links to ../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/dependency_links.txt
+[6.006s] writing entry points to ../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/entry_points.txt
+[6.007s] writing requirements to ../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/requires.txt
+[6.007s] writing top-level names to ../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/top_level.txt
+[6.081s] reading manifest file '../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/SOURCES.txt'
+[6.083s] writing manifest file '../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/SOURCES.txt'
+[6.083s] running build
+[6.084s] running build_py
+[6.084s] running install
+[6.087s] running install_lib
+[6.091s] running install_data
+[6.091s] running install_egg_info
+[6.096s] removing '/home/orin/test_ws/src/install/turtlebot3_teleop/lib/python3.8/site-packages/turtlebot3_teleop-2.1.5-py3.8.egg-info' (and everything under it)
+[6.097s] Copying ../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info to /home/orin/test_ws/src/install/turtlebot3_teleop/lib/python3.8/site-packages/turtlebot3_teleop-2.1.5-py3.8.egg-info
+[6.099s] running install_scripts
+[6.145s] Installing teleop_keyboard script to /home/orin/test_ws/src/install/turtlebot3_teleop/lib/turtlebot3_teleop
+[6.146s] writing list of installed files to '/home/orin/test_ws/src/build/turtlebot3_teleop/install.log'
+[6.235s] Invoked command in '/home/orin/test_ws/src/turtlebot3/turtlebot3_teleop' returned '0': PYTHONPATH=/home/orin/test_ws/src/build/turtlebot3_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orin/test_ws/src/install/turtlebot3_teleop/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtlebot3_teleop build --build-base /home/orin/test_ws/src/build/turtlebot3_teleop/build install --record /home/orin/test_ws/src/build/turtlebot3_teleop/install.log --single-version-externally-managed install_data

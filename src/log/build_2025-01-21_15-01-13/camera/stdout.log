@@ -1,0 +1,55 @@
+running egg_info
+creating ../build/camera/camera.egg-info
+writing ../build/camera/camera.egg-info/PKG-INFO
+writing dependency_links to ../build/camera/camera.egg-info/dependency_links.txt
+writing entry points to ../build/camera/camera.egg-info/entry_points.txt
+writing requirements to ../build/camera/camera.egg-info/requires.txt
+writing top-level names to ../build/camera/camera.egg-info/top_level.txt
+writing manifest file '../build/camera/camera.egg-info/SOURCES.txt'
+reading manifest file '../build/camera/camera.egg-info/SOURCES.txt'
+writing manifest file '../build/camera/camera.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/orin/test_ws/src/build/camera/build
+creating /home/orin/test_ws/src/build/camera/build/lib
+creating /home/orin/test_ws/src/build/camera/build/lib/camera
+copying camera/take_image.py -> /home/orin/test_ws/src/build/camera/build/lib/camera
+copying camera/video_pub.py -> /home/orin/test_ws/src/build/camera/build/lib/camera
+copying camera/image_pub.py -> /home/orin/test_ws/src/build/camera/build/lib/camera
+copying camera/__init__.py -> /home/orin/test_ws/src/build/camera/build/lib/camera
+copying camera/camera.py -> /home/orin/test_ws/src/build/camera/build/lib/camera
+copying camera/H65_camera.py -> /home/orin/test_ws/src/build/camera/build/lib/camera
+copying camera/camera_compress.py -> /home/orin/test_ws/src/build/camera/build/lib/camera
+running install
+running install_lib
+creating /home/orin/test_ws/src/install/camera/lib/python3.8/site-packages/camera
+copying /home/orin/test_ws/src/build/camera/build/lib/camera/take_image.py -> /home/orin/test_ws/src/install/camera/lib/python3.8/site-packages/camera
+copying /home/orin/test_ws/src/build/camera/build/lib/camera/video_pub.py -> /home/orin/test_ws/src/install/camera/lib/python3.8/site-packages/camera
+copying /home/orin/test_ws/src/build/camera/build/lib/camera/image_pub.py -> /home/orin/test_ws/src/install/camera/lib/python3.8/site-packages/camera
+copying /home/orin/test_ws/src/build/camera/build/lib/camera/__init__.py -> /home/orin/test_ws/src/install/camera/lib/python3.8/site-packages/camera
+copying /home/orin/test_ws/src/build/camera/build/lib/camera/camera.py -> /home/orin/test_ws/src/install/camera/lib/python3.8/site-packages/camera
+copying /home/orin/test_ws/src/build/camera/build/lib/camera/H65_camera.py -> /home/orin/test_ws/src/install/camera/lib/python3.8/site-packages/camera
+copying /home/orin/test_ws/src/build/camera/build/lib/camera/camera_compress.py -> /home/orin/test_ws/src/install/camera/lib/python3.8/site-packages/camera
+byte-compiling /home/orin/test_ws/src/install/camera/lib/python3.8/site-packages/camera/take_image.py to take_image.cpython-38.pyc
+byte-compiling /home/orin/test_ws/src/install/camera/lib/python3.8/site-packages/camera/video_pub.py to video_pub.cpython-38.pyc
+byte-compiling /home/orin/test_ws/src/install/camera/lib/python3.8/site-packages/camera/image_pub.py to image_pub.cpython-38.pyc
+byte-compiling /home/orin/test_ws/src/install/camera/lib/python3.8/site-packages/camera/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/orin/test_ws/src/install/camera/lib/python3.8/site-packages/camera/camera.py to camera.cpython-38.pyc
+byte-compiling /home/orin/test_ws/src/install/camera/lib/python3.8/site-packages/camera/H65_camera.py to H65_camera.cpython-38.pyc
+byte-compiling /home/orin/test_ws/src/install/camera/lib/python3.8/site-packages/camera/camera_compress.py to camera_compress.cpython-38.pyc
+running install_data
+creating /home/orin/test_ws/src/install/camera/share/ament_index
+creating /home/orin/test_ws/src/install/camera/share/ament_index/resource_index
+creating /home/orin/test_ws/src/install/camera/share/ament_index/resource_index/packages
+copying resource/camera -> /home/orin/test_ws/src/install/camera/share/ament_index/resource_index/packages
+copying package.xml -> /home/orin/test_ws/src/install/camera/share/camera
+running install_egg_info
+Copying ../build/camera/camera.egg-info to /home/orin/test_ws/src/install/camera/lib/python3.8/site-packages/camera-0.0.0-py3.8.egg-info
+running install_scripts
+Installing H65_camera script to /home/orin/test_ws/src/install/camera/lib/camera
+Installing camera script to /home/orin/test_ws/src/install/camera/lib/camera
+Installing camera_compress script to /home/orin/test_ws/src/install/camera/lib/camera
+Installing image_pub script to /home/orin/test_ws/src/install/camera/lib/camera
+Installing take_image script to /home/orin/test_ws/src/install/camera/lib/camera
+Installing video_pub script to /home/orin/test_ws/src/install/camera/lib/camera
+writing list of installed files to '/home/orin/test_ws/src/build/camera/install.log'

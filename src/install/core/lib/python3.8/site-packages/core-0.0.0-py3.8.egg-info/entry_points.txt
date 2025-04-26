@@ -1,0 +1,4 @@
+[console_scripts]
+core = core.core:main
+navigation2 = core.navigation2:main
+

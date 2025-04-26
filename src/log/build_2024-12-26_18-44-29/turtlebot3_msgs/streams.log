@@ -1,0 +1,35 @@
+[0.182s] Invoking command in '/home/orin/test_ws/src/build/turtlebot3_msgs': /usr/bin/cmake /home/orin/test_ws/src/turtlebot3/turtlebot3_msgs -DCMAKE_INSTALL_PREFIX=/home/orin/test_ws/src/install/turtlebot3_msgs
+[2.638s] CMake Error at CMakeLists.txt:18 (find_package):
+[2.638s]   By not providing "Findaction_msgs.cmake" in CMAKE_MODULE_PATH this project
+[2.640s]   has asked CMake to find a package configuration file provided by
+[2.640s]   "action_msgs", but CMake did not find one.
+[2.640s] 
+[2.641s]   Could not find a package configuration file provided by "action_msgs" with
+[2.641s]   any of the following names:
+[2.644s] 
+[2.645s]     action_msgsConfig.cmake
+[2.645s]     action_msgs-config.cmake
+[2.645s] 
+[2.645s]   Add the installation prefix of "action_msgs" to CMAKE_PREFIX_PATH or set
+[2.645s]   "action_msgs_DIR" to a directory containing one of the above files.  If
+[2.645s]   "action_msgs" provides a separate development package or SDK, be sure it
+[2.645s]   has been installed.
+[2.645s] 
+[2.646s] 
+[2.647s] -- The C compiler identification is GNU 9.4.0
+[2.647s] -- The CXX compiler identification is GNU 9.4.0
+[2.648s] -- Check for working C compiler: /usr/bin/cc
+[2.648s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.649s] -- Detecting C compiler ABI info
+[2.653s] -- Detecting C compiler ABI info - done
+[2.653s] -- Detecting C compile features
+[2.653s] -- Detecting C compile features - done
+[2.653s] -- Check for working CXX compiler: /usr/bin/c++
+[2.653s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.653s] -- Detecting CXX compiler ABI info
+[2.654s] -- Detecting CXX compiler ABI info - done
+[2.654s] -- Detecting CXX compile features
+[2.654s] -- Detecting CXX compile features - done
+[2.654s] -- Configuring incomplete, errors occurred!
+[2.654s] See also "/home/orin/test_ws/src/build/turtlebot3_msgs/CMakeFiles/CMakeOutput.log".
+[2.756s] Invoked command in '/home/orin/test_ws/src/build/turtlebot3_msgs' returned '1': /usr/bin/cmake /home/orin/test_ws/src/turtlebot3/turtlebot3_msgs -DCMAKE_INSTALL_PREFIX=/home/orin/test_ws/src/install/turtlebot3_msgs

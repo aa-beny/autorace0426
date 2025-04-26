@@ -1,0 +1,41 @@
+[0.233s] Invoking command in '/home/orin/test_ws/src/build/dynamixel_sdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin/test_ws/src/install/turtlebot3_teleop:/home/orin/test_ws/src/install/turtlebot3_example:/home/orin/test_ws/src/install/object_detection:/home/orin/test_ws/src/install/nv2:/home/orin/test_ws/src/install/detect_lane:/home/orin/test_ws/src/install/core:/home/orin/test_ws/src/install/control:/home/orin/test_ws/src/install/camera:/opt/ros/foxy /usr/local/bin/cmake --build /home/orin/test_ws/src/build/dynamixel_sdk -- -j12 -l12
+[2.790s] [100%] Built target dynamixel_sdk
+[2.814s] Invoked command in '/home/orin/test_ws/src/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin/test_ws/src/install/turtlebot3_teleop:/home/orin/test_ws/src/install/turtlebot3_example:/home/orin/test_ws/src/install/object_detection:/home/orin/test_ws/src/install/nv2:/home/orin/test_ws/src/install/detect_lane:/home/orin/test_ws/src/install/core:/home/orin/test_ws/src/install/control:/home/orin/test_ws/src/install/camera:/opt/ros/foxy /usr/local/bin/cmake --build /home/orin/test_ws/src/build/dynamixel_sdk -- -j12 -l12
+[2.907s] Invoking command in '/home/orin/test_ws/src/build/dynamixel_sdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin/test_ws/src/install/turtlebot3_teleop:/home/orin/test_ws/src/install/turtlebot3_example:/home/orin/test_ws/src/install/object_detection:/home/orin/test_ws/src/install/nv2:/home/orin/test_ws/src/install/detect_lane:/home/orin/test_ws/src/install/core:/home/orin/test_ws/src/install/control:/home/orin/test_ws/src/install/camera:/opt/ros/foxy /usr/local/bin/cmake --install /home/orin/test_ws/src/build/dynamixel_sdk
+[2.991s] -- Install configuration: ""
+[2.992s] -- Up-to-date: /home/orin/test_ws/src/install/dynamixel_sdk/include/
+[2.992s] -- Up-to-date: /home/orin/test_ws/src/install/dynamixel_sdk/include//dynamixel_sdk
+[2.992s] -- Up-to-date: /home/orin/test_ws/src/install/dynamixel_sdk/include//dynamixel_sdk/group_sync_write.h
+[2.992s] -- Up-to-date: /home/orin/test_ws/src/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_windows.h
+[2.993s] -- Up-to-date: /home/orin/test_ws/src/install/dynamixel_sdk/include//dynamixel_sdk/protocol2_packet_handler.h
+[2.993s] -- Up-to-date: /home/orin/test_ws/src/install/dynamixel_sdk/include//dynamixel_sdk/dynamixel_sdk.h
+[2.994s] -- Up-to-date: /home/orin/test_ws/src/install/dynamixel_sdk/include//dynamixel_sdk/port_handler.h
+[2.994s] -- Up-to-date: /home/orin/test_ws/src/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_linux.h
+[2.994s] -- Up-to-date: /home/orin/test_ws/src/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_mac.h
+[2.994s] -- Up-to-date: /home/orin/test_ws/src/install/dynamixel_sdk/include//dynamixel_sdk/protocol1_packet_handler.h
+[2.994s] -- Up-to-date: /home/orin/test_ws/src/install/dynamixel_sdk/include//dynamixel_sdk/group_bulk_read.h
+[2.994s] -- Up-to-date: /home/orin/test_ws/src/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_arduino.h
+[2.995s] -- Up-to-date: /home/orin/test_ws/src/install/dynamixel_sdk/include//dynamixel_sdk/group_bulk_write.h
+[2.995s] -- Up-to-date: /home/orin/test_ws/src/install/dynamixel_sdk/include//dynamixel_sdk/group_sync_read.h
+[2.995s] -- Up-to-date: /home/orin/test_ws/src/install/dynamixel_sdk/include//dynamixel_sdk/packet_handler.h
+[2.995s] -- Up-to-date: /home/orin/test_ws/src/install/dynamixel_sdk/lib/libdynamixel_sdk.so
+[2.995s] -- Up-to-date: /home/orin/test_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/environment/library_path.sh
+[2.995s] -- Up-to-date: /home/orin/test_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/environment/library_path.dsv
+[2.996s] -- Up-to-date: /home/orin/test_ws/src/install/dynamixel_sdk/share/ament_index/resource_index/package_run_dependencies/dynamixel_sdk
+[2.996s] -- Up-to-date: /home/orin/test_ws/src/install/dynamixel_sdk/share/ament_index/resource_index/parent_prefix_path/dynamixel_sdk
+[2.996s] -- Up-to-date: /home/orin/test_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/environment/ament_prefix_path.sh
+[2.996s] -- Up-to-date: /home/orin/test_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/environment/ament_prefix_path.dsv
+[2.997s] -- Up-to-date: /home/orin/test_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/environment/path.sh
+[2.997s] -- Up-to-date: /home/orin/test_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/environment/path.dsv
+[2.998s] -- Up-to-date: /home/orin/test_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.bash
+[2.998s] -- Up-to-date: /home/orin/test_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.sh
+[2.998s] -- Up-to-date: /home/orin/test_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.zsh
+[2.998s] -- Up-to-date: /home/orin/test_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.dsv
+[2.998s] -- Installing: /home/orin/test_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/package.dsv
+[2.998s] -- Up-to-date: /home/orin/test_ws/src/install/dynamixel_sdk/share/ament_index/resource_index/packages/dynamixel_sdk
+[2.999s] -- Up-to-date: /home/orin/test_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.001s] -- Up-to-date: /home/orin/test_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/cmake/ament_cmake_export_libraries-extras.cmake
+[3.001s] -- Up-to-date: /home/orin/test_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkConfig.cmake
+[3.002s] -- Up-to-date: /home/orin/test_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkConfig-version.cmake
+[3.002s] -- Up-to-date: /home/orin/test_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/package.xml
+[3.361s] Invoked command in '/home/orin/test_ws/src/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin/test_ws/src/install/turtlebot3_teleop:/home/orin/test_ws/src/install/turtlebot3_example:/home/orin/test_ws/src/install/object_detection:/home/orin/test_ws/src/install/nv2:/home/orin/test_ws/src/install/detect_lane:/home/orin/test_ws/src/install/core:/home/orin/test_ws/src/install/control:/home/orin/test_ws/src/install/camera:/opt/ros/foxy /usr/local/bin/cmake --install /home/orin/test_ws/src/build/dynamixel_sdk

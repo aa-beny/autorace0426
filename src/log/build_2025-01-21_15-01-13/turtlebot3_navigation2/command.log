@@ -1,0 +1,6 @@
+Invoking command in '/home/orin/test_ws/src/build/turtlebot3_navigation2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/local/bin/cmake /home/orin/test_ws/src/turtlebot3/turtlebot3_navigation2 -DCMAKE_INSTALL_PREFIX=/home/orin/test_ws/src/install/turtlebot3_navigation2
+Invoked command in '/home/orin/test_ws/src/build/turtlebot3_navigation2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/local/bin/cmake /home/orin/test_ws/src/turtlebot3/turtlebot3_navigation2 -DCMAKE_INSTALL_PREFIX=/home/orin/test_ws/src/install/turtlebot3_navigation2
+Invoking command in '/home/orin/test_ws/src/build/turtlebot3_navigation2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/local/bin/cmake --build /home/orin/test_ws/src/build/turtlebot3_navigation2 -- -j12 -l12
+Invoked command in '/home/orin/test_ws/src/build/turtlebot3_navigation2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/local/bin/cmake --build /home/orin/test_ws/src/build/turtlebot3_navigation2 -- -j12 -l12
+Invoking command in '/home/orin/test_ws/src/build/turtlebot3_navigation2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/local/bin/cmake --install /home/orin/test_ws/src/build/turtlebot3_navigation2
+Invoked command in '/home/orin/test_ws/src/build/turtlebot3_navigation2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/local/bin/cmake --install /home/orin/test_ws/src/build/turtlebot3_navigation2

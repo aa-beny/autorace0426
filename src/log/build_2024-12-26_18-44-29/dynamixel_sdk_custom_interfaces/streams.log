@@ -1,0 +1,35 @@
+[0.181s] Invoking command in '/home/orin/test_ws/src/build/dynamixel_sdk_custom_interfaces': /usr/bin/cmake /home/orin/test_ws/src/utils/DynamixelSDK/dynamixel_sdk_custom_interfaces -DCMAKE_INSTALL_PREFIX=/home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces
+[2.650s] CMake Error at CMakeLists.txt:14 (find_package):
+[2.651s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[2.651s]   has asked CMake to find a package configuration file provided by
+[2.651s]   "ament_cmake", but CMake did not find one.
+[2.652s] 
+[2.652s]   Could not find a package configuration file provided by "ament_cmake" with
+[2.652s]   any of the following names:
+[2.653s] 
+[2.656s]     ament_cmakeConfig.cmake
+[2.657s]     ament_cmake-config.cmake
+[2.657s] 
+[2.658s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[2.659s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[2.659s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[2.660s]   has been installed.
+[2.660s] 
+[2.663s] 
+[2.666s] -- The C compiler identification is GNU 9.4.0
+[2.666s] -- The CXX compiler identification is GNU 9.4.0
+[2.667s] -- Check for working C compiler: /usr/bin/cc
+[2.668s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.668s] -- Detecting C compiler ABI info
+[2.669s] -- Detecting C compiler ABI info - done
+[2.670s] -- Detecting C compile features
+[2.670s] -- Detecting C compile features - done
+[2.670s] -- Check for working CXX compiler: /usr/bin/c++
+[2.671s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.671s] -- Detecting CXX compiler ABI info
+[2.671s] -- Detecting CXX compiler ABI info - done
+[2.671s] -- Detecting CXX compile features
+[2.673s] -- Detecting CXX compile features - done
+[2.673s] -- Configuring incomplete, errors occurred!
+[2.674s] See also "/home/orin/test_ws/src/build/dynamixel_sdk_custom_interfaces/CMakeFiles/CMakeOutput.log".
+[2.740s] Invoked command in '/home/orin/test_ws/src/build/dynamixel_sdk_custom_interfaces' returned '1': /usr/bin/cmake /home/orin/test_ws/src/utils/DynamixelSDK/dynamixel_sdk_custom_interfaces -DCMAKE_INSTALL_PREFIX=/home/orin/test_ws/src/install/dynamixel_sdk_custom_interfaces

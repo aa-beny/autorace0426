@@ -1,0 +1,67 @@
+running egg_info
+creating ../build/control/control.egg-info
+writing ../build/control/control.egg-info/PKG-INFO
+writing dependency_links to ../build/control/control.egg-info/dependency_links.txt
+writing entry points to ../build/control/control.egg-info/entry_points.txt
+writing requirements to ../build/control/control.egg-info/requires.txt
+writing top-level names to ../build/control/control.egg-info/top_level.txt
+writing manifest file '../build/control/control.egg-info/SOURCES.txt'
+reading manifest file '../build/control/control.egg-info/SOURCES.txt'
+writing manifest file '../build/control/control.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/orin/test_ws/src/build/control/build
+creating /home/orin/test_ws/src/build/control/build/lib
+creating /home/orin/test_ws/src/build/control/build/lib/control
+copying control/control_avoidance_v2_test.py -> /home/orin/test_ws/src/build/control/build/lib/control
+copying control/control_pack.py -> /home/orin/test_ws/src/build/control/build/lib/control
+copying control/control_avoidance_v2.py -> /home/orin/test_ws/src/build/control/build/lib/control
+copying control/__init__.py -> /home/orin/test_ws/src/build/control/build/lib/control
+copying control/control_auto_avoidance.py -> /home/orin/test_ws/src/build/control/build/lib/control
+copying control/control_lane.py -> /home/orin/test_ws/src/build/control/build/lib/control
+copying control/navigation_controller.py -> /home/orin/test_ws/src/build/control/build/lib/control
+copying control/control_avoidance.py -> /home/orin/test_ws/src/build/control/build/lib/control
+copying control/control_pack_v2.py -> /home/orin/test_ws/src/build/control/build/lib/control
+running install
+running install_lib
+creating /home/orin/test_ws/src/install/control/lib/python3.8/site-packages/control
+copying /home/orin/test_ws/src/build/control/build/lib/control/control_avoidance_v2_test.py -> /home/orin/test_ws/src/install/control/lib/python3.8/site-packages/control
+copying /home/orin/test_ws/src/build/control/build/lib/control/control_pack.py -> /home/orin/test_ws/src/install/control/lib/python3.8/site-packages/control
+copying /home/orin/test_ws/src/build/control/build/lib/control/control_avoidance_v2.py -> /home/orin/test_ws/src/install/control/lib/python3.8/site-packages/control
+copying /home/orin/test_ws/src/build/control/build/lib/control/__init__.py -> /home/orin/test_ws/src/install/control/lib/python3.8/site-packages/control
+copying /home/orin/test_ws/src/build/control/build/lib/control/control_auto_avoidance.py -> /home/orin/test_ws/src/install/control/lib/python3.8/site-packages/control
+copying /home/orin/test_ws/src/build/control/build/lib/control/control_lane.py -> /home/orin/test_ws/src/install/control/lib/python3.8/site-packages/control
+copying /home/orin/test_ws/src/build/control/build/lib/control/navigation_controller.py -> /home/orin/test_ws/src/install/control/lib/python3.8/site-packages/control
+copying /home/orin/test_ws/src/build/control/build/lib/control/control_avoidance.py -> /home/orin/test_ws/src/install/control/lib/python3.8/site-packages/control
+copying /home/orin/test_ws/src/build/control/build/lib/control/control_pack_v2.py -> /home/orin/test_ws/src/install/control/lib/python3.8/site-packages/control
+byte-compiling /home/orin/test_ws/src/install/control/lib/python3.8/site-packages/control/control_avoidance_v2_test.py to control_avoidance_v2_test.cpython-38.pyc
+byte-compiling /home/orin/test_ws/src/install/control/lib/python3.8/site-packages/control/control_pack.py to control_pack.cpython-38.pyc
+byte-compiling /home/orin/test_ws/src/install/control/lib/python3.8/site-packages/control/control_avoidance_v2.py to control_avoidance_v2.cpython-38.pyc
+byte-compiling /home/orin/test_ws/src/install/control/lib/python3.8/site-packages/control/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/orin/test_ws/src/install/control/lib/python3.8/site-packages/control/control_auto_avoidance.py to control_auto_avoidance.cpython-38.pyc
+byte-compiling /home/orin/test_ws/src/install/control/lib/python3.8/site-packages/control/control_lane.py to control_lane.cpython-38.pyc
+byte-compiling /home/orin/test_ws/src/install/control/lib/python3.8/site-packages/control/navigation_controller.py to navigation_controller.cpython-38.pyc
+byte-compiling /home/orin/test_ws/src/install/control/lib/python3.8/site-packages/control/control_avoidance.py to control_avoidance.cpython-38.pyc
+byte-compiling /home/orin/test_ws/src/install/control/lib/python3.8/site-packages/control/control_pack_v2.py to control_pack_v2.cpython-38.pyc
+running install_data
+creating /home/orin/test_ws/src/install/control/share/ament_index
+creating /home/orin/test_ws/src/install/control/share/ament_index/resource_index
+creating /home/orin/test_ws/src/install/control/share/ament_index/resource_index/packages
+copying resource/control -> /home/orin/test_ws/src/install/control/share/ament_index/resource_index/packages
+copying package.xml -> /home/orin/test_ws/src/install/control/share/control
+creating /home/orin/test_ws/src/install/control/share/control/launch
+copying launch/avoidance_launch.py -> /home/orin/test_ws/src/install/control/share/control/launch
+copying launch/parking_launch.py -> /home/orin/test_ws/src/install/control/share/control/launch
+creating /home/orin/test_ws/src/install/control/share/control/config
+running install_egg_info
+Copying ../build/control/control.egg-info to /home/orin/test_ws/src/install/control/lib/python3.8/site-packages/control-0.0.0-py3.8.egg-info
+running install_scripts
+Installing control_auto_avoidance script to /home/orin/test_ws/src/install/control/lib/control
+Installing control_avoidance script to /home/orin/test_ws/src/install/control/lib/control
+Installing control_avoidance_2 script to /home/orin/test_ws/src/install/control/lib/control
+Installing control_avoidance_v2_test script to /home/orin/test_ws/src/install/control/lib/control
+Installing control_lane script to /home/orin/test_ws/src/install/control/lib/control
+Installing control_pack script to /home/orin/test_ws/src/install/control/lib/control
+Installing control_pack_2 script to /home/orin/test_ws/src/install/control/lib/control
+Installing navigation_controller script to /home/orin/test_ws/src/install/control/lib/control
+writing list of installed files to '/home/orin/test_ws/src/build/control/install.log'

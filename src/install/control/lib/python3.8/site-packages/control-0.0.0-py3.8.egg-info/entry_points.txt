@@ -1,0 +1,10 @@
+[console_scripts]
+control_auto_avoidance = control.control_auto_avoidance:main
+control_avoidance = control.control_avoidance:main
+control_avoidance_2 = control.control_avoidance_v2:main
+control_avoidance_v2_test = control.control_avoidance_v2_test:main
+control_lane = control.control_lane:main
+control_pack = control.control_pack:main
+control_pack_2 = control.control_pack_v2:main
+navigation_controller = control.navigation_controller:main
+

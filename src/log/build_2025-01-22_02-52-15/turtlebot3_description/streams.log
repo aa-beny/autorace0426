@@ -1,0 +1,41 @@
+[0.211s] Invoking command in '/home/orin/test_ws/src/build/turtlebot3_description': /usr/local/bin/cmake --build /home/orin/test_ws/src/build/turtlebot3_description -- -j12 -l12
+[3.054s] Invoked command in '/home/orin/test_ws/src/build/turtlebot3_description' returned '0': /usr/local/bin/cmake --build /home/orin/test_ws/src/build/turtlebot3_description -- -j12 -l12
+[3.061s] Invoking command in '/home/orin/test_ws/src/build/turtlebot3_description': /usr/local/bin/cmake --install /home/orin/test_ws/src/build/turtlebot3_description
+[3.167s] -- Install configuration: ""
+[3.172s] -- Up-to-date: /home/orin/test_ws/src/install/turtlebot3_description/share/turtlebot3_description/meshes
+[3.177s] -- Up-to-date: /home/orin/test_ws/src/install/turtlebot3_description/share/turtlebot3_description/meshes/wheels
+[3.177s] -- Up-to-date: /home/orin/test_ws/src/install/turtlebot3_description/share/turtlebot3_description/meshes/wheels/left_tire.stl
+[3.177s] -- Up-to-date: /home/orin/test_ws/src/install/turtlebot3_description/share/turtlebot3_description/meshes/wheels/right_tire.stl
+[3.177s] -- Up-to-date: /home/orin/test_ws/src/install/turtlebot3_description/share/turtlebot3_description/meshes/bases
+[3.179s] -- Up-to-date: /home/orin/test_ws/src/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_pi_base.stl
+[3.183s] -- Up-to-date: /home/orin/test_ws/src/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/burger_base.stl
+[3.185s] -- Up-to-date: /home/orin/test_ws/src/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_base.stl
+[3.185s] -- Up-to-date: /home/orin/test_ws/src/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors
+[3.186s] -- Up-to-date: /home/orin/test_ws/src/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/astra.jpg
+[3.187s] -- Up-to-date: /home/orin/test_ws/src/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/lds.stl
+[3.187s] -- Up-to-date: /home/orin/test_ws/src/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/astra.dae
+[3.188s] -- Up-to-date: /home/orin/test_ws/src/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/r200.jpg
+[3.188s] -- Up-to-date: /home/orin/test_ws/src/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/r200.dae
+[3.188s] -- Up-to-date: /home/orin/test_ws/src/install/turtlebot3_description/share/turtlebot3_description/rviz
+[3.189s] -- Up-to-date: /home/orin/test_ws/src/install/turtlebot3_description/share/turtlebot3_description/rviz/model.rviz
+[3.189s] -- Up-to-date: /home/orin/test_ws/src/install/turtlebot3_description/share/turtlebot3_description/urdf
+[3.190s] -- Up-to-date: /home/orin/test_ws/src/install/turtlebot3_description/share/turtlebot3_description/urdf/turtlebot3_waffle.urdf
+[3.190s] -- Up-to-date: /home/orin/test_ws/src/install/turtlebot3_description/share/turtlebot3_description/urdf/turtlebot3_burger.urdf
+[3.190s] -- Up-to-date: /home/orin/test_ws/src/install/turtlebot3_description/share/turtlebot3_description/urdf/turtlebot3_waffle_pi.urdf
+[3.191s] -- Up-to-date: /home/orin/test_ws/src/install/turtlebot3_description/share/turtlebot3_description/urdf/common_properties.urdf
+[3.192s] -- Up-to-date: /home/orin/test_ws/src/install/turtlebot3_description/share/ament_index/resource_index/package_run_dependencies/turtlebot3_description
+[3.192s] -- Up-to-date: /home/orin/test_ws/src/install/turtlebot3_description/share/ament_index/resource_index/parent_prefix_path/turtlebot3_description
+[3.192s] -- Up-to-date: /home/orin/test_ws/src/install/turtlebot3_description/share/turtlebot3_description/environment/ament_prefix_path.sh
+[3.192s] -- Up-to-date: /home/orin/test_ws/src/install/turtlebot3_description/share/turtlebot3_description/environment/ament_prefix_path.dsv
+[3.196s] -- Up-to-date: /home/orin/test_ws/src/install/turtlebot3_description/share/turtlebot3_description/environment/path.sh
+[3.197s] -- Up-to-date: /home/orin/test_ws/src/install/turtlebot3_description/share/turtlebot3_description/environment/path.dsv
+[3.197s] -- Up-to-date: /home/orin/test_ws/src/install/turtlebot3_description/share/turtlebot3_description/local_setup.bash
+[3.198s] -- Up-to-date: /home/orin/test_ws/src/install/turtlebot3_description/share/turtlebot3_description/local_setup.sh
+[3.206s] -- Up-to-date: /home/orin/test_ws/src/install/turtlebot3_description/share/turtlebot3_description/local_setup.zsh
+[3.206s] -- Up-to-date: /home/orin/test_ws/src/install/turtlebot3_description/share/turtlebot3_description/local_setup.dsv
+[3.206s] -- Installing: /home/orin/test_ws/src/install/turtlebot3_description/share/turtlebot3_description/package.dsv
+[3.206s] -- Up-to-date: /home/orin/test_ws/src/install/turtlebot3_description/share/ament_index/resource_index/packages/turtlebot3_description
+[3.206s] -- Up-to-date: /home/orin/test_ws/src/install/turtlebot3_description/share/turtlebot3_description/cmake/turtlebot3_descriptionConfig.cmake
+[3.207s] -- Up-to-date: /home/orin/test_ws/src/install/turtlebot3_description/share/turtlebot3_description/cmake/turtlebot3_descriptionConfig-version.cmake
+[3.207s] -- Up-to-date: /home/orin/test_ws/src/install/turtlebot3_description/share/turtlebot3_description/package.xml
+[3.369s] Invoked command in '/home/orin/test_ws/src/build/turtlebot3_description' returned '0': /usr/local/bin/cmake --install /home/orin/test_ws/src/build/turtlebot3_description

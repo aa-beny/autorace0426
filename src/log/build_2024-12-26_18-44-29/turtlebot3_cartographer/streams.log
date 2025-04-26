@@ -1,0 +1,35 @@
+[0.179s] Invoking command in '/home/orin/test_ws/src/build/turtlebot3_cartographer': /usr/bin/cmake /home/orin/test_ws/src/turtlebot3/turtlebot3_cartographer -DCMAKE_INSTALL_PREFIX=/home/orin/test_ws/src/install/turtlebot3_cartographer
+[2.665s] CMake Error at CMakeLists.txt:14 (find_package):
+[2.666s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[2.666s]   has asked CMake to find a package configuration file provided by
+[2.666s]   "ament_cmake", but CMake did not find one.
+[2.667s] 
+[2.668s]   Could not find a package configuration file provided by "ament_cmake" with
+[2.669s]   any of the following names:
+[2.669s] 
+[2.669s]     ament_cmakeConfig.cmake
+[2.674s]     ament_cmake-config.cmake
+[2.675s] 
+[2.675s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[2.675s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[2.675s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[2.675s]   has been installed.
+[2.675s] 
+[2.675s] 
+[2.696s] -- The C compiler identification is GNU 9.4.0
+[2.696s] -- The CXX compiler identification is GNU 9.4.0
+[2.696s] -- Check for working C compiler: /usr/bin/cc
+[2.696s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.696s] -- Detecting C compiler ABI info
+[2.696s] -- Detecting C compiler ABI info - done
+[2.696s] -- Detecting C compile features
+[2.697s] -- Detecting C compile features - done
+[2.697s] -- Check for working CXX compiler: /usr/bin/c++
+[2.697s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.697s] -- Detecting CXX compiler ABI info
+[2.697s] -- Detecting CXX compiler ABI info - done
+[2.697s] -- Detecting CXX compile features
+[2.698s] -- Detecting CXX compile features - done
+[2.699s] -- Configuring incomplete, errors occurred!
+[2.699s] See also "/home/orin/test_ws/src/build/turtlebot3_cartographer/CMakeFiles/CMakeOutput.log".
+[2.737s] Invoked command in '/home/orin/test_ws/src/build/turtlebot3_cartographer' returned '1': /usr/bin/cmake /home/orin/test_ws/src/turtlebot3/turtlebot3_cartographer -DCMAKE_INSTALL_PREFIX=/home/orin/test_ws/src/install/turtlebot3_cartographer

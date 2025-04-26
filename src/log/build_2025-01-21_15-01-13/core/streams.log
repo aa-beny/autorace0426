@@ -1,0 +1,42 @@
+[5.536s] Invoking command in '/home/orin/test_ws/src/core': PYTHONPATH=/home/orin/test_ws/src/build/core/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orin/test_ws/src/install/core/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/core build --build-base /home/orin/test_ws/src/build/core/build install --record /home/orin/test_ws/src/build/core/install.log --single-version-externally-managed install_data
+[6.260s] running egg_info
+[6.261s] creating ../build/core/core.egg-info
+[6.262s] writing ../build/core/core.egg-info/PKG-INFO
+[6.263s] writing dependency_links to ../build/core/core.egg-info/dependency_links.txt
+[6.263s] writing entry points to ../build/core/core.egg-info/entry_points.txt
+[6.264s] writing requirements to ../build/core/core.egg-info/requires.txt
+[6.264s] writing top-level names to ../build/core/core.egg-info/top_level.txt
+[6.268s] writing manifest file '../build/core/core.egg-info/SOURCES.txt'
+[6.446s] reading manifest file '../build/core/core.egg-info/SOURCES.txt'
+[6.468s] writing manifest file '../build/core/core.egg-info/SOURCES.txt'
+[6.469s] running build
+[6.469s] running build_py
+[6.470s] creating /home/orin/test_ws/src/build/core/build
+[6.471s] creating /home/orin/test_ws/src/build/core/build/lib
+[6.471s] creating /home/orin/test_ws/src/build/core/build/lib/core
+[6.472s] copying core/__init__.py -> /home/orin/test_ws/src/build/core/build/lib/core
+[6.473s] copying core/core.py -> /home/orin/test_ws/src/build/core/build/lib/core
+[6.474s] running install
+[6.476s] running install_lib
+[6.480s] creating /home/orin/test_ws/src/install/core/lib/python3.8/site-packages/core
+[6.480s] copying /home/orin/test_ws/src/build/core/build/lib/core/__init__.py -> /home/orin/test_ws/src/install/core/lib/python3.8/site-packages/core
+[6.481s] copying /home/orin/test_ws/src/build/core/build/lib/core/core.py -> /home/orin/test_ws/src/install/core/lib/python3.8/site-packages/core
+[6.484s] byte-compiling /home/orin/test_ws/src/install/core/lib/python3.8/site-packages/core/__init__.py to __init__.cpython-38.pyc
+[6.489s] byte-compiling /home/orin/test_ws/src/install/core/lib/python3.8/site-packages/core/core.py to core.cpython-38.pyc
+[6.498s] running install_data
+[6.501s] creating /home/orin/test_ws/src/install/core/share/ament_index
+[6.508s] creating /home/orin/test_ws/src/install/core/share/ament_index/resource_index
+[6.509s] creating /home/orin/test_ws/src/install/core/share/ament_index/resource_index/packages
+[6.510s] copying resource/core -> /home/orin/test_ws/src/install/core/share/ament_index/resource_index/packages
+[6.511s] copying package.xml -> /home/orin/test_ws/src/install/core/share/core
+[6.512s] creating /home/orin/test_ws/src/install/core/share/core/launch
+[6.513s] copying launch/calibration_launch.py -> /home/orin/test_ws/src/install/core/share/core/launch
+[6.518s] copying launch/core_launch.py -> /home/orin/test_ws/src/install/core/share/core/launch
+[6.525s] creating /home/orin/test_ws/src/install/core/share/core/config
+[6.525s] running install_egg_info
+[6.534s] Copying ../build/core/core.egg-info to /home/orin/test_ws/src/install/core/lib/python3.8/site-packages/core-0.0.0-py3.8.egg-info
+[6.547s] running install_scripts
+[6.639s] Installing core script to /home/orin/test_ws/src/install/core/lib/core
+[6.640s] Installing navigation2 script to /home/orin/test_ws/src/install/core/lib/core
+[6.640s] writing list of installed files to '/home/orin/test_ws/src/build/core/install.log'
+[6.848s] Invoked command in '/home/orin/test_ws/src/core' returned '0': PYTHONPATH=/home/orin/test_ws/src/build/core/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orin/test_ws/src/install/core/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/core build --build-base /home/orin/test_ws/src/build/core/build install --record /home/orin/test_ws/src/build/core/install.log --single-version-externally-managed install_data

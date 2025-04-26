@@ -1,0 +1,26 @@
+[5.263s] Invoking command in '/home/orin/test_ws/src/detect/detect_lane': PYTHONPATH=/home/orin/test_ws/src/build/detect_lane/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orin/test_ws/src/install/detect_lane/lib/python3.8/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/detect_lane build --build-base /home/orin/test_ws/src/build/detect_lane/build install --record /home/orin/test_ws/src/build/detect_lane/install.log --single-version-externally-managed install_data
+[5.765s] running egg_info
+[5.768s] writing ../../build/detect_lane/detect_lane.egg-info/PKG-INFO
+[5.769s] writing dependency_links to ../../build/detect_lane/detect_lane.egg-info/dependency_links.txt
+[5.771s] writing entry points to ../../build/detect_lane/detect_lane.egg-info/entry_points.txt
+[5.771s] writing requirements to ../../build/detect_lane/detect_lane.egg-info/requires.txt
+[5.771s] writing top-level names to ../../build/detect_lane/detect_lane.egg-info/top_level.txt
+[5.847s] reading manifest file '../../build/detect_lane/detect_lane.egg-info/SOURCES.txt'
+[5.850s] writing manifest file '../../build/detect_lane/detect_lane.egg-info/SOURCES.txt'
+[5.851s] running build
+[5.851s] running build_py
+[5.853s] running install
+[5.855s] running install_lib
+[5.863s] running install_data
+[5.875s] running install_egg_info
+[5.881s] removing '/home/orin/test_ws/src/install/detect_lane/lib/python3.8/site-packages/detect_lane-0.0.0-py3.8.egg-info' (and everything under it)
+[5.884s] Copying ../../build/detect_lane/detect_lane.egg-info to /home/orin/test_ws/src/install/detect_lane/lib/python3.8/site-packages/detect_lane-0.0.0-py3.8.egg-info
+[5.897s] running install_scripts
+[5.976s] Installing detect_lane script to /home/orin/test_ws/src/install/detect_lane/lib/detect_lane
+[5.978s] Installing detect_parking_grid script to /home/orin/test_ws/src/install/detect_lane/lib/detect_lane
+[5.983s] Installing detect_traffic script to /home/orin/test_ws/src/install/detect_lane/lib/detect_lane
+[5.984s] Installing hsv_param_adjustment script to /home/orin/test_ws/src/install/detect_lane/lib/detect_lane
+[5.985s] Installing hsv_traffic_light script to /home/orin/test_ws/src/install/detect_lane/lib/detect_lane
+[5.985s] Installing key_pub_signs script to /home/orin/test_ws/src/install/detect_lane/lib/detect_lane
+[5.985s] writing list of installed files to '/home/orin/test_ws/src/build/detect_lane/install.log'
+[6.070s] Invoked command in '/home/orin/test_ws/src/detect/detect_lane' returned '0': PYTHONPATH=/home/orin/test_ws/src/build/detect_lane/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orin/test_ws/src/install/detect_lane/lib/python3.8/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/detect_lane build --build-base /home/orin/test_ws/src/build/detect_lane/build install --record /home/orin/test_ws/src/build/detect_lane/install.log --single-version-externally-managed install_data

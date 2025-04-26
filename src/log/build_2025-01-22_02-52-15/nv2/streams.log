@@ -1,0 +1,22 @@
+[3.059s] Invoking command in '/home/orin/test_ws/src/nv2': PYTHONPATH=/home/orin/test_ws/src/build/nv2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orin/test_ws/src/install/nv2/lib/python3.8/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/nv2 build --build-base /home/orin/test_ws/src/build/nv2/build install --record /home/orin/test_ws/src/build/nv2/install.log --single-version-externally-managed install_data
+[3.531s] running egg_info
+[3.532s] writing ../build/nv2/nv2.egg-info/PKG-INFO
+[3.533s] writing dependency_links to ../build/nv2/nv2.egg-info/dependency_links.txt
+[3.533s] writing entry points to ../build/nv2/nv2.egg-info/entry_points.txt
+[3.533s] writing requirements to ../build/nv2/nv2.egg-info/requires.txt
+[3.534s] writing top-level names to ../build/nv2/nv2.egg-info/top_level.txt
+[3.605s] reading manifest file '../build/nv2/nv2.egg-info/SOURCES.txt'
+[3.607s] writing manifest file '../build/nv2/nv2.egg-info/SOURCES.txt'
+[3.607s] running build
+[3.607s] running build_py
+[3.609s] running install
+[3.612s] running install_lib
+[3.616s] running install_data
+[3.617s] running install_egg_info
+[3.621s] removing '/home/orin/test_ws/src/install/nv2/lib/python3.8/site-packages/nv2-0.0.0-py3.8.egg-info' (and everything under it)
+[3.622s] Copying ../build/nv2/nv2.egg-info to /home/orin/test_ws/src/install/nv2/lib/python3.8/site-packages/nv2-0.0.0-py3.8.egg-info
+[3.624s] running install_scripts
+[3.666s] Installing example_follow_path script to /home/orin/test_ws/src/install/nv2/lib/nv2
+[3.667s] Installing navigation script to /home/orin/test_ws/src/install/nv2/lib/nv2
+[3.669s] writing list of installed files to '/home/orin/test_ws/src/build/nv2/install.log'
+[3.741s] Invoked command in '/home/orin/test_ws/src/nv2' returned '0': PYTHONPATH=/home/orin/test_ws/src/build/nv2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orin/test_ws/src/install/nv2/lib/python3.8/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/nv2 build --build-base /home/orin/test_ws/src/build/nv2/build install --record /home/orin/test_ws/src/build/nv2/install.log --single-version-externally-managed install_data

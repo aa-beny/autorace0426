@@ -1,0 +1,31 @@
+[0.216s] Invoking command in '/home/orin/test_ws/src/build/turtlebot3_navigation2': /usr/local/bin/cmake --build /home/orin/test_ws/src/build/turtlebot3_navigation2 -- -j12 -l12
+[3.059s] Invoked command in '/home/orin/test_ws/src/build/turtlebot3_navigation2' returned '0': /usr/local/bin/cmake --build /home/orin/test_ws/src/build/turtlebot3_navigation2 -- -j12 -l12
+[3.065s] Invoking command in '/home/orin/test_ws/src/build/turtlebot3_navigation2': /usr/local/bin/cmake --install /home/orin/test_ws/src/build/turtlebot3_navigation2
+[3.220s] -- Install configuration: ""
+[3.221s] -- Up-to-date: /home/orin/test_ws/src/install/turtlebot3_navigation2/share/turtlebot3_navigation2/launch
+[3.221s] -- Up-to-date: /home/orin/test_ws/src/install/turtlebot3_navigation2/share/turtlebot3_navigation2/launch/navigation2.launch.py
+[3.221s] -- Up-to-date: /home/orin/test_ws/src/install/turtlebot3_navigation2/share/turtlebot3_navigation2/map
+[3.222s] -- Up-to-date: /home/orin/test_ws/src/install/turtlebot3_navigation2/share/turtlebot3_navigation2/map/map.pgm
+[3.222s] -- Up-to-date: /home/orin/test_ws/src/install/turtlebot3_navigation2/share/turtlebot3_navigation2/map/map.yaml
+[3.222s] -- Up-to-date: /home/orin/test_ws/src/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param
+[3.222s] -- Up-to-date: /home/orin/test_ws/src/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/waffle.yaml
+[3.223s] -- Up-to-date: /home/orin/test_ws/src/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/waffle_pi.yaml
+[3.225s] -- Up-to-date: /home/orin/test_ws/src/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/burger.yaml
+[3.226s] -- Up-to-date: /home/orin/test_ws/src/install/turtlebot3_navigation2/share/turtlebot3_navigation2/rviz
+[3.227s] -- Up-to-date: /home/orin/test_ws/src/install/turtlebot3_navigation2/share/turtlebot3_navigation2/rviz/tb3_navigation2.rviz
+[3.228s] -- Up-to-date: /home/orin/test_ws/src/install/turtlebot3_navigation2/share/ament_index/resource_index/package_run_dependencies/turtlebot3_navigation2
+[3.228s] -- Up-to-date: /home/orin/test_ws/src/install/turtlebot3_navigation2/share/ament_index/resource_index/parent_prefix_path/turtlebot3_navigation2
+[3.229s] -- Up-to-date: /home/orin/test_ws/src/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/ament_prefix_path.sh
+[3.229s] -- Up-to-date: /home/orin/test_ws/src/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/ament_prefix_path.dsv
+[3.229s] -- Up-to-date: /home/orin/test_ws/src/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/path.sh
+[3.229s] -- Up-to-date: /home/orin/test_ws/src/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/path.dsv
+[3.229s] -- Up-to-date: /home/orin/test_ws/src/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.bash
+[3.231s] -- Up-to-date: /home/orin/test_ws/src/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.sh
+[3.231s] -- Up-to-date: /home/orin/test_ws/src/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.zsh
+[3.232s] -- Up-to-date: /home/orin/test_ws/src/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.dsv
+[3.232s] -- Installing: /home/orin/test_ws/src/install/turtlebot3_navigation2/share/turtlebot3_navigation2/package.dsv
+[3.233s] -- Up-to-date: /home/orin/test_ws/src/install/turtlebot3_navigation2/share/ament_index/resource_index/packages/turtlebot3_navigation2
+[3.233s] -- Up-to-date: /home/orin/test_ws/src/install/turtlebot3_navigation2/share/turtlebot3_navigation2/cmake/turtlebot3_navigation2Config.cmake
+[3.234s] -- Up-to-date: /home/orin/test_ws/src/install/turtlebot3_navigation2/share/turtlebot3_navigation2/cmake/turtlebot3_navigation2Config-version.cmake
+[3.234s] -- Up-to-date: /home/orin/test_ws/src/install/turtlebot3_navigation2/share/turtlebot3_navigation2/package.xml
+[3.409s] Invoked command in '/home/orin/test_ws/src/build/turtlebot3_navigation2' returned '0': /usr/local/bin/cmake --install /home/orin/test_ws/src/build/turtlebot3_navigation2

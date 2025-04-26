@@ -1,0 +1,35 @@
+[0.188s] Invoking command in '/home/orin/test_ws/src/build/turtlebot3_navigation2': /usr/bin/cmake /home/orin/test_ws/src/turtlebot3/turtlebot3_navigation2 -DCMAKE_INSTALL_PREFIX=/home/orin/test_ws/src/install/turtlebot3_navigation2
+[2.665s] -- The C compiler identification is GNU 9.4.0
+[2.668s] -- The CXX compiler identification is GNU 9.4.0
+[2.668s] -- Check for working C compiler: /usr/bin/cc
+[2.670s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.671s] -- Detecting C compiler ABI info
+[2.671s] -- Detecting C compiler ABI info - done
+[2.671s] -- Detecting C compile features
+[2.672s] -- Detecting C compile features - done
+[2.672s] -- Check for working CXX compiler: /usr/bin/c++
+[2.673s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.677s] -- Detecting CXX compiler ABI info
+[2.678s] -- Detecting CXX compiler ABI info - done
+[2.678s] -- Detecting CXX compile features
+[2.678s] -- Detecting CXX compile features - done
+[2.678s] -- Configuring incomplete, errors occurred!
+[2.678s] See also "/home/orin/test_ws/src/build/turtlebot3_navigation2/CMakeFiles/CMakeOutput.log".
+[2.678s] CMake Error at CMakeLists.txt:14 (find_package):
+[2.679s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[2.679s]   has asked CMake to find a package configuration file provided by
+[2.679s]   "ament_cmake", but CMake did not find one.
+[2.679s] 
+[2.679s]   Could not find a package configuration file provided by "ament_cmake" with
+[2.679s]   any of the following names:
+[2.679s] 
+[2.680s]     ament_cmakeConfig.cmake
+[2.680s]     ament_cmake-config.cmake
+[2.680s] 
+[2.680s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[2.682s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[2.682s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[2.684s]   has been installed.
+[2.685s] 
+[2.685s] 
+[2.720s] Invoked command in '/home/orin/test_ws/src/build/turtlebot3_navigation2' returned '1': /usr/bin/cmake /home/orin/test_ws/src/turtlebot3/turtlebot3_navigation2 -DCMAKE_INSTALL_PREFIX=/home/orin/test_ws/src/install/turtlebot3_navigation2

@@ -1,0 +1,26 @@
+[5.471s] Invoking command in '/home/orin/test_ws/src/camera': PYTHONPATH=/home/orin/test_ws/src/build/camera/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orin/test_ws/src/install/camera/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/camera build --build-base /home/orin/test_ws/src/build/camera/build install --record /home/orin/test_ws/src/build/camera/install.log --single-version-externally-managed install_data
+[6.050s] running egg_info
+[6.052s] writing ../build/camera/camera.egg-info/PKG-INFO
+[6.053s] writing dependency_links to ../build/camera/camera.egg-info/dependency_links.txt
+[6.053s] writing entry points to ../build/camera/camera.egg-info/entry_points.txt
+[6.054s] writing requirements to ../build/camera/camera.egg-info/requires.txt
+[6.054s] writing top-level names to ../build/camera/camera.egg-info/top_level.txt
+[6.135s] reading manifest file '../build/camera/camera.egg-info/SOURCES.txt'
+[6.138s] writing manifest file '../build/camera/camera.egg-info/SOURCES.txt'
+[6.138s] running build
+[6.138s] running build_py
+[6.139s] running install
+[6.142s] running install_lib
+[6.146s] running install_data
+[6.146s] running install_egg_info
+[6.151s] removing '/home/orin/test_ws/src/install/camera/lib/python3.8/site-packages/camera-0.0.0-py3.8.egg-info' (and everything under it)
+[6.152s] Copying ../build/camera/camera.egg-info to /home/orin/test_ws/src/install/camera/lib/python3.8/site-packages/camera-0.0.0-py3.8.egg-info
+[6.155s] running install_scripts
+[6.216s] Installing H65_camera script to /home/orin/test_ws/src/install/camera/lib/camera
+[6.216s] Installing camera script to /home/orin/test_ws/src/install/camera/lib/camera
+[6.224s] Installing camera_compress script to /home/orin/test_ws/src/install/camera/lib/camera
+[6.224s] Installing image_pub script to /home/orin/test_ws/src/install/camera/lib/camera
+[6.224s] Installing take_image script to /home/orin/test_ws/src/install/camera/lib/camera
+[6.224s] Installing video_pub script to /home/orin/test_ws/src/install/camera/lib/camera
+[6.225s] writing list of installed files to '/home/orin/test_ws/src/build/camera/install.log'
+[6.309s] Invoked command in '/home/orin/test_ws/src/camera' returned '0': PYTHONPATH=/home/orin/test_ws/src/build/camera/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orin/test_ws/src/install/camera/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/camera build --build-base /home/orin/test_ws/src/build/camera/build install --record /home/orin/test_ws/src/build/camera/install.log --single-version-externally-managed install_data

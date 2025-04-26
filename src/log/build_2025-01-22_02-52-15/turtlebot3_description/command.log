@@ -1,0 +1,4 @@
+Invoking command in '/home/orin/test_ws/src/build/turtlebot3_description': /usr/local/bin/cmake --build /home/orin/test_ws/src/build/turtlebot3_description -- -j12 -l12
+Invoked command in '/home/orin/test_ws/src/build/turtlebot3_description' returned '0': /usr/local/bin/cmake --build /home/orin/test_ws/src/build/turtlebot3_description -- -j12 -l12
+Invoking command in '/home/orin/test_ws/src/build/turtlebot3_description': /usr/local/bin/cmake --install /home/orin/test_ws/src/build/turtlebot3_description
+Invoked command in '/home/orin/test_ws/src/build/turtlebot3_description' returned '0': /usr/local/bin/cmake --install /home/orin/test_ws/src/build/turtlebot3_description

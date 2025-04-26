@@ -1,0 +1,19 @@
+/detect_node:
+  ros__parameters:
+    boundcenter_x: 470.0
+    boundcenter_y: 151.0
+    boundheight: 229.0
+    boundsize: 50.0
+    boundwidth: 174.0
+    hue_green_h: 90.0
+    hue_green_l: 69.0
+    hue_red_h: 14.0
+    hue_red_l: 0.0
+    lightness_green_h: 255.0
+    lightness_green_l: 216.0
+    lightness_red_h: 255.0
+    lightness_red_l: 230.0
+    saturation_green_h: 80.0
+    saturation_green_l: 8.0
+    saturation_red_h: 57.0
+    saturation_red_l: 8.0

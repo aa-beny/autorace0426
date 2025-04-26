@@ -1,0 +1,8 @@
+[console_scripts]
+detect_lane = detect_lane.detect_lane:main
+detect_parking_grid = detect_lane.detect_parking_grid:main
+detect_traffic = detect_lane.detect_traffic:main
+hsv_param_adjustment = detect_lane.hsv_param_adjustment:main
+hsv_traffic_light = detect_lane.hsv_traffic_light:main
+key_pub_signs = detect_lane.key_pub_signs:main
+
