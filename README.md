@@ -1,15 +1,3 @@
-got it — that rendering issue is just Markdown formatting. On GitHub you need fenced code blocks (triple backticks) with a language hint like `bash`. I rewrote the README (English) so all commands are in proper code blocks and headings aren’t accidentally turned into giant text.
-
-Paste **everything below** into your `README.md` and it will look like your “second screenshot” (with nice code boxes).
-
----
-
-# AutoRace 0426 – ROS2 Autonomous Driving
-
-> Audience: students who know a little ROS2 but have never used this repo or run on a real robot.
-> Goal: copy–paste friendly steps so juniors can run everything without pinging you.
-
----
 
 ## Project Overview
 
@@ -361,8 +349,3 @@ Drive safely & have fun! 🚗💨
 
 ---
 
-### Why your previous paste looked “wrong”
-
-* Lines like `device -> pc/jetson` weren’t fenced, so GitHub rendered them as headings/body text.
-* Make sure **all commands** are inside triple backticks (`bash … `).
-* Leave a blank line **before and after** each fenced block so GitHub renders it as a code box.
